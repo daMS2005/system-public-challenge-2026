@@ -1,0 +1,113 @@
+{
+ "relationship_id": "bNXwlzaSaB|aZJPqtlgv4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "X7Yyz-mZgf",
+    "pubmed_id": "32841829",
+    "study_id": "fEXdI5fLVy",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "6.26",
+    "ci_level": "0.95",
+    "ci_lower": "1.31",
+    "ci_upper": "29.88",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "DU8avkKCJw",
+    "variable_2_id": "IRATSPypOo",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q3518184",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "aZJPqtlgv4",
+    "variable_1_name": "daily internet use",
+    "variable_2_name": "risk of recurrent suicide attempt"
+   },
+   {
+    "system_id": "S4LXzOWklL",
+    "pubmed_id": "30474380",
+    "study_id": "YF2J8uMh3g",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.03",
+    "ci_level": "0.95",
+    "ci_lower": "1.02",
+    "ci_upper": "1.04",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "75EP5sJLI4",
+    "variable_2_id": "LFz67e3DUX",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q3518184",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "aZJPqtlgv4",
+    "variable_1_name": "problematic Internet use (PIU)",
+    "variable_2_name": "suicide attempts (among Chinese adolescents)"
+   },
+   {
+    "system_id": "bcngmChJC0",
+    "pubmed_id": "32841829",
+    "study_id": "fEXdI5fLVy",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.8",
+    "ci_level": "0.95",
+    "ci_lower": "1.07",
+    "ci_upper": "3.03",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "DU8avkKCJw",
+    "variable_2_id": "pvse3UUA8_",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q3518184",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "aZJPqtlgv4",
+    "variable_1_name": "daily internet use",
+    "variable_2_name": "risk of new suicide attempt"
+   },
+   {
+    "system_id": "IQTwADs-jW",
+    "pubmed_id": "30474380",
+    "study_id": "YF2J8uMh3g",
+    "statistic_type": "standardized \u03b2 estimate",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.082",
+    "ci_level": "0.95",
+    "ci_lower": "0.068",
+    "ci_upper": "0.096",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "75EP5sJLI4",
+    "variable_2_id": "LFz67e3DUX",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q3518184",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "aZJPqtlgv4",
+    "variable_1_name": "problematic Internet use (PIU)",
+    "variable_2_name": "suicide attempts (among Chinese adolescents)"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "fEXdI5fLVy",
+    "doi": "10.1016/j.jad.2020.05.066",
+    "pubmed_id": "32841829",
+    "population": "7,072 adolescents from Shandong, China initially assessed in 2015 and reassessed in 2016.",
+    "study_type": null
+   },
+   {
+    "study_id": "YF2J8uMh3g",
+    "doi": "10.1556/2006.7.2018.115",
+    "pubmed_id": "30474380",
+    "population": "20,895 Chinese adolescents surveyed in 2017.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

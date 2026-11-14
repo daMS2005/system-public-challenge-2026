@@ -1,0 +1,155 @@
+{
+ "relationship_id": "3x-TeF7nX4|opLk6c7dtw",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "h3anUR908d",
+    "pubmed_id": "36294187",
+    "study_id": "IJblKF-dnO",
+    "statistic_type": "prevalence ratio",
+    "system_statistic_type": "prevalence_ratio",
+    "statistic_value": "1.02",
+    "ci_level": "0.95",
+    "ci_lower": "1.0",
+    "ci_upper": "1.04",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "9HzdznPouU",
+    "variable_2_id": "N9UyX_Ql2z",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q174876",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "opLk6c7dtw",
+    "variable_1_name": "Unemployed mothers (current occupation)",
+    "variable_2_name": "adequate breastfeeding"
+   },
+   {
+    "system_id": "tyjvslqOH6",
+    "pubmed_id": "31049262",
+    "study_id": "Vev1bUvm7J",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.5",
+    "ci_level": "0.95",
+    "ci_lower": "1.1",
+    "ci_upper": "2.5",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "5YsGs-OF5W",
+    "variable_2_id": "QLnrR4l7yF",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q174876",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "opLk6c7dtw",
+    "variable_1_name": "being unemployed",
+    "variable_2_name": "practicing exclusive breastfeeding (EBF)"
+   },
+   {
+    "system_id": "lnUgdfvmNe",
+    "pubmed_id": "27489561",
+    "study_id": "gpHTCLZfoB",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.62",
+    "ci_level": "0.95",
+    "ci_lower": "1.03",
+    "ci_upper": "2.95",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "2wc-l6xED2",
+    "variable_2_id": "fanxAuDtF_",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q174876",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "opLk6c7dtw",
+    "variable_1_name": "mothers who were unemployed",
+    "variable_2_name": "exclusive breastfeeding rates"
+   },
+   {
+    "system_id": "tOlkiK_zUf",
+    "pubmed_id": "37178711",
+    "study_id": "_B0QQBYgFz",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "0.57",
+    "ci_level": "0.95",
+    "ci_lower": "0.36",
+    "ci_upper": "0.9",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "M8Te-UFHTN",
+    "variable_2_id": "7aIoTsNDzL",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q174876",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "opLk6c7dtw",
+    "variable_1_name": "Employment status (unemployed)",
+    "variable_2_name": "exclusive breastfeeding"
+   },
+   {
+    "system_id": "uiIJ8LPa7e",
+    "pubmed_id": "23186223",
+    "study_id": "bbP4FdJwTp",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "10.4",
+    "ci_level": "0.95",
+    "ci_lower": "1.51",
+    "ci_upper": "71.5",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "5YsGs-OF5W",
+    "variable_2_id": "7aIoTsNDzL",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q174876",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "opLk6c7dtw",
+    "variable_1_name": "being unemployed",
+    "variable_2_name": "exclusive breastfeeding"
+   }
+  ],
+  "total": 5
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "IJblKF-dnO",
+    "doi": "10.3390/ijerph192013607",
+    "pubmed_id": "36294187",
+    "population": "11,157 Peruvian mothers who reported at least one child in the last five years.",
+    "study_type": null
+   },
+   {
+    "study_id": "Vev1bUvm7J",
+    "doi": "10.21106/ijma.258",
+    "pubmed_id": "31049262",
+    "population": "430 mother-infant pairs in Northern Tanzania from October 2013 to December 2015.",
+    "study_type": null
+   },
+   {
+    "study_id": "gpHTCLZfoB",
+    "doi": "10.1186/s13006-016-0081-x",
+    "pubmed_id": "27489561",
+    "population": "346 mothers with infants aged between 0-6 months in Azezo District, Ethiopia.",
+    "study_type": null
+   },
+   {
+    "study_id": "_B0QQBYgFz",
+    "doi": "10.1016/j.jogn.2023.03.005",
+    "pubmed_id": "37178711",
+    "population": "2,489 Haitian women aged 15 to 49 years with children younger than 24 months of age.",
+    "study_type": null
+   },
+   {
+    "study_id": "bbP4FdJwTp",
+    "doi": "10.1186/1746-4358-7-17",
+    "pubmed_id": "23186223",
+    "population": "608 mothers in Bale Goba district, south east Ethiopia.",
+    "study_type": null
+   }
+  ],
+  "total": 5
+ }
+}

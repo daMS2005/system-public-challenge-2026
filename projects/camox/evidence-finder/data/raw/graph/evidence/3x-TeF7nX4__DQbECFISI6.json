@@ -1,0 +1,43 @@
+{
+ "relationship_id": "3x-TeF7nX4|DQbECFISI6",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "BexmQpLOzL",
+    "pubmed_id": "32807434",
+    "study_id": "DTseWQK7pF",
+    "statistic_type": "HR",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "3.0",
+    "ci_level": "0.95",
+    "ci_lower": "1.06",
+    "ci_upper": "8.44",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "2Y8hRa4d-u",
+    "variable_2_id": "Tw9Co4npTu",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12206",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "DQbECFISI6",
+    "variable_1_name": "pre-stroke unemployment",
+    "variable_2_name": "diabetes mellitus"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "DTseWQK7pF",
+    "doi": "10.1016/j.jstrokecerebrovasdis.2020.105019",
+    "pubmed_id": "32807434",
+    "population": "273 first-ever stroke survivors at working age.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

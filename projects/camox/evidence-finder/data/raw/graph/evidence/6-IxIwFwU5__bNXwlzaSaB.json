@@ -1,0 +1,92 @@
+{
+ "relationship_id": "6-IxIwFwU5|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "vVLnqM4CRT",
+    "pubmed_id": "20953681",
+    "study_id": "uEVjMX7tvT",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "3.43",
+    "ci_level": "0.95",
+    "ci_lower": "1.4",
+    "ci_upper": "8.39",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "8jQmkW7l_U",
+    "variable_2_id": "0kZqKJmp_H",
+    "variable_1_wikidata_id": "Q748309",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "6-IxIwFwU5",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "utilizing the internet for the purposes of gambling practices",
+    "variable_2_name": "problematic internet use"
+   },
+   {
+    "system_id": "dyvdcoov47",
+    "pubmed_id": "20953681",
+    "study_id": "uEVjMX7tvT",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.81",
+    "ci_level": "0.95",
+    "ci_lower": "1.03",
+    "ci_upper": "3.19",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "dUyR4u6H4P",
+    "variable_2_id": "0kZqKJmp_H",
+    "variable_1_wikidata_id": "Q748309",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "6-IxIwFwU5",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "internet gambling practices",
+    "variable_2_name": "problematic internet use"
+   },
+   {
+    "system_id": "wPdGc_KpA2",
+    "pubmed_id": "25215204",
+    "study_id": "HnYzhCvIQr",
+    "statistic_type": "adjusted odds ratio",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "2.13",
+    "ci_level": "0.95",
+    "ci_lower": "1.56",
+    "ci_upper": "2.91",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "hdxzVKVtHW",
+    "variable_2_id": "2ei_xAi0MR",
+    "variable_1_wikidata_id": "Q748309",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "6-IxIwFwU5",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Internet gambling",
+    "variable_2_name": "utilization of Internet cafe\u0301 portals"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "uEVjMX7tvT",
+    "doi": "10.1007/s10899-010-9223-z",
+    "pubmed_id": "20953681",
+    "population": "484 adolescents aged 14.88 \u00b1 0.55 years (71.2% boys; 28.8% girls).",
+    "study_type": null
+   },
+   {
+    "study_id": "HnYzhCvIQr",
+    "doi": "10.1556/jba.2.2013.4.5",
+    "pubmed_id": "25215204",
+    "population": "805 adolescents attending selected public schools in Cyprus.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

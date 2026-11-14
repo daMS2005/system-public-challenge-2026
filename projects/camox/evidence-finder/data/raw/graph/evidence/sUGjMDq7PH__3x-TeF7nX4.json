@@ -1,0 +1,127 @@
+{
+ "relationship_id": "sUGjMDq7PH|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "KXkUNQGOl6",
+    "pubmed_id": "33650202",
+    "study_id": "3TOjG6O7E-",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.04",
+    "ci_level": "0.95",
+    "ci_lower": "1.03",
+    "ci_upper": "1.06",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "sSNPlNF_HI",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q202387",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sUGjMDq7PH",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "increases in posttraumatic stress symptoms (PTSS)",
+    "variable_2_name": "unemployment"
+   },
+   {
+    "system_id": "R_FZ3EyrI7",
+    "pubmed_id": "33293314",
+    "study_id": "2aR6_cVgcF",
+    "statistic_type": "hazard ratio",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "1.06",
+    "ci_level": "0.95",
+    "ci_lower": "0.84",
+    "ci_upper": "1.33",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "5iEB_lhRFa",
+    "variable_2_id": "LepKfKQuUb",
+    "variable_1_wikidata_id": "Q202387",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sUGjMDq7PH",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Screening levels of post-traumatic stress disorder",
+    "variable_2_name": "probability of gaining employment when unemployed within 5 years post-deployment"
+   },
+   {
+    "system_id": "jAnhpYinFQ",
+    "pubmed_id": "32055893",
+    "study_id": "uPzDdcWZpo",
+    "statistic_type": "hazard ratio",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "2.03",
+    "ci_level": "0.95",
+    "ci_lower": "1.89",
+    "ci_upper": "2.18",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "OhpWv94eH_",
+    "variable_2_id": "3q9BgXusua",
+    "variable_1_wikidata_id": "Q202387",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sUGjMDq7PH",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "post-traumatic stress disorder (PTSD)",
+    "variable_2_name": "long-term unemployment"
+   },
+   {
+    "system_id": "IR46Tyxwfx",
+    "pubmed_id": "28422901",
+    "study_id": "mdqz9lkHeb",
+    "statistic_type": "risk ratio",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "1.39",
+    "ci_level": null,
+    "ci_lower": "1.27",
+    "ci_upper": "1.52",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "e82zugXjBS",
+    "variable_2_id": "XBtQyzHsvA",
+    "variable_1_wikidata_id": "Q202387",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sUGjMDq7PH",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "comorbid PTSD and depression",
+    "variable_2_name": "unemployment status"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "3TOjG6O7E-",
+    "doi": "10.1002/jts.22663",
+    "pubmed_id": "33650202",
+    "population": "594 Iraq War veterans who completed self-report measures of functioning and PTSS severity before and after their deployment, with 278 of them also completing neurocognitive testing at both times.",
+    "study_type": null
+   },
+   {
+    "study_id": "2aR6_cVgcF",
+    "doi": "10.1136/bmjopen-2020-040625",
+    "pubmed_id": "33293314",
+    "population": "3935 Danish formerly deployed soldiers who responded to a 6-month post-deployment screening questionnaire after returning from a first-ever deployment to Kosovo, Iraq or Afghanistan (2002 to 2012).",
+    "study_type": null
+   },
+   {
+    "study_id": "uPzDdcWZpo",
+    "doi": "10.1007/s00127-020-01842-8",
+    "pubmed_id": "32055893",
+    "population": "Refugees and Swedish-born individuals aged 19-60 years resident in Sweden in 2009.",
+    "study_type": null
+   },
+   {
+    "study_id": "mdqz9lkHeb",
+    "doi": "10.1097/htr.0000000000000308",
+    "pubmed_id": "28422901",
+    "population": "48,821 veterans who underwent a comprehensive TBI evaluation protocol for assessing TBI, employment status, and psychiatric impressions.",
+    "study_type": null
+   }
+  ],
+  "total": 4
+ }
+}

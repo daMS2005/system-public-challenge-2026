@@ -1,0 +1,71 @@
+{
+ "relationship_id": "3x-TeF7nX4|IMHNDu94Ar",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "oCpD55K7YM",
+    "pubmed_id": "37101283",
+    "study_id": "N3XxUt3V3a",
+    "statistic_type": "adjusted odds ratios (aOR)",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.55",
+    "ci_level": "0.95",
+    "ci_lower": "1.23",
+    "ci_upper": "1.95",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "5lFkITu5e6",
+    "variable_2_id": "9cQCAcSuvt",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q122224",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "IMHNDu94Ar",
+    "variable_1_name": "unemployed partner",
+    "variable_2_name": "not using any contraceptive methods"
+   },
+   {
+    "system_id": "Uuk6Hedu8u",
+    "pubmed_id": "30840634",
+    "study_id": "BYaWNh2tO_",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "0.21",
+    "ci_level": "0.95",
+    "ci_lower": "0.001",
+    "ci_upper": "0.392",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "5YsGs-OF5W",
+    "variable_2_id": "MQg0qAw6Pc",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q122224",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "IMHNDu94Ar",
+    "variable_1_name": "being unemployed",
+    "variable_2_name": "utilization of modern contraceptive"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "N3XxUt3V3a",
+    "doi": "10.1186/s12939-023-01884-9",
+    "pubmed_id": "37101283",
+    "population": "Married or cohabitating women of reproductive age from six Eastern Sub Saharan African countries surveyed in the Demographic and Health Surveys from 2014 to 2017.",
+    "study_type": null
+   },
+   {
+    "study_id": "BYaWNh2tO_",
+    "doi": "10.1371/journal.pone.0212262",
+    "pubmed_id": "30840634",
+    "population": "Women of reproductive age living in Shimelba refugee camp, Northern Ethiopia.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

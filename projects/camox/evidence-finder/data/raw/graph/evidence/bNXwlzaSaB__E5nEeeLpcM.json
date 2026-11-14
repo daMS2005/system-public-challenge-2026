@@ -1,0 +1,64 @@
+{
+ "relationship_id": "bNXwlzaSaB|E5nEeeLpcM",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "kvB679NSnk",
+    "pubmed_id": "17019370",
+    "study_id": "mpZRiDQF60",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "9.61",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "IH_G3YPPNy",
+    "variable_2_id": "wZ0FeGweFB",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q8434",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "E5nEeeLpcM",
+    "variable_1_name": "Internet use",
+    "variable_2_name": "education levels"
+   },
+   {
+    "system_id": "s7GjE7IrYU",
+    "pubmed_id": "17019370",
+    "study_id": "mpZRiDQF60",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "5.04",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "IH_G3YPPNy",
+    "variable_2_id": "wZ0FeGweFB",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q8434",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "E5nEeeLpcM",
+    "variable_1_name": "Internet use",
+    "variable_2_name": "education levels"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "mpZRiDQF60",
+    "doi": "10.1097/01.qai.0000243100.49899.2a",
+    "pubmed_id": "17019370",
+    "population": "194 recently HIV-infected MSM in southern California from May 2002 to 2005.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

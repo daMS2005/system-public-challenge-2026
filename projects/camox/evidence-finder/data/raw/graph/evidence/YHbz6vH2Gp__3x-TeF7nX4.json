@@ -1,0 +1,43 @@
+{
+ "relationship_id": "YHbz6vH2Gp|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "PK9mWS4jWu",
+    "pubmed_id": null,
+    "study_id": "qzoNVHsK3R",
+    "statistic_type": "elasticity",
+    "system_statistic_type": "elasticity",
+    "statistic_value": "0.144",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.05",
+    "p_value_equality": "=",
+    "variable_1_id": "lA_FZIpLm5",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q4290",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "YHbz6vH2Gp",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Domestic Direct Investment (DDI)",
+    "variable_2_name": "unemployment rate"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "qzoNVHsK3R",
+    "doi": "10.11594/nstp.2022.2513",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

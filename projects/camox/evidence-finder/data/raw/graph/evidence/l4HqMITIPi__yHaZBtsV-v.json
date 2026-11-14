@@ -1,0 +1,43 @@
+{
+ "relationship_id": "l4HqMITIPi|yHaZBtsV-v",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "mstm8JOXcB",
+    "pubmed_id": "37274693",
+    "study_id": "7a0R7uplqk",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.114",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "xUMWGs7DSo",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q131201",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "yHaZBtsV-v",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "attainment of sustainable livelihood"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "7a0R7uplqk",
+    "doi": "10.1016/j.heliyon.2023.e16330",
+    "pubmed_id": "37274693",
+    "population": "283 rural agrarian settlers in the Eastern Cape province of South Africa.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

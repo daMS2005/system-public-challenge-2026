@@ -1,0 +1,120 @@
+{
+ "relationship_id": "3x-TeF7nX4|2J5_gYjK1G",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "WogWRD1R6F",
+    "pubmed_id": "30843028",
+    "study_id": "UuNJr21_j1",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.9",
+    "ci_level": "0.95",
+    "ci_lower": "1.3",
+    "ci_upper": "6.4",
+    "p_value": "0.008",
+    "p_value_equality": null,
+    "variable_1_id": "RzP7C35AUi",
+    "variable_2_id": "CsX_5u6nms",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q15787",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "2J5_gYjK1G",
+    "variable_1_name": "Unemployment",
+    "variable_2_name": "Acquired human immunodeficiency virus type 1 (HIV-1) drug resistance (ADR)"
+   },
+   {
+    "system_id": "AX2f9Ed4mP",
+    "pubmed_id": "25734005",
+    "study_id": "fS2sdz4o9b",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.1861",
+    "ci_level": "0.95",
+    "ci_lower": "0.0977",
+    "ci_upper": "0.2744",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "opm3EIvXY_",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q15787",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "2J5_gYjK1G",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "HIV mortality"
+   },
+   {
+    "system_id": "B9ULwy8vru",
+    "pubmed_id": "32170507",
+    "study_id": "lrl4WhVLRZ",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.59",
+    "ci_level": "0.95",
+    "ci_lower": "1.57",
+    "ci_upper": "1.6",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "PAgGgZ6eIj",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q15787",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "2J5_gYjK1G",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "HIV care engagement"
+   },
+   {
+    "system_id": "LqWizNpHbH",
+    "pubmed_id": "25734005",
+    "study_id": "fS2sdz4o9b",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.0383",
+    "ci_level": "0.95",
+    "ci_lower": "0.0108",
+    "ci_upper": "0.0657",
+    "p_value": "0.0064",
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "opm3EIvXY_",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q15787",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "2J5_gYjK1G",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "HIV mortality"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "UuNJr21_j1",
+    "doi": "10.1093/cid/ciz178",
+    "pubmed_id": "30843028",
+    "population": "115 HIV-positive patients in Switzerland starting their first combined antiretroviral therapy since 1996.",
+    "study_type": null
+   },
+   {
+    "study_id": "fS2sdz4o9b",
+    "doi": "10.7189/jogh.05.010403",
+    "pubmed_id": "25734005",
+    "population": "2.19 billion and 2.22 billion people in 74 and 75 countries, respectively, as of 2009.",
+    "study_type": null
+   },
+   {
+    "study_id": "lrl4WhVLRZ",
+    "doi": "10.1007/s10461-020-02830-4",
+    "pubmed_id": "32170507",
+    "population": "Women living with HIV in the Women's Interagency HIV Study (WIHS).",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

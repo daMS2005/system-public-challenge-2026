@@ -1,0 +1,99 @@
+{
+ "relationship_id": "p2qlTRlHO1|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "EFslGFMhr2",
+    "pubmed_id": "34569448",
+    "study_id": "CYyzCktrNo",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.48",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "gKNSCydp_U",
+    "variable_2_id": "WQHe87EDBM",
+    "variable_1_wikidata_id": "Q181923",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "p2qlTRlHO1",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "having an attention deficit hyperactivity disorder diagnosis",
+    "variable_2_name": "Internet Gaming Disorder"
+   },
+   {
+    "system_id": "k_0k-fkHLZ",
+    "pubmed_id": "29459201",
+    "study_id": "ICQ8RoJmcJ",
+    "statistic_type": "Lasso beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.35",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "pLGCZjG2wm",
+    "variable_2_id": "g0-qW6ZQNf",
+    "variable_1_wikidata_id": "Q181923",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "p2qlTRlHO1",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Attention-deficit hyperactivity disorder",
+    "variable_2_name": "Problematic internet use (PIU)"
+   },
+   {
+    "system_id": "houyAiv_pa",
+    "pubmed_id": "36562926",
+    "study_id": "qo_2LP2HNC",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "75.23",
+    "ci_level": "0.95",
+    "ci_lower": "10.67",
+    "ci_upper": "530.61",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "HvkvEx90AC",
+    "variable_2_id": "hWHIqA9lwV",
+    "variable_1_wikidata_id": "Q181923",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "p2qlTRlHO1",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "attention-deficit/hyperactivity disorder",
+    "variable_2_name": "internet gaming disorder"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "CYyzCktrNo",
+    "doi": "10.1080/15299732.2021.1984366",
+    "pubmed_id": "34569448",
+    "population": "Forty participants diagnosed with attention deficit hyperactivity disorder (ADHD) and forty age- and gender-matched healthy controls.",
+    "study_type": null
+   },
+   {
+    "study_id": "ICQ8RoJmcJ",
+    "doi": "10.1016/j.addbeh.2018.02.017",
+    "pubmed_id": "29459201",
+    "population": "1749 participants aged 18 and above from the US and South Africa.",
+    "study_type": null
+   },
+   {
+    "study_id": "qo_2LP2HNC",
+    "doi": "10.1111/pcn.13522",
+    "pubmed_id": "36562926",
+    "population": "279 gamers from clinical and nonclinical samples with and without diagnoses of IGD or GD.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

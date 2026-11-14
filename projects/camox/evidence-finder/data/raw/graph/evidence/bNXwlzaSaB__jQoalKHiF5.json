@@ -1,0 +1,148 @@
+{
+ "relationship_id": "bNXwlzaSaB|jQoalKHiF5",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "VU7dCVY1gC",
+    "pubmed_id": "34674078",
+    "study_id": "5FwXvN4Lu9",
+    "statistic_type": "Pearson's correlation coefficient",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.39",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "yHHqopbEo_",
+    "variable_2_id": "HW66NzL-GZ",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q373822",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "jQoalKHiF5",
+    "variable_1_name": "problematic Internet use",
+    "variable_2_name": "eating disorder behaviors"
+   },
+   {
+    "system_id": "i5zjrYhLHF",
+    "pubmed_id": "34802454",
+    "study_id": "BVszOWMEZg",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.36",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "-sjZ04UuSf",
+    "variable_2_id": "vXXobfS7Jg",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q373822",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "jQoalKHiF5",
+    "variable_1_name": "Excessive Internet Use Scale",
+    "variable_2_name": "Eating disorders symptoms (EDS)"
+   },
+   {
+    "system_id": "53dgSPQu4S",
+    "pubmed_id": "34802454",
+    "study_id": "BVszOWMEZg",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.29",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "-sjZ04UuSf",
+    "variable_2_id": "vXXobfS7Jg",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q373822",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "jQoalKHiF5",
+    "variable_1_name": "Excessive Internet Use Scale",
+    "variable_2_name": "Eating disorders symptoms (EDS)"
+   },
+   {
+    "system_id": "PkJqggsuSD",
+    "pubmed_id": "34639567",
+    "study_id": "4xJFObBYCc",
+    "statistic_type": "rho",
+    "system_statistic_type": "spearman_correlation",
+    "statistic_value": "0.212",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "6nmWg_5PI5",
+    "variable_2_id": "6fYWLCgGk7",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q373822",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "jQoalKHiF5",
+    "variable_1_name": "Problematic Internet Use",
+    "variable_2_name": "Eating Disorders (EDs)"
+   },
+   {
+    "system_id": "jDwgoYa82b",
+    "pubmed_id": "29721236",
+    "study_id": "OdVT-mayyA",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.48",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.05",
+    "p_value_equality": null,
+    "variable_1_id": "Pxfi2Vkw2c",
+    "variable_2_id": "HctMcBnUoi",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q373822",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "jQoalKHiF5",
+    "variable_1_name": "Problematic Internet use",
+    "variable_2_name": "disordered eating attitudes (DEAs)"
+   }
+  ],
+  "total": 5
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "5FwXvN4Lu9",
+    "doi": "10.1186/s41155-021-00198-5",
+    "pubmed_id": "34674078",
+    "population": "Palestinian university students.",
+    "study_type": null
+   },
+   {
+    "study_id": "BVszOWMEZg",
+    "doi": "10.1186/s40337-021-00506-5",
+    "pubmed_id": "34802454",
+    "population": "7,083 adolescents from Slovakia in 2018.",
+    "study_type": null
+   },
+   {
+    "study_id": "4xJFObBYCc",
+    "doi": "10.3390/ijerph181910269",
+    "pubmed_id": "34639567",
+    "population": "1008 Polish students aged 18-40.",
+    "study_type": null
+   },
+   {
+    "study_id": "OdVT-mayyA",
+    "doi": "10.4103/ijpvm.ijpvm_489_17",
+    "pubmed_id": "29721236",
+    "population": "2365 University students in Minia, Egypt.",
+    "study_type": null
+   }
+  ],
+  "total": 4
+ }
+}

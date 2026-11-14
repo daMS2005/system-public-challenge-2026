@@ -1,0 +1,633 @@
+{
+ "_note": "Written by scripts/hand_check.py. Hand-checked matches from graph concepts to World Bank indicators.",
+ "decisions": {
+  "TLeQZQ_leT": {
+   "label": "suicide",
+   "indicator": "SH.STA.SUIC.P5",
+   "indicator_name": "Suicide mortality rate (per 100,000 population)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "1v3YsZDC49": {
+   "label": "refugee",
+   "indicator": "SM.POP.RHCR.EA",
+   "indicator_name": "Refugees under the mandate of the UNHCR by country or territory of asylum",
+   "dataset": "WDI",
+   "note": null
+  },
+  "2ek1OJmATC": {
+   "label": "human migration",
+   "indicator": "SM.POP.NETM",
+   "indicator_name": "Net migration",
+   "dataset": "WDI",
+   "note": null
+  },
+  "i4OKswiAYO": {
+   "label": "fertility",
+   "indicator": "SP.DYN.TFRT.IN",
+   "indicator_name": "Fertility rate, total (births per woman)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "sZ-bi5eIFV": {
+   "label": "economic growth",
+   "indicator": "NY.GDP.MKTP.KD.ZG",
+   "indicator_name": "GDP growth (annual %)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "0Vn1Urn2UW": {
+   "label": "inflation",
+   "indicator": "FP.CPI.TOTL.ZG",
+   "indicator_name": "Inflation, consumer prices (annual %)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "MjqSZxJ_zS": {
+   "label": "fiscal policy",
+   "indicator": "IQ.CPA.FISP.XQ",
+   "indicator_name": "CPIA fiscal policy rating (1=low to 6=high)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "09dv6lYllX": {
+   "label": "income inequality",
+   "indicator": "SI.POV.GINI",
+   "indicator_name": "Gini index",
+   "dataset": "WDI",
+   "note": null
+  },
+  "3bsZWIMWFp": {
+   "label": "educational stage",
+   "indicator": "SE.SEC.CUAT.LO.ZS",
+   "indicator_name": "Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",
+   "dataset": "WDI",
+   "note": "Level of education reached; matched to attainment."
+  },
+  "YHbz6vH2Gp": {
+   "label": "investment",
+   "indicator": "NE.GDI.TOTL.ZS",
+   "indicator_name": "Gross capital formation (% of GDP)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "XCTYzqTON7": {
+   "label": "undernutrition",
+   "indicator": "SN.ITK.DEFC.ZS",
+   "indicator_name": "Prevalence of undernourishment (% of population)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "GzTASPZpyI": {
+   "label": "Gross Domestic Product",
+   "indicator": "NY.GDP.MKTP.CD",
+   "indicator_name": "GDP (current US$)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "6yoKTYSOJa": {
+   "label": "income",
+   "indicator": "NY.GNP.PCAP.CD",
+   "indicator_name": "GNI per capita, Atlas method (current US$)",
+   "dataset": "WDI",
+   "note": "Income per person; the graph concept is personal or household income."
+  },
+  "gS5mHqLDDf": {
+   "label": "industrial sector",
+   "indicator": "NV.IND.TOTL.ZS",
+   "indicator_name": "Industry (including construction), value added (% of GDP)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "Ze41JFavHX": {
+   "label": "Gross Domestic Product",
+   "indicator": "NY.GDP.MKTP.CD",
+   "indicator_name": "GDP (current US$)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "TnqBv9XPzT": {
+   "label": "maternal mortality ratio",
+   "indicator": "SH.STA.MMRT",
+   "indicator_name": "Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "YZku29igbl": {
+   "label": "homicide",
+   "indicator": "VC.IHR.PSRC.P5",
+   "indicator_name": "Intentional homicides (per 100,000 people)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "BoUHlpFrWF": {
+   "label": "urban population",
+   "indicator": "SP.URB.TOTL.IN.ZS",
+   "indicator_name": "Urban population (% of total population)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "GXPo2ZlO9e": {
+   "label": "neonatal mortality",
+   "indicator": "SH.DYN.NMRT",
+   "indicator_name": "Mortality rate, neonatal (per 1,000 live births)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "DQbECFISI6": {
+   "label": "diabetes",
+   "indicator": "SH.STA.DIAB.ZS",
+   "indicator_name": "Diabetes prevalence (% of population ages 20 to 79)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "zd4OetTw04": {
+   "label": "tobacco use",
+   "indicator": "SH.PRV.SMOK",
+   "indicator_name": "Prevalence of current tobacco use (% of adults)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "Ea-MgLRglN": {
+   "label": "employment",
+   "indicator": "SL.EMP.TOTL.SP.ZS",
+   "indicator_name": "Employment to population ratio, 15+, total (%) (modeled ILO estimate)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "Hvrtn54o09": {
+   "label": "rural population",
+   "indicator": "SP.RUR.TOTL.ZS",
+   "indicator_name": "Rural population (% of total population)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "tU87Rnalxl": {
+   "label": "life expectancy",
+   "indicator": "SP.DYN.LE00.IN",
+   "indicator_name": "Life expectancy at birth, total (years)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "E5nEeeLpcM": {
+   "label": "education",
+   "indicator": "SE.SEC.CUAT.LO.ZS",
+   "indicator_name": "Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)",
+   "dataset": "WDI",
+   "note": "Studies use level of education reached; matched to attainment."
+  },
+  "gAJtnamEJM": {
+   "label": "theft",
+   "indicator": "IC.FRM.CRM.CRIME10",
+   "indicator_name": "Percent of firms experiencing losses due to theft and vandalism",
+   "dataset": "ES",
+   "note": "Firm-level measure; no theft indicator in WDI."
+  },
+  "r7TGng_PnJ": {
+   "label": "health expenditure",
+   "indicator": "SH.XPD.CHEX.GD.ZS",
+   "indicator_name": "Current health expenditure (% of GDP)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "_qTp1OBVrb": {
+   "label": "maternal death",
+   "indicator": "SH.STA.MMRT",
+   "indicator_name": "Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "7xpZryeSKE": {
+   "label": "malaria",
+   "indicator": "SH.MLR.INCD.P3",
+   "indicator_name": "Incidence of malaria (per 1,000 population at risk)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "IMHNDu94Ar": {
+   "label": "birth control",
+   "indicator": "SP.DYN.CONU.ZS",
+   "indicator_name": "Contraceptive prevalence, any method (% of married women ages 15-49)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "rNvNuxXEdo": {
+   "label": "infant mortality",
+   "indicator": "SP.DYN.IMRT.IN",
+   "indicator_name": "Mortality rate, infant (per 1,000 live births)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "2J5_gYjK1G": {
+   "label": "HIV",
+   "indicator": "SH.DYN.AIDS.ZS",
+   "indicator_name": "Prevalence of HIV, total (% of population ages 15-49)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "bYLGUlP0n-": {
+   "label": "domestic violence",
+   "indicator": "GD_WBL_SAF_LAW_DOMVIOL",
+   "indicator_name": "WBL: Legal Framework, Safety, The law addresses domestic violence",
+   "dataset": "WBL",
+   "note": "Measures the law, not how common violence is. Tie-break: WDI has a prevalence measure (SG.VAW.1549.ZS)."
+  },
+  "opLk6c7dtw": {
+   "label": "breastfeeding",
+   "indicator": "SH.STA.BFED.ZS",
+   "indicator_name": "Exclusive breastfeeding (% of children under 6 months)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "NI8J66klok": {
+   "label": "smoking",
+   "indicator": "SH.PRV.SMOK",
+   "indicator_name": "Prevalence of current tobacco use (% of adults)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "hKqjGzsLpu": {
+   "label": "human immunodeficiency virus infectious disease",
+   "indicator": "SH.DYN.AIDS.ZS",
+   "indicator_name": "Prevalence of HIV, total (% of population ages 15-49)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "MHZAhLfAeB": {
+   "label": "antiretroviral therapy",
+   "indicator": "SH.HIV.ARTC.ZS",
+   "indicator_name": "Antiretroviral therapy coverage (% of people living with HIV)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "EPkRQaRIuw": {
+   "label": "tuberculosis",
+   "indicator": "SH.TBS.INCD",
+   "indicator_name": "Incidence of tuberculosis (per 100,000 people)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "bIwjlkmcHV": {
+   "label": "poverty",
+   "indicator": "SI.POV.NAHC",
+   "indicator_name": "Poverty headcount ratio at national poverty lines (% of population)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "N5xiUDm5Jr": {
+   "label": "alcohol consumption",
+   "indicator": "SH.ALC.PCAP.LI",
+   "indicator_name": "Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "QmevDxhzPZ": {
+   "label": "intimate partner violence",
+   "indicator": "SG.VAW.1549.ZS",
+   "indicator_name": "Proportion of women subjected to physical and/or sexual violence in the last 12 months (% of ever-partnered women ages 15-49)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "H6IblXaahP": {
+   "label": "food insecurity",
+   "indicator": "SN.ITK.MSFI.ZS",
+   "indicator_name": "Prevalence of moderate or severe food insecurity in the population (%)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "QPxlNKv3zV": {
+   "label": "mortality rate",
+   "indicator": "SP.DYN.CDRT.IN",
+   "indicator_name": "Death rate, crude (per 1,000 people)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "I62JG6tenu": {
+   "label": "export",
+   "indicator": "IC.FRM.TRD.TR17",
+   "indicator_name": "Percent of firms exporting directly or indirectly (at least 10% of sales)",
+   "dataset": "ES",
+   "note": "Tie-break: WDI also has 'Exports of goods and services (% of GDP)' (NE.EXP.GNFS.ZS)."
+  },
+  "3x-TeF7nX4": {
+   "label": "unemployment",
+   "indicator": "SL.UEM.TOTL.ZS",
+   "indicator_name": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "fOwwKQbX6C": {
+   "label": "internet access",
+   "indicator": "IT.NET.BBND.P2",
+   "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "A9lB6vPSYl": {
+   "label": "literacy",
+   "indicator": "SE.ADT.LITR.ZS",
+   "indicator_name": "Literacy rate, adult total (% of people ages 15 and above)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "nAojVBC6YJ": {
+   "label": "Internet",
+   "indicator": "IT.NET.BBND.P2",
+   "indicator_name": "Fixed broadband subscriptions (per 100 people)",
+   "dataset": "WDI",
+   "note": "Internet availability; the topic's own indicator already measures use."
+  },
+  "PgGQhocrq8": {
+   "label": "physician",
+   "indicator": "SH.MED.PHYS.ZS",
+   "indicator_name": "Physicians (per 1,000 people)",
+   "dataset": "WDI",
+   "note": null
+  },
+  "PfzPevl_MY": {
+   "label": "mental depression",
+   "indicator": null,
+   "note": null
+  },
+  "HlOsAtlSea": {
+   "label": "depressive disorder",
+   "indicator": null,
+   "note": null
+  },
+  "f745jzjRmS": {
+   "label": "suicidal ideation",
+   "indicator": null,
+   "note": null
+  },
+  "Q0IMqAH4rf": {
+   "label": "quality of life",
+   "indicator": null,
+   "note": null
+  },
+  "-0HrxUPkp2": {
+   "label": "mental disorder",
+   "indicator": null,
+   "note": null
+  },
+  "_Oa_0jWALE": {
+   "label": "mental health",
+   "indicator": null,
+   "note": null
+  },
+  "JxB_DrfKvK": {
+   "label": "anxiety",
+   "indicator": null,
+   "note": null
+  },
+  "9BEEXPEHYj": {
+   "label": "distress",
+   "indicator": null,
+   "note": null
+  },
+  "ZuREWSEpi7": {
+   "label": "major depressive disorder",
+   "indicator": null,
+   "note": null
+  },
+  "aZJPqtlgv4": {
+   "label": "attempted suicide",
+   "indicator": null,
+   "note": null
+  },
+  "VTzraMNryq": {
+   "label": "health status",
+   "indicator": null,
+   "note": null
+  },
+  "XW9F7OPopQ": {
+   "label": "stroke",
+   "indicator": null,
+   "note": null
+  },
+  "RG-TNPgk7A": {
+   "label": "motor activity",
+   "indicator": null,
+   "note": null
+  },
+  "sUGjMDq7PH": {
+   "label": "post-traumatic stress disorder",
+   "indicator": null,
+   "note": null
+  },
+  "UvVKf6zUx4": {
+   "label": "diarrhea",
+   "indicator": null,
+   "note": null
+  },
+  "XECWaw9BRx": {
+   "label": "ethanol",
+   "indicator": null,
+   "note": null
+  },
+  "Uu3RooQVFd": {
+   "label": "diagnosis of HIV/AIDS",
+   "indicator": null,
+   "note": null
+  },
+  "xovbE_yg2L": {
+   "label": "female organism",
+   "indicator": null,
+   "note": null
+  },
+  "IzRboLj9ez": {
+   "label": "woman",
+   "indicator": null,
+   "note": null
+  },
+  "HXTs8Bqock": {
+   "label": "Cannabis",
+   "indicator": null,
+   "note": null
+  },
+  "4yad7yuLvv": {
+   "label": "Seizure",
+   "indicator": null,
+   "note": null
+  },
+  "jPynp9Lafm": {
+   "label": "multimorbidity",
+   "indicator": null,
+   "note": null
+  },
+  "oJb9YL2uUR": {
+   "label": "vision disorder",
+   "indicator": null,
+   "note": null
+  },
+  "Iw1SGsG5Zn": {
+   "label": "ethnic group",
+   "indicator": null,
+   "note": null
+  },
+  "YzUPDV_8Hd": {
+   "label": "health",
+   "indicator": null,
+   "note": null
+  },
+  "fdqTZ-jKB3": {
+   "label": "hearing loss",
+   "indicator": null,
+   "note": null
+  },
+  "msWojkbHzu": {
+   "label": "work",
+   "indicator": null,
+   "note": null
+  },
+  "p2qlTRlHO1": {
+   "label": "attention deficit hyperactivity disorder",
+   "indicator": null,
+   "note": null
+  },
+  "PsfXQB-mY7": {
+   "label": "sick leave",
+   "indicator": null,
+   "note": null
+  },
+  "0GgadM9ouC": {
+   "label": "cardiovascular disease",
+   "indicator": null,
+   "note": null
+  },
+  "3Jk5rF6bpY": {
+   "label": "memory disorder",
+   "indicator": null,
+   "note": null
+  },
+  "r18SVPahat": {
+   "label": "Internet addiction disorder",
+   "indicator": null,
+   "note": null
+  },
+  "S9ga8Pji5t": {
+   "label": "health literacy",
+   "indicator": null,
+   "note": null
+  },
+  "zEin0ikqXO": {
+   "label": "loneliness",
+   "indicator": null,
+   "note": null
+  },
+  "aeY3nW1sT_": {
+   "label": "sleep quality",
+   "indicator": null,
+   "note": null
+  },
+  "jQoalKHiF5": {
+   "label": "eating disorder",
+   "indicator": null,
+   "note": null
+  },
+  "G4bYxmMP2q": {
+   "label": "self-injury",
+   "indicator": null,
+   "note": null
+  },
+  "h-NaX67rbP": {
+   "label": "oral health",
+   "indicator": null,
+   "note": null
+  },
+  "g4giO_RrZB": {
+   "label": "dementia",
+   "indicator": null,
+   "note": null
+  },
+  "Rnl_FFIwN4": {
+   "label": "sleep-wake disorder",
+   "indicator": null,
+   "note": null
+  },
+  "-T_Rgqi4pG": {
+   "label": "vaccination",
+   "indicator": null,
+   "note": null
+  },
+  "QVuP4W0sPZ": {
+   "label": "social network",
+   "indicator": null,
+   "note": null
+  },
+  "fhrqDbbCmQ": {
+   "label": "male",
+   "indicator": null,
+   "note": null
+  },
+  "6wVrL-_PST": {
+   "label": "age factor",
+   "indicator": null,
+   "note": null
+  },
+  "HejFSI-X_z": {
+   "label": "age group",
+   "indicator": null,
+   "note": null
+  },
+  "GCfeZqBocq": {
+   "label": "gender identity",
+   "indicator": null,
+   "note": null
+  },
+  "3_9csjFvnL": {
+   "label": "marital status",
+   "indicator": null,
+   "note": null
+  },
+  "Rl82Rxfy7u": {
+   "label": "dissociative disorder",
+   "indicator": null,
+   "note": null
+  },
+  "1xtmDPBdDV": {
+   "label": "caregiver",
+   "indicator": null,
+   "note": null
+  },
+  "xcFHC5l065": {
+   "label": "social anxiety disorder",
+   "indicator": null,
+   "note": null
+  },
+  "yanvI2r4oS": {
+   "label": "family",
+   "indicator": null,
+   "note": null
+  },
+  "6-IxIwFwU5": {
+   "label": "problem gambling",
+   "indicator": null,
+   "note": null
+  },
+  "l6gF5Y6p3E": {
+   "label": "Human Development Index",
+   "indicator": null,
+   "note": null
+  },
+  "vktMUPI0ww": {
+   "label": "cooking",
+   "indicator": null,
+   "note": null
+  },
+  "JyI3Gkp0_g": {
+   "label": "activities of daily living",
+   "indicator": null,
+   "note": null
+  },
+  "jxmpUa6P2f": {
+   "label": "pain",
+   "indicator": null,
+   "note": null
+  },
+  "yHaZBtsV-v": {
+   "label": "sustainable development",
+   "indicator": null,
+   "note": null
+  }
+ }
+}

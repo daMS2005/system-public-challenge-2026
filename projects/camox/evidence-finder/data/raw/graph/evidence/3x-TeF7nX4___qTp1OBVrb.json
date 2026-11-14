@@ -1,0 +1,71 @@
+{
+ "relationship_id": "3x-TeF7nX4|_qTp1OBVrb",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "2lmEQ--wrc",
+    "pubmed_id": "26969482",
+    "study_id": "Ire89pGkjV",
+    "statistic_type": "adjusted odds ratio",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.81",
+    "ci_level": "0.95",
+    "ci_lower": "1.08",
+    "ci_upper": "3.04",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "YMqsQItFDp",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q1339474",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "_qTp1OBVrb",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "maternal death (among women in the UK)"
+   },
+   {
+    "system_id": "r54TEKRm_X",
+    "pubmed_id": "22216171",
+    "study_id": "Qc_s01kmuY",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.19",
+    "ci_level": "0.95",
+    "ci_lower": "1.03",
+    "ci_upper": "4.68",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "sLfwnNol78",
+    "variable_2_id": "6sMD4rb_cB",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q1339474",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "_qTp1OBVrb",
+    "variable_1_name": "unemployed, routine or manual occupation",
+    "variable_2_name": "maternal death (among women with severe maternal morbidities who survived)"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "Ire89pGkjV",
+    "doi": "10.1111/1471-0528.13978",
+    "pubmed_id": "26969482",
+    "population": "383 women who died from direct or indirect causes from 2009 to 2013 and 1516 women who did not have any life-threatening complications during pregnancy and childbirth.",
+    "study_type": null
+   },
+   {
+    "study_id": "Qc_s01kmuY",
+    "doi": "10.1371/journal.pone.0029077",
+    "pubmed_id": "22216171",
+    "population": "Pregnant women with eclampsia, antenatal pulmonary embolism, amniotic fluid embolism, acute fatty liver of pregnancy or antenatal stroke in the United Kingdom between 2003 and 2009.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

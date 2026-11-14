@@ -1,0 +1,30 @@
+{
+  "_note": "Hand-picked. concept_id is chosen from the top search results of scripts/smoke.py; indicator is the World Bank indicator that measures the topic. A null concept_id means no usable concept was found and the topic shows the thin state.",
+  "topics": [
+    {
+      "id": "unemployment",
+      "name": "Unemployment",
+      "group": "Job outcomes",
+      "search": "unemployment",
+      "concept_id": "3x-TeF7nX4",
+      "indicator": "SL.UEM.TOTL.ZS"
+    },
+    {
+      "id": "internet-use",
+      "name": "Internet use",
+      "group": "Foundations",
+      "search": "internet use",
+      "concept_id": "bNXwlzaSaB",
+      "indicator": "IT.NET.USER.ZS"
+    },
+    {
+      "id": "access-to-finance",
+      "name": "Access to finance",
+      "group": "Private capital",
+      "search": "financial inclusion",
+      "concept_id": "l4HqMITIPi",
+      "indicator": "IC.FRM.FIN.FIN16",
+      "concept_note": "The graph has no concept named 'access to finance'. 'financial inclusion' (opportunities to access financial services) is the closest; 'credit' and 'loan' were also checked."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+ "relationship_id": "f745jzjRmS|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "iiiJPMz18D",
+    "pubmed_id": "23047959",
+    "study_id": "7q9W6GMD4q",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.215",
+    "ci_level": "0.95",
+    "ci_lower": "0.089",
+    "ci_upper": "0.346",
+    "p_value": "0.005",
+    "p_value_equality": null,
+    "variable_1_id": "WVGCBzDjbC",
+    "variable_2_id": "0kZqKJmp_H",
+    "variable_1_wikidata_id": "Q944142",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "f745jzjRmS",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "suicidal ideation",
+    "variable_2_name": "problematic internet use"
+   },
+   {
+    "system_id": "LoLSPoIXb2",
+    "pubmed_id": "32368065",
+    "study_id": "uwQBsiX9q-",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.361",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "q1nW-Qal74",
+    "variable_2_id": "0kZqKJmp_H",
+    "variable_1_wikidata_id": "Q944142",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "f745jzjRmS",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "suicidal attempts (in adolescents)",
+    "variable_2_name": "problematic internet use"
+   },
+   {
+    "system_id": "TYxRkQDg7f",
+    "pubmed_id": "32368065",
+    "study_id": "uwQBsiX9q-",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.747",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "WVGCBzDjbC",
+    "variable_2_id": "0kZqKJmp_H",
+    "variable_1_wikidata_id": "Q944142",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "f745jzjRmS",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "suicidal ideation",
+    "variable_2_name": "problematic internet use"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "7q9W6GMD4q",
+    "doi": "10.1177/0004867412463613",
+    "pubmed_id": "23047959",
+    "population": "795 middle and high school students in Korea.",
+    "study_type": null
+   },
+   {
+    "study_id": "uwQBsiX9q-",
+    "doi": "10.2147/ndt.s247292",
+    "pubmed_id": "32368065",
+    "population": "223,542 adolescents aged 12 to 18 years who responded to a self-report questionnaire.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

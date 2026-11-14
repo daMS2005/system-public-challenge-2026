@@ -1,0 +1,99 @@
+{
+ "relationship_id": "6yoKTYSOJa|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "XqZIvB-Vfc",
+    "pubmed_id": "20429979",
+    "study_id": "n24lz39jDP",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "3.12",
+    "ci_level": "0.95",
+    "ci_lower": "2.1",
+    "ci_upper": "4.63",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "1s18xY2iTf",
+    "variable_2_id": "_4AqOSwgWn",
+    "variable_1_wikidata_id": "Q1527264",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "6yoKTYSOJa",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Income level ($75,000 or more) (compared to income level <$25,000)",
+    "variable_2_name": "general internet use"
+   },
+   {
+    "system_id": "za78yyGzlf",
+    "pubmed_id": "31610808",
+    "study_id": "Xe39k3cNS2",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.83",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.006",
+    "p_value_equality": null,
+    "variable_1_id": "QC_hH4fPRW",
+    "variable_2_id": "0N1e3CrCiJ",
+    "variable_1_wikidata_id": "Q1527264",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "6yoKTYSOJa",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "income (> $400 per week)",
+    "variable_2_name": "use of the internet at least weekly"
+   },
+   {
+    "system_id": "YvBdmIfzMe",
+    "pubmed_id": "29641661",
+    "study_id": "6Tw3A_rc1J",
+    "statistic_type": "risk ratio",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "3.53",
+    "ci_level": "0.95",
+    "ci_lower": "1.35",
+    "ci_upper": "9.23",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "XNgJ1pqq3G",
+    "variable_2_id": "9GZJcVlXYq",
+    "variable_1_wikidata_id": "Q1527264",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "6yoKTYSOJa",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "monthly family income",
+    "variable_2_name": "use of internet over four years"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "n24lz39jDP",
+    "doi": "10.14236/jhi.v18i1.754",
+    "pubmed_id": "20429979",
+    "population": "Veterans in the United States.",
+    "study_type": null
+   },
+   {
+    "study_id": "Xe39k3cNS2",
+    "doi": "10.1186/s13722-019-0168-y",
+    "pubmed_id": "31610808",
+    "population": "369 current tobacco users from two non-government community service organisations in metropolitan New South Wales, Australia.",
+    "study_type": null
+   },
+   {
+    "study_id": "6Tw3A_rc1J",
+    "doi": "10.11606/s1518-8787.2018052000216",
+    "pubmed_id": "29641661",
+    "population": "1,197 older adults living in the urban area of Floriano\u0301polis, State of Santa Catarina, Brazil, who participated in the Brazilian EpiFloripa Idoso study.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

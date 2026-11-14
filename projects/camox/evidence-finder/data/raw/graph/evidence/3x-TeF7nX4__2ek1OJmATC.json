@@ -1,0 +1,64 @@
+{
+ "relationship_id": "3x-TeF7nX4|2ek1OJmATC",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "vpzxguOTvK",
+    "pubmed_id": null,
+    "study_id": "tgJHHnKl4w",
+    "statistic_type": "elasticity",
+    "system_statistic_type": "elasticity",
+    "statistic_value": "0.351",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "rM833YH_JL",
+    "variable_2_id": "3oRYrJQ3sx",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q177626",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "2ek1OJmATC",
+    "variable_1_name": "regional unemployment rate and average wages",
+    "variable_2_name": "migration outflows and inflows"
+   },
+   {
+    "system_id": "KZH-labTRO",
+    "pubmed_id": null,
+    "study_id": "tgJHHnKl4w",
+    "statistic_type": "elasticity",
+    "system_statistic_type": "elasticity",
+    "statistic_value": "0.502",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "rM833YH_JL",
+    "variable_2_id": "3oRYrJQ3sx",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q177626",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "2ek1OJmATC",
+    "variable_1_name": "regional unemployment rate and average wages",
+    "variable_2_name": "migration outflows and inflows"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "tgJHHnKl4w",
+    "doi": "10.1002/psp.2253",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

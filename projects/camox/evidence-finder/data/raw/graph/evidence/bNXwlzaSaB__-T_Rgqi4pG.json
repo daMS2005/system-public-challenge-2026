@@ -1,0 +1,92 @@
+{
+ "relationship_id": "bNXwlzaSaB|-T_Rgqi4pG",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "Wkr6-_wLCZ",
+    "pubmed_id": "36883607",
+    "study_id": "a9lv88lzrf",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.3",
+    "ci_level": "0.95",
+    "ci_lower": "1.11",
+    "ci_upper": "1.53",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "BQtViWJh4g",
+    "variable_2_id": "Dm8zBoALDN",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q192995",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "-T_Rgqi4pG",
+    "variable_1_name": "internet use",
+    "variable_2_name": "getting vaccinated"
+   },
+   {
+    "system_id": "mFJcGbXg_1",
+    "pubmed_id": "36684984",
+    "study_id": "vNOjcXiuaQ",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.127",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.05",
+    "p_value_equality": null,
+    "variable_1_id": "vhjK1-lrdt",
+    "variable_2_id": "Amf29_0_WD",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q192995",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "-T_Rgqi4pG",
+    "variable_1_name": "injunctive norms on the Internet",
+    "variable_2_name": "vaccination intention"
+   },
+   {
+    "system_id": "GCAJOeYfCu",
+    "pubmed_id": "36684984",
+    "study_id": "vNOjcXiuaQ",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.135",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "vhjK1-lrdt",
+    "variable_2_id": "Amf29_0_WD",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q192995",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "-T_Rgqi4pG",
+    "variable_1_name": "injunctive norms on the Internet",
+    "variable_2_name": "vaccination intention"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "a9lv88lzrf",
+    "doi": "10.1111/ggi.14568",
+    "pubmed_id": "36883607",
+    "population": "8952 community-dwelling citizens aged 75 years and above in Japan during the first state of emergency of the coronavirus disease 2019 (COVID-19) pandemic.",
+    "study_type": null
+   },
+   {
+    "study_id": "vNOjcXiuaQ",
+    "doi": "10.3389/fpubh.2022.1035658",
+    "pubmed_id": "36684984",
+    "population": "Parents of girls aged 13-15 years in mainland China.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

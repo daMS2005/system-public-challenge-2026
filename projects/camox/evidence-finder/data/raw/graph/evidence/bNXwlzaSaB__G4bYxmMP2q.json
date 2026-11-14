@@ -1,0 +1,141 @@
+{
+ "relationship_id": "bNXwlzaSaB|G4bYxmMP2q",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "_rCRPnYbPb",
+    "pubmed_id": "36627060",
+    "study_id": "iaPt8ShVsd",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.228",
+    "ci_level": "0.95",
+    "ci_lower": "0.178",
+    "ci_upper": "0.282",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "eb10ch8jlA",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q622527",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "G4bYxmMP2q",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "self-injurious behavior (suicidality and self-injurious behavior)"
+   },
+   {
+    "system_id": "iCd61YvEHg",
+    "pubmed_id": "36029869",
+    "study_id": "e7pkqXgiVI",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "3.11",
+    "ci_level": "0.95",
+    "ci_lower": "1.5",
+    "ci_upper": "6.15",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "9nC38CAgkS",
+    "variable_2_id": "sfhIEY2VnP",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q622527",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "G4bYxmMP2q",
+    "variable_1_name": "Internet gaming disorder",
+    "variable_2_name": "identified self-harm behaviors"
+   },
+   {
+    "system_id": "0yY2oRiIsN",
+    "pubmed_id": "32701974",
+    "study_id": "bAg6Gth-X_",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.53",
+    "ci_level": "0.95",
+    "ci_lower": "0.93",
+    "ci_upper": "6.9",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "JnFngmYZkm",
+    "variable_2_id": "CV_S4D9hv7",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q622527",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "G4bYxmMP2q",
+    "variable_1_name": "internet use (hours online and specific internet experiences)",
+    "variable_2_name": "past year self-harm"
+   },
+   {
+    "system_id": "WkdEedZtR3",
+    "pubmed_id": "36627060",
+    "study_id": "iaPt8ShVsd",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.098",
+    "ci_level": "0.95",
+    "ci_lower": "0.068",
+    "ci_upper": "0.133",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "eb10ch8jlA",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q622527",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "G4bYxmMP2q",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "self-injurious behavior (suicidality and self-injurious behavior)"
+   },
+   {
+    "system_id": "Dd7B1fevWl",
+    "pubmed_id": "36627060",
+    "study_id": "iaPt8ShVsd",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.255",
+    "ci_level": "0.95",
+    "ci_lower": "0.219",
+    "ci_upper": "0.296",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "eb10ch8jlA",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q622527",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "G4bYxmMP2q",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "self-injurious behavior (suicidality and self-injurious behavior)"
+   }
+  ],
+  "total": 5
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "iaPt8ShVsd",
+    "doi": "10.1016/j.jad.2023.01.019",
+    "pubmed_id": "36627060",
+    "population": "2173 middle and high school students in central China.",
+    "study_type": null
+   },
+   {
+    "study_id": "e7pkqXgiVI",
+    "doi": "10.1016/j.jad.2022.08.073",
+    "pubmed_id": "36029869",
+    "population": "8446 Taiwanese adolescents aged 10-18 in the summer of 2021.",
+    "study_type": null
+   },
+   {
+    "study_id": "bAg6Gth-X_",
+    "doi": "10.1371/journal.pone.0235889",
+    "pubmed_id": "32701974",
+    "population": "1,431 respondents from the Avon Longitudinal Study of Parents and Children (ALSPAC) who completed a questionnaire on internet use when they were aged 18 years.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

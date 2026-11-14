@@ -1,0 +1,43 @@
+{
+ "relationship_id": "3x-TeF7nX4|6yoKTYSOJa",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "jHer_YN_ps",
+    "pubmed_id": null,
+    "study_id": "wm2aPGoqJF",
+    "statistic_type": "regression_coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.003",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "IAPStm4JKc",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q1527264",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "6yoKTYSOJa",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "income distribution inequality"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "wm2aPGoqJF",
+    "doi": "10.21787/jbp.14.2022.413-422",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

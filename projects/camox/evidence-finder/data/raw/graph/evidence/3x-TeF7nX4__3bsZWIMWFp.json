@@ -1,0 +1,43 @@
+{
+ "relationship_id": "3x-TeF7nX4|3bsZWIMWFp",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "1X4iEvEmSw",
+    "pubmed_id": "34911802",
+    "study_id": "-eLu_xEBVb",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.92",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "XBtQyzHsvA",
+    "variable_2_id": "6n9I95Fcg6",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q18189",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "3bsZWIMWFp",
+    "variable_1_name": "unemployment status",
+    "variable_2_name": "educational level"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "-eLu_xEBVb",
+    "doi": "10.3899/jrheum.210655",
+    "pubmed_id": "34911802",
+    "population": "415 active workforce participants with axial spondyloarthritis in Spain in 2017.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

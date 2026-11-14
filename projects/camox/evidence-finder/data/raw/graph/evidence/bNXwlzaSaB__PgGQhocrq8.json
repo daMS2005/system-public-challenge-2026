@@ -1,0 +1,71 @@
+{
+ "relationship_id": "bNXwlzaSaB|PgGQhocrq8",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "uiB_AagCnc",
+    "pubmed_id": "29227206",
+    "study_id": "HySzTTTKNh",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "4.3",
+    "ci_level": "0.95",
+    "ci_lower": "1.11",
+    "ci_upper": "16.64",
+    "p_value": "0.035",
+    "p_value_equality": null,
+    "variable_1_id": "nKmQrogSD-",
+    "variable_2_id": "5JFtKslCdR",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q39631",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "PgGQhocrq8",
+    "variable_1_name": "Internet use behavior in daily life",
+    "variable_2_name": "physicians' attitudes toward e-health"
+   },
+   {
+    "system_id": "pzYQJnRucL",
+    "pubmed_id": "17356972",
+    "study_id": "IwvBNt6E5J",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.21",
+    "ci_level": "0.95",
+    "ci_lower": "1.01",
+    "ci_upper": "1.44",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "X73GhFETcS",
+    "variable_2_id": "FGCBegu4DB",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q39631",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "PgGQhocrq8",
+    "variable_1_name": "frequency of internet use (weekly)",
+    "variable_2_name": "likelihood of seeing a physician who conducted email consultations"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "HySzTTTKNh",
+    "doi": "10.1089/tmj.2017.0158",
+    "pubmed_id": "29227206",
+    "population": "234 otolaryngologists in private practice.",
+    "study_type": null
+   },
+   {
+    "study_id": "IwvBNt6E5J",
+    "doi": "10.1007/s11606-006-0076-1",
+    "pubmed_id": "17356972",
+    "population": "Patients who visited outpatient physicians in the United States between 2001 and 2003.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

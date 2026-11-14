@@ -1,0 +1,141 @@
+{
+ "relationship_id": "bNXwlzaSaB|N5xiUDm5Jr",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "Zclj5GsOBg",
+    "pubmed_id": "35795706",
+    "study_id": "L8J9GGDkjQ",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.84",
+    "ci_level": "0.95",
+    "ci_lower": "1.22",
+    "ci_upper": "2.7",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "BQtViWJh4g",
+    "variable_2_id": "co0SEWmsD1",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2647488",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "N5xiUDm5Jr",
+    "variable_1_name": "internet use",
+    "variable_2_name": "ever consuming alcohol"
+   },
+   {
+    "system_id": "vYp3cb9D4q",
+    "pubmed_id": "36857544",
+    "study_id": "XmE9eTL8j2",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.062",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.507",
+    "p_value_equality": null,
+    "variable_1_id": "0kZqKJmp_H",
+    "variable_2_id": "GPrIvn94ln",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2647488",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "N5xiUDm5Jr",
+    "variable_1_name": "problematic internet use",
+    "variable_2_name": "alcohol use"
+   },
+   {
+    "system_id": "25KYJVXOE3",
+    "pubmed_id": "36857544",
+    "study_id": "XmE9eTL8j2",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.129",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.293",
+    "p_value_equality": null,
+    "variable_1_id": "0kZqKJmp_H",
+    "variable_2_id": "GPrIvn94ln",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2647488",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "N5xiUDm5Jr",
+    "variable_1_name": "problematic internet use",
+    "variable_2_name": "alcohol use"
+   },
+   {
+    "system_id": "CdST5bf_-x",
+    "pubmed_id": "35795706",
+    "study_id": "L8J9GGDkjQ",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.82",
+    "ci_level": "0.95",
+    "ci_lower": "1.58",
+    "ci_upper": "2.09",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "BQtViWJh4g",
+    "variable_2_id": "co0SEWmsD1",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2647488",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "N5xiUDm5Jr",
+    "variable_1_name": "internet use",
+    "variable_2_name": "ever consuming alcohol"
+   },
+   {
+    "system_id": "U5YYNJHBbT",
+    "pubmed_id": "31487949",
+    "study_id": "sHeNU3nwv4",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.32",
+    "ci_level": "0.95",
+    "ci_lower": "0.19",
+    "ci_upper": "0.56",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "IH_G3YPPNy",
+    "variable_2_id": "UByMS-ZN8z",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2647488",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "N5xiUDm5Jr",
+    "variable_1_name": "Internet use",
+    "variable_2_name": "excessive consumption of alcohol"
+   }
+  ],
+  "total": 5
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "L8J9GGDkjQ",
+    "doi": "10.3389/fpubh.2022.862975",
+    "pubmed_id": "35795706",
+    "population": "2,208 men and 5,872 women aged between 15 and 49 years in Guyana.",
+    "study_type": null
+   },
+   {
+    "study_id": "XmE9eTL8j2",
+    "doi": "10.1097/jan.0000000000000508",
+    "pubmed_id": "36857544",
+    "population": "582 adolescents from one middle school and one high school in Nuevo Laredo, Tamaulipas, Mexico.",
+    "study_type": null
+   },
+   {
+    "study_id": "sHeNU3nwv4",
+    "doi": "10.3390/ijerph16183252",
+    "pubmed_id": "31487949",
+    "population": "2529 people with disabilities in a nationally representative sample.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

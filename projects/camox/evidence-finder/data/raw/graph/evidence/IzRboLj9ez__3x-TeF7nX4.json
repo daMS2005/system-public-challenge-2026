@@ -1,0 +1,155 @@
+{
+ "relationship_id": "IzRboLj9ez|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "1nN4IBpKO0",
+    "pubmed_id": "35797384",
+    "study_id": "uyvi4Job31",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "0.6",
+    "ci_level": "0.95",
+    "ci_lower": "0.5",
+    "ci_upper": "0.7",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "hag7dvR1ZS",
+    "variable_2_id": "q2t_ogU-Fy",
+    "variable_1_wikidata_id": "Q467",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "IzRboLj9ez",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "urban women",
+    "variable_2_name": "women unemployment"
+   },
+   {
+    "system_id": "YuPQLYyaVh",
+    "pubmed_id": "32326982",
+    "study_id": "ZU-1zcNrJR",
+    "statistic_type": "mean_difference_unstandardized",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "16.0",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.0001",
+    "p_value_equality": null,
+    "variable_1_id": "pgd2HI4u8v",
+    "variable_2_id": "RzP7C35AUi",
+    "variable_1_wikidata_id": "Q467",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "IzRboLj9ez",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Women [vs Men]",
+    "variable_2_name": "Unemployment"
+   },
+   {
+    "system_id": "lcvEevBcui",
+    "pubmed_id": "2053933",
+    "study_id": "GzJnvNbAuM",
+    "statistic_type": "mean_difference_unstandardized",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "29.0",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "pgd2HI4u8v",
+    "variable_2_id": "zDJmjtUu7Q",
+    "variable_1_wikidata_id": "Q467",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "IzRboLj9ez",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Women [vs Men]",
+    "variable_2_name": "Unemployment rate"
+   },
+   {
+    "system_id": "v__LDQgcKn",
+    "pubmed_id": "37430468",
+    "study_id": "mjJBt6ThM8",
+    "statistic_type": "mean_difference_unstandardized",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "12.0",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "BMBKnBEAkX",
+    "variable_2_id": "gvZUeaqA67",
+    "variable_1_wikidata_id": "Q467",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "IzRboLj9ez",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "women [vs men]",
+    "variable_2_name": "proportion of unemployment"
+   },
+   {
+    "system_id": "deR3ouFnP_",
+    "pubmed_id": "30189512",
+    "study_id": "cg7-etFm2N",
+    "statistic_type": "mean_difference_unstandardized",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "23.5",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.07",
+    "p_value_equality": null,
+    "variable_1_id": "BMBKnBEAkX",
+    "variable_2_id": "bhegYM90uZ",
+    "variable_1_wikidata_id": "Q467",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "IzRboLj9ez",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "women [vs men]",
+    "variable_2_name": "percentage of people unemployed"
+   }
+  ],
+  "total": 5
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "uyvi4Job31",
+    "doi": "10.1371/journal.pone.0270989",
+    "pubmed_id": "35797384",
+    "population": "15,683 women in Ethiopia in 2016.",
+    "study_type": null
+   },
+   {
+    "study_id": "ZU-1zcNrJR",
+    "doi": "10.1186/s13293-020-00298-4",
+    "pubmed_id": "32326982",
+    "population": "2736 participants with OUD enrolled in MAT for varying lengths of time in outpatient clinics across Ontario.",
+    "study_type": null
+   },
+   {
+    "study_id": "GzJnvNbAuM",
+    "doi": "10.1136/bmj.302.6767.28",
+    "pubmed_id": "2053933",
+    "population": "1255 doctors who completed vocational training in the west of Scotland between 1968 and 1987.",
+    "study_type": null
+   },
+   {
+    "study_id": "mjJBt6ThM8",
+    "doi": "10.1002/clc.24079",
+    "pubmed_id": "37430468",
+    "population": "49,791 adults aged 20 and over from the National Health and Nutrition Examination Surveys (1999-2018).",
+    "study_type": null
+   },
+   {
+    "study_id": "cg7-etFm2N",
+    "doi": "10.1017/ipm.2014.10",
+    "pubmed_id": "30189512",
+    "population": "68 cases of suicide (ICD-10\u00d760-X84) from residents of the Isle of Wight District between January 2006 and December 2009.",
+    "study_type": null
+   }
+  ],
+  "total": 5
+ }
+}

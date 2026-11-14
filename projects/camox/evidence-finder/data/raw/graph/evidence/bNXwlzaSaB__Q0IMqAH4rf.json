@@ -1,0 +1,113 @@
+{
+ "relationship_id": "bNXwlzaSaB|Q0IMqAH4rf",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "b2_YNJnLPE",
+    "pubmed_id": "35758977",
+    "study_id": "WATmmeS0ZN",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.2",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "JVqs9Vdkzk",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q13100823",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "Q0IMqAH4rf",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "Social quality of life"
+   },
+   {
+    "system_id": "vQxk6g8o25",
+    "pubmed_id": "35790935",
+    "study_id": "4m6dZ_Y6oi",
+    "statistic_type": "B",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.09",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "AXAHoWwfAr",
+    "variable_2_id": "w0DDE85SaD",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q13100823",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "Q0IMqAH4rf",
+    "variable_1_name": "internet emotional relationships",
+    "variable_2_name": "quality of life"
+   },
+   {
+    "system_id": "qvl1-7fyBv",
+    "pubmed_id": "35758977",
+    "study_id": "WATmmeS0ZN",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.27",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "GYMjjQlE61",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q13100823",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "Q0IMqAH4rf",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "Physical quality of life"
+   },
+   {
+    "system_id": "ezjOR4MLvA",
+    "pubmed_id": "35758977",
+    "study_id": "WATmmeS0ZN",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.17",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "TjMZTo790i",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q13100823",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "Q0IMqAH4rf",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "Environmental quality of life"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "WATmmeS0ZN",
+    "doi": "10.1037/adb0000837",
+    "pubmed_id": "35758977",
+    "population": "A community sample of heavy drinking emerging adults in Hamilton, Ontario (N = 709).",
+    "study_type": null
+   },
+   {
+    "study_id": "4m6dZ_Y6oi",
+    "doi": "10.1186/s12888-022-04097-6",
+    "pubmed_id": "35790935",
+    "population": "350 students at Alborz University of Medical Sciences selected by convenience sampling in 2021.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "relationship_id": "xcFHC5l065|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "uuw3xuXz85",
+    "pubmed_id": "29459201",
+    "study_id": "ICQ8RoJmcJ",
+    "statistic_type": "Lasso beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.65",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "gCnzeB8NS_",
+    "variable_2_id": "g0-qW6ZQNf",
+    "variable_1_wikidata_id": "Q281928",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "xcFHC5l065",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Social anxiety disorder",
+    "variable_2_name": "Problematic internet use (PIU)"
+   },
+   {
+    "system_id": "S_v97r9BDC",
+    "pubmed_id": "38163335",
+    "study_id": "i9aq5wQK6U",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.08",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "t1btJvwKoU",
+    "variable_2_id": "hWHIqA9lwV",
+    "variable_1_wikidata_id": "Q281928",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "xcFHC5l065",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "social anxiety disorder",
+    "variable_2_name": "internet gaming disorder"
+   },
+   {
+    "system_id": "oPdr68v6en",
+    "pubmed_id": "30744449",
+    "study_id": "T7hrtUtgn3",
+    "statistic_type": "Pearson's correlation",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.411",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.0001",
+    "p_value_equality": null,
+    "variable_1_id": "rp6kXpyL3n",
+    "variable_2_id": "KkbpOk5cH9",
+    "variable_1_wikidata_id": "Q281928",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "xcFHC5l065",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "social anxiety disorder severity",
+    "variable_2_name": "Problematic Internet use severity"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "ICQ8RoJmcJ",
+    "doi": "10.1016/j.addbeh.2018.02.017",
+    "pubmed_id": "29459201",
+    "population": "1749 participants aged 18 and above from the US and South Africa.",
+    "study_type": null
+   },
+   {
+    "study_id": "i9aq5wQK6U",
+    "doi": "10.1177/13591045231206967",
+    "pubmed_id": "38163335",
+    "population": "1574 Malaysian secondary school students from 12 government schools across five states, including 569 males and 1005 females.",
+    "study_type": null
+   },
+   {
+    "study_id": "T7hrtUtgn3",
+    "doi": "10.1177/0020764019827985",
+    "pubmed_id": "30744449",
+    "population": "1,312 school going adolescents studying in Grades 10, 11 and 12 in Bhavnagar, India.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

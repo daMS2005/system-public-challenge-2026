@@ -1,0 +1,127 @@
+{
+ "relationship_id": "_Oa_0jWALE|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "J4ylhMb5F_",
+    "pubmed_id": "23922801",
+    "study_id": "DVUPezCtkg",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.12",
+    "ci_level": "0.95",
+    "ci_lower": "1.03",
+    "ci_upper": "1.34",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "EZDWr4UfWa",
+    "variable_2_id": "QamhbkO6Bh",
+    "variable_1_wikidata_id": "Q317309",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "_Oa_0jWALE",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "individuals with mental health problems",
+    "variable_2_name": "unemployment rates"
+   },
+   {
+    "system_id": "CJKVE-4mHM",
+    "pubmed_id": "34911802",
+    "study_id": "-eLu_xEBVb",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.15",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "66oXT7BBzX",
+    "variable_2_id": "XBtQyzHsvA",
+    "variable_1_wikidata_id": "Q317309",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "_Oa_0jWALE",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "mental health",
+    "variable_2_name": "unemployment status"
+   },
+   {
+    "system_id": "uAfxq7bofN",
+    "pubmed_id": "24169931",
+    "study_id": "7KxL-ZiHI-",
+    "statistic_type": "relative risk",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "1.8",
+    "ci_level": "0.95",
+    "ci_lower": "1.41",
+    "ci_upper": "2.31",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "2gxzgX9z5H",
+    "variable_2_id": "lv_ZXhivVb",
+    "variable_1_wikidata_id": "Q317309",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "_Oa_0jWALE",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "workers with mental health problems",
+    "variable_2_name": "transition into disability pension, unemployment"
+   },
+   {
+    "system_id": "jT98MvPGeN",
+    "pubmed_id": "26112957",
+    "study_id": "TsB2VrB4x_",
+    "statistic_type": "hazard ratio",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "2.58",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "w2PhwAQ3pv",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q317309",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "_Oa_0jWALE",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Psychological health problems",
+    "variable_2_name": "unemployment"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "DVUPezCtkg",
+    "doi": "10.1371/journal.pone.0069792",
+    "pubmed_id": "23922801",
+    "population": "Individuals with and without mental health problems living in 27 EU countries in the Eurobarometer surveys of 2006 and 2010.",
+    "study_type": null
+   },
+   {
+    "study_id": "-eLu_xEBVb",
+    "doi": "10.3899/jrheum.210655",
+    "pubmed_id": "34911802",
+    "population": "415 active workforce participants with axial spondyloarthritis in Spain in 2017.",
+    "study_type": null
+   },
+   {
+    "study_id": "7KxL-ZiHI-",
+    "doi": "10.1136/oemed-2013-101591",
+    "pubmed_id": "24169931",
+    "population": "Workers included in 29 longitudinal studies examining the relationship between health measures and exit from paid employment through disability pension, unemployment, and early retirement.",
+    "study_type": null
+   },
+   {
+    "study_id": "TsB2VrB4x_",
+    "doi": "10.1136/jech-2015-205719",
+    "pubmed_id": "26112957",
+    "population": "8149 Dutch employees aged 45-64 years.",
+    "study_type": null
+   }
+  ],
+  "total": 4
+ }
+}

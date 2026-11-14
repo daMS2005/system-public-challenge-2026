@@ -1,0 +1,43 @@
+{
+ "relationship_id": "3x-TeF7nX4|TnqBv9XPzT",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "SQSEveHRem",
+    "pubmed_id": "12950671",
+    "study_id": "KXFeWJJdZm",
+    "statistic_type": "odds ratio (OR)",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "4.4",
+    "ci_level": "0.95",
+    "ci_lower": "1.7",
+    "ci_upper": "13.8",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "GC5DTPB8Nj",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q25381037",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "TnqBv9XPzT",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "maternal mortality (among women in Surabaya, Indonesia)"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "KXFeWJJdZm",
+    "doi": "10.1046/j.1365-3156.2003.01101.x",
+    "pubmed_id": "12950671",
+    "population": "59 maternal deaths and 177 women survivors in a referral hospital in Surabaya, Indonesia from 1996 to 1999.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

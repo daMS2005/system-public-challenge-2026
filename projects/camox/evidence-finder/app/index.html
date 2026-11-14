@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jobs evidence finder</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #16202b; --muted: #5b6876; --line: #dfe4ea;
+    --accent: #0a5ea8; --accent-soft: #e7f1fb;
+    --strong: #116a43; --strong-bg: #e2f4ea; --moderate: #8a5a00; --moderate-bg: #fdf1d6;
+    --thin: #56616d; --thin-bg: #eceff2; --gap: #9b2c2c; --gap-bg: #fbeaea;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  button, input { font: inherit; color: inherit; }
+  a { color: var(--accent); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 24px 20px 64px; }
+  .site { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+  .site a.brand { font-weight: 700; font-size: 18px; color: var(--ink); text-decoration: none; }
+  .site .mylink { font-size: 14px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 0; }
+  h3 { font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 20px 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 24px; max-width: 62ch; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; }
+
+  /* Home */
+  .home { max-width: 760px; margin: 5vh auto 0; }
+  label.search { display: block; font-weight: 600; margin-bottom: 8px; }
+  input.search { width: 100%; padding: 14px 16px; font-size: 18px; border: 2px solid #b9c3ce; border-radius: 10px; background: #fff; }
+  input.search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .results { margin-top: 8px; border: 1px solid var(--line); border-radius: 10px; background: #fff; overflow: hidden; }
+  .results a { display: block; padding: 10px 16px; text-decoration: none; color: var(--ink); border-top: 1px solid var(--line); }
+  .results a:first-child { border-top: 0; }
+  .results a:hover, .results a.first { background: var(--accent-soft); }
+  .results .sub { display: block; font-size: 14px; color: var(--muted); }
+  .results .none { padding: 12px 16px; color: var(--muted); }
+  .topics { display: flex; flex-wrap: wrap; gap: 10px; }
+  .topic-btn { display: inline-block; padding: 10px 16px; background: #fff; border: 1px solid #b9c3ce; border-radius: 999px; text-decoration: none; color: var(--ink); font-weight: 600; }
+  .topic-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* Topic page */
+  .back { display: inline-block; margin-bottom: 12px; font-size: 15px; }
+  .measured { margin: 0 0 6px; }
+  .measured .code, .code { font-size: 13px; color: var(--muted); font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .summary { margin: 12px 0 0; padding: 12px 14px; background: var(--accent-soft); border-radius: 8px; }
+  .thin-msg { margin: 12px 0 0; padding: 12px 14px; background: var(--thin-bg); border-left: 4px solid var(--thin); border-radius: 4px; font-weight: 600; }
+  .cols { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 20px; margin-top: 20px; align-items: start; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  .side { position: sticky; top: 12px; display: grid; gap: 20px; max-height: calc(100vh - 24px); overflow: auto; }
+  @media (max-width: 900px) { .side { position: static; max-height: none; } }
+  .list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+  .sec { margin-top: 18px; }
+  .sec h2 { margin-bottom: 2px; }
+  .toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; cursor: pointer; user-select: none; }
+  .toggle input { width: 18px; height: 18px; }
+  .note { font-size: 14px; color: var(--muted); margin: 4px 0 12px; }
+  .rows { list-style: none; margin: 0; padding: 0; }
+  .row { display: block; width: 100%; text-align: left; background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; margin-bottom: 8px; cursor: pointer; }
+  .row:hover { border-color: var(--accent); }
+  .row.on { border-color: var(--accent); box-shadow: inset 4px 0 0 var(--accent); background: #fbfdff; }
+  .row .top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+  .row .name { font-weight: 650; font-size: 17px; }
+  .row .ind { display: block; margin-top: 4px; font-size: 14.5px; color: var(--ink); }
+  .row .ind .ds { color: var(--muted); }
+  .pill, .tag { display: inline-block; font-size: 13px; padding: 1px 9px; border-radius: 999px; white-space: nowrap; }
+  .pill.strong { color: var(--strong); background: var(--strong-bg); }
+  .pill.moderate { color: var(--moderate); background: var(--moderate-bg); }
+  .pill.thin { color: var(--thin); background: var(--thin-bg); }
+  .pill.big { font-size: 14px; padding: 3px 12px; font-weight: 600; vertical-align: middle; margin-left: 8px; }
+  .tag.diff { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+  .tag.gap { color: var(--gap); background: var(--gap-bg); }
+  .tags { margin-top: 6px; display: flex; gap: 6px; flex-wrap: wrap; }
+
+  /* Evidence panel and list */
+  .panel h2 { margin-bottom: 4px; }
+  .panel .count { font-size: 15px; color: var(--muted); margin: 0 0 12px; }
+  .indbox { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: #fafbfc; }
+  .indbox .nm { font-weight: 600; }
+  .btn { display: inline-block; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; font-weight: 600; cursor: pointer; }
+  .btn:hover { filter: brightness(1.08); }
+  .btn.ghost { background: #fff; color: var(--accent); }
+  .btn[disabled] { background: #e8ecf0; border-color: #d3d9e0; color: var(--muted); cursor: default; filter: none; }
+  .btn.small { padding: 4px 10px; font-size: 14px; }
+  .findings, .papers, .mylist { list-style: none; margin: 0; padding: 0; }
+  .findings li { padding: 8px 0; border-top: 1px solid var(--line); font-size: 15px; }
+  .findings li:first-child, .papers li:first-child { border-top: 0; }
+  .findings .stat { display: block; color: var(--muted); font-size: 14px; }
+  .papers li { padding: 7px 0; border-top: 1px solid var(--line); font-size: 15px; }
+  .papers .meta { display: block; font-size: 13.5px; color: var(--muted); }
+  .empty { color: var(--muted); margin: 0; }
+  .mylist li { display: flex; gap: 10px; justify-content: space-between; align-items: flex-start; padding: 8px 0; border-top: 1px solid var(--line); font-size: 15px; }
+  .mylist li:first-child { border-top: 0; }
+  .mylist .meta { display: block; font-size: 13.5px; color: var(--muted); }
+  .list-foot { margin-top: 12px; }
+  footer { margin-top: 36px; font-size: 13.5px; color: var(--muted); max-width: 80ch; }
+  :focus-visible { outline: 3px solid #f2a900; outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="site">
+    <a class="brand" href="#/">Jobs evidence finder</a>
+    <a class="mylink" id="mylink" href="#/" hidden></a>
+  </div>
+  <main id="view"></main>
+  <footer id="foot"></footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+  var DATA = window.CAMOX_DATA;
+  var view = document.getElementById("view");
+  var state = { mostStudied: false, showAllPapers: false };
+  var LIST_KEY = "camox-my-list";
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+  function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+  function datasetName(key) {
+    var d = DATA.datasets[key];
+    if (!d) return key;
+    return d.short ? d.name + " (" + d.short + ")" : d.name;
+  }
+  function topicById(id) { return DATA.topics.filter(function (t) { return t.id === id; })[0]; }
+  function studiesText(n) { return plural(n, "study", "studies"); }
+
+  /* ---- my list (kept in this browser only) ---- */
+  function loadList() {
+    try { return JSON.parse(localStorage.getItem(LIST_KEY)) || []; } catch (e) { return state.memList || []; }
+  }
+  function saveList(items) {
+    state.memList = items;
+    try { localStorage.setItem(LIST_KEY, JSON.stringify(items)); } catch (e) { /* private window: keep in memory */ }
+  }
+  function listKey(topic, link) { return topic.id + "::" + link.id; }
+  function inList(key) { return loadList().some(function (i) { return i.key === key; }); }
+  function addToList(topic, link) {
+    var items = loadList();
+    if (!link.indicator || inList(listKey(topic, link))) return;
+    items.push({
+      key: listKey(topic, link), code: link.indicator.code, name: link.indicator.name,
+      dataset: datasetName(link.indicator.dataset), topic: topic.name, concept: link.name,
+      tier: link.tier, studies: link.studies
+    });
+    saveList(items);
+  }
+  function removeFromList(key) { saveList(loadList().filter(function (i) { return i.key !== key; })); }
+  function csvCell(v) { v = String(v == null ? "" : v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  function downloadCsv() {
+    var rows = [["indicator_code", "indicator_name", "dataset", "topic", "linked_concept", "evidence_tier", "study_count"]];
+    loadList().forEach(function (i) { rows.push([i.code, i.name, i.dataset, i.topic, i.concept, i.tier, i.studies]); });
+    var csv = rows.map(function (r) { return r.map(csvCell).join(","); }).join("\r\n") + "\r\n";
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    a.download = "jobs-indicators.csv";
+    document.body.appendChild(a); a.click(); a.remove();
+  }
+
+  /* ---- search: topics, linked concepts and indicator names together ---- */
+  var INDEX = [];
+  function buildIndex() {
+    DATA.topics.forEach(function (t) {
+      var c = t.concept || {};
+      INDEX.push({
+        kind: "topic", href: "#/t/" + t.id, label: t.name,
+        sub: t.indicator ? "Topic · measured by " + t.indicator.name : "Topic",
+        text: [t.name, c.label, (c.aliases || []).join(" "), t.indicator && t.indicator.name].join(" ").toLowerCase()
+      });
+      t.links.forEach(function (l) {
+        INDEX.push({
+          kind: "link", href: "#/t/" + t.id + "/" + encodeURIComponent(l.id), label: l.name,
+          sub: (l.direction === "out" ? t.name + " → " + l.name : l.name + " → " + t.name) + " · " + studiesText(l.studies) + " · " +
+            (l.indicator ? l.indicator.name : "Not in World Bank data"),
+          text: [l.name, (l.aliases || []).join(" "), l.indicator && l.indicator.name].join(" ").toLowerCase()
+        });
+      });
+    });
+  }
+  function search(q) {
+    var words = q.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return [];
+    var hits = INDEX.filter(function (e) { return words.every(function (w) { return e.text.indexOf(w) !== -1; }); });
+    hits.sort(function (a, b) {
+      var ka = (a.kind === "topic" ? 0 : 2) + (a.label.toLowerCase().indexOf(words[0]) === 0 ? 0 : 1);
+      var kb = (b.kind === "topic" ? 0 : 2) + (b.label.toLowerCase().indexOf(words[0]) === 0 ? 0 : 1);
+      return ka - kb;
+    });
+    return hits.slice(0, 10);
+  }
+
+  /* ---- home ---- */
+  function renderHome() {
+    var groups = DATA.groups.map(function (g) {
+      var ts = DATA.topics.filter(function (t) { return t.group === g; });
+      if (!ts.length) return "";
+      return "<h3>" + esc(g) + '</h3><div class="topics">' + ts.map(function (t) {
+        return '<a class="topic-btn" href="#/t/' + esc(t.id) + '">' + esc(t.name) + "</a>";
+      }).join("") + "</div>";
+    }).join("");
+    view.innerHTML =
+      '<div class="home">' +
+      "<h1>What does research link a jobs topic to?</h1>" +
+      '<p class="lead">Pick a topic to see what published studies link it to, and which World Bank indicators measure each link.</p>' +
+      '<label class="search" for="q">Search a jobs topic</label>' +
+      '<input class="search" id="q" type="search" autocomplete="off" placeholder="For example: internet">' +
+      '<div id="results"></div>' + groups + "</div>";
+    var q = document.getElementById("q");
+    var box = document.getElementById("results");
+    function show() {
+      var term = q.value.trim();
+      if (!term) { box.innerHTML = ""; return; }
+      var hits = search(term);
+      box.innerHTML = '<div class="results">' + (hits.length ? hits.map(function (h, i) {
+        return '<a href="' + esc(h.href) + '"' + (i === 0 ? ' class="first"' : "") + ">" + esc(h.label) +
+          '<span class="sub">' + esc(h.sub) + "</span></a>";
+      }).join("") : '<div class="none">Nothing matches “' + esc(term) + "”. Try one of the topics below.</div>") + "</div>";
+    }
+    q.addEventListener("input", show);
+    q.addEventListener("keydown", function (e) {
+      if (e.key !== "Enter") return;
+      var hits = search(q.value.trim());
+      if (hits.length) location.hash = hits[0].href;
+    });
+    q.focus();
+  }
+
+  /* ---- topic page ---- */
+  function sortedLinks(links) {
+    links = links.slice();
+    links.sort(function (a, b) {
+      if (!state.mostStudied && a.different_dataset !== b.different_dataset) return a.different_dataset ? -1 : 1;
+      return b.studies - a.studies || a.name.localeCompare(b.name);
+    });
+    return links;
+  }
+  function tierRuleText() {
+    var r = DATA.tier_rule;
+    return "Strong: " + r.strong_min + " or more studies. Moderate: " + r.moderate_min + " to " + (r.strong_min - 1) +
+      ". Thin: fewer than " + r.moderate_min + ".";
+  }
+  function summaryLine(topic) {
+    var s = topic.summary;
+    if (!s || !topic.links.length) return "";
+    return '<p class="summary">' + esc(topic.name) + ": " + plural(s.linked_concepts, "linked concept", "linked concepts") +
+      " from " + studiesText(s.studies) + " → " + plural(s.indicators, "World Bank indicator", "World Bank indicators") +
+      " across " + plural(s.datasets, "dataset", "datasets") + ". " +
+      (s.outside === 1 ? "1 is" : s.outside + " are") + " outside the dataset you started in. " + s.not_found + " not found.</p>";
+  }
+  function rowHtml(topic, l, selectedId) {
+    var ind = l.indicator
+      ? '<span class="ind">' + esc(l.indicator.name) + ' <span class="ds">· ' + esc(datasetName(l.indicator.dataset)) + "</span></span>"
+      : "";
+    var tags = (l.different_dataset ? '<span class="tag diff">Different dataset</span>' : "") +
+      (!l.indicator ? '<span class="tag gap">Not in World Bank data</span>' : "");
+    return '<li><button class="row' + (l.id === selectedId ? " on" : "") + '" data-id="' + esc(l.id) + '">' +
+      '<span class="top"><span class="name">' + esc(cap(l.name)) + "</span>" +
+      '<span class="pill ' + l.tier + '">' + l.tier + " · " + studiesText(l.studies) + "</span></span>" +
+      ind + (tags ? '<span class="tags">' + tags + "</span>" : "") + "</button></li>";
+  }
+  function num(v) { return String(v); }
+  function findingHtml(f) {
+    var parts = [];
+    if (f.statistic_type) parts.push(esc(f.statistic_type) + ": " + esc(num(f.statistic_value)));
+    else parts.push("Value: " + esc(num(f.statistic_value)));
+    if (f.ci_lower != null && f.ci_upper != null) {
+      var level = f.ci_level != null ? (f.ci_level <= 1 ? f.ci_level * 100 : f.ci_level) : null;
+      parts.push((level != null ? +level.toFixed(2) + "% " : "") + "confidence interval " + esc(num(f.ci_lower)) + " to " + esc(num(f.ci_upper)));
+    }
+    if (f.p_value != null) parts.push("p " + esc(f.p_value_equality || "=") + " " + esc(num(f.p_value)));
+    return "<li>" + esc(cap(f.variable_1_name || "?")) + " <span aria-hidden=\"true\">↔</span> " + esc(f.variable_2_name || "?") +
+      '<span class="stat">' + parts.join(" · ") + "</span></li>";
+  }
+  function paperHtml(p) {
+    var label = p.title || (p.doi ? "DOI " + p.doi : p.pubmed_id ? "PubMed " + p.pubmed_id : "Study " + p.study_id);
+    var meta = [p.first_author && p.first_author + " et al.", p.journal, p.year, p.study_type].filter(Boolean).join(" · ");
+    var main = p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(label) + "</a>" : esc(label);
+    return "<li>" + main + (meta ? '<span class="meta">' + esc(meta) + "</span>" : "") + "</li>";
+  }
+  function panelHtml(topic, l) {
+    if (!l) {
+      return '<div class="card panel"><h2>Evidence</h2><p class="empty">Select a linked concept to see the studies behind it.</p></div>';
+    }
+    var key = listKey(topic, l);
+    var added = inList(key);
+    var indicator = l.indicator
+      ? '<div class="indbox"><div class="nm">' + esc(l.indicator.name) + "</div>" +
+        "<div>" + esc(datasetName(l.indicator.dataset)) + ' <span class="code">' + esc(l.indicator.code) + "</span></div>" +
+        (l.different_dataset ? '<div class="tags"><span class="tag diff">Different dataset</span></div>' : "") +
+        '<div style="margin-top:10px"><button class="btn" id="add"' + (added ? " disabled" : "") + ">" +
+        (added ? "Added to my list" : "Add to my list") + "</button></div></div>"
+      : '<div class="indbox"><div class="nm">Not found in the World Bank datasets we checked</div>' +
+        "<div>The data may exist elsewhere. This is a gap to flag.</div></div>";
+    var findings = l.findings.length
+      ? '<ul class="findings">' + l.findings.map(findingHtml).join("") + "</ul>"
+      : '<p class="empty">' + (l.evidence_saved ? "No finding with a reported effect size was saved for this link." : "Findings were not saved for this link.") + "</p>";
+    var shown = state.showAllPapers ? l.papers : l.papers.slice(0, 6);
+    var papers = l.papers.length
+      ? '<ul class="papers">' + shown.map(paperHtml).join("") + "</ul>" +
+        (l.papers.length > shown.length ? '<p style="margin:8px 0 0"><button class="btn ghost small" id="morepapers">Show all ' + l.papers.length + " papers</button></p>" : "")
+      : '<p class="empty">No papers were saved for this link.</p>';
+    return '<div class="card panel" id="panel">' +
+      "<h2>" + esc(cap(l.name)) + "</h2>" +
+      '<p class="count"><strong>' + studiesText(l.studies) + "</strong> " + (l.studies === 1 ? "links " : "link ") +
+      esc(l.direction === "out" ? topic.name.toLowerCase() + " to " + l.name : l.name + " to " + topic.name.toLowerCase()) + " · " +
+      '<span class="pill ' + l.tier + '">' + l.tier + " evidence</span></p>" +
+      (l.description ? '<p class="note" style="margin-top:-6px">' + esc(cap(l.description)) + "</p>" : "") +
+      "<h3>World Bank indicator</h3>" + indicator +
+      "<h3>Findings</h3>" + (l.findings.length && l.findings_count > l.findings.length
+        ? '<p class="note" style="margin:0 0 4px">' + l.findings.length + " of " + l.findings_count + " findings shown.</p>" : "") + findings +
+      "<h3>Papers</h3>" + papers + "</div>";
+  }
+  function listHtml() {
+    var items = loadList();
+    return '<div class="card" id="mylist"><h2>My list</h2>' +
+      (items.length
+        ? '<ul class="mylist" style="margin-top:8px">' + items.map(function (i) {
+            return "<li><span>" + esc(i.name) + '<span class="meta">' + esc(i.dataset) + " · linked concept: " + esc(i.concept) +
+              " (" + esc(i.topic) + ")</span></span>" +
+              '<button class="btn ghost small" data-remove="' + esc(i.key) + '" aria-label="Remove ' + esc(i.name) + '">Remove</button></li>';
+          }).join("") + "</ul>" +
+          '<div class="list-foot"><button class="btn" id="csv">Download CSV</button></div>'
+        : '<p class="empty" style="margin-top:2px">Nothing added yet. Select a linked concept, then choose “Add to my list”.</p>') +
+      "</div>";
+  }
+  function sectionHtml(topic, dir, selectedId) {
+    var links = topic.links.filter(function (l) { return l.direction === dir; });
+    var lower = topic.name.toLowerCase();
+    var title = dir === "in" ? "What affects " + lower : "What " + lower + " affects";
+    var total = topic.total_links[dir];
+    if (!links.length) {
+      return '<section class="sec" id="sec-' + dir + '"><h2>' + esc(title) + '</h2><p class="note">No studies in the research graph.</p></section>';
+    }
+    var note = links.length < total ? "Showing " + links.length + " of " + total + " linked concepts: the " +
+      DATA.tier_rule.per_direction + " most studied, plus any others with a World Bank indicator." : plural(total, "linked concept", "linked concepts") + ".";
+    return '<section class="sec" id="sec-' + dir + '"><h2>' + esc(title) + '</h2><p class="note">' + esc(note) + "</p>" +
+      '<ul class="rows">' + sortedLinks(links).map(function (l) { return rowHtml(topic, l, selectedId); }).join("") + "</ul></section>";
+  }
+  function renderTopic(topic, selectedId) {
+    var selected = topic.links.filter(function (l) { return l.id === selectedId; })[0];
+    var measured = topic.indicator
+      ? '<p class="measured">Measured by <strong>' + esc(topic.indicator.name) + "</strong> · " + esc(datasetName(topic.indicator.dataset)) +
+        ' <span class="code">' + esc(topic.indicator.code) + "</span></p>"
+      : '<p class="measured">No World Bank indicator found in the datasets we checked.</p>';
+    if (topic.concept && topic.concept.label.toLowerCase() !== topic.name.toLowerCase()) {
+      measured += '<p class="measured">Closest concept in the research graph: <strong>' + esc(topic.concept.label) + "</strong>" +
+        (topic.concept.description ? " (" + esc(topic.concept.description) + ")" : "") + "</p>";
+    }
+    var thin = topic.evidence === "thin" ? '<p class="thin-msg">Few studies link to this. The evidence runs out here.</p>' : "";
+    // Outcomes lead with what affects them; the pillars lead with what they affect.
+    var order = topic.group === "Job outcomes" ? ["in", "out"] : ["out", "in"];
+    var list = topic.links.length
+      ? '<div class="list-head"><p class="note" style="margin:0">' + esc(tierRuleText()) + "</p>" +
+        '<label class="toggle"><input type="checkbox" id="most"' + (state.mostStudied ? " checked" : "") + "> Most studied</label></div>" +
+        '<p class="note">The direction is the one recorded in the research graph: which way the studies looked. It is an association, not proof that one leads to the other.</p>' +
+        order.map(function (d) { return sectionHtml(topic, d, selectedId); }).join("")
+      : '<h2>Linked to ' + esc(topic.name.toLowerCase()) + '</h2><p class="note">No linked concepts were found in the research graph.</p>';
+    view.innerHTML =
+      '<a class="back" href="#/">← All topics</a>' +
+      '<div class="card"><h1>' + esc(topic.name) + '<span class="pill big ' + topic.evidence + '">' + cap(topic.evidence) + " evidence</span></h1>" +
+      measured + summaryLine(topic) + thin + "</div>" +
+      '<div class="cols"><div>' + list + '</div><aside class="side">' + listHtml() + panelHtml(topic, selected) + "</aside></div>";
+
+    Array.prototype.forEach.call(view.querySelectorAll(".row"), function (b) {
+      b.addEventListener("click", function () {
+        state.showAllPapers = false;
+        state.keepScroll = true;
+        location.hash = "#/t/" + topic.id + "/" + encodeURIComponent(b.getAttribute("data-id"));
+      });
+    });
+    var most = document.getElementById("most");
+    if (most) most.addEventListener("change", function () { state.mostStudied = most.checked; state.keepScroll = true; route(); });
+    var add = document.getElementById("add");
+    if (add) add.addEventListener("click", function () { addToList(topic, selected); state.keepScroll = true; route(); });
+    var more = document.getElementById("morepapers");
+    if (more) more.addEventListener("click", function () { state.showAllPapers = true; state.keepScroll = true; route(); });
+    bindList();
+    if (selected && window.matchMedia("(max-width: 900px)").matches) document.getElementById("panel").scrollIntoView({ block: "start" });
+  }
+  function bindList() {
+    Array.prototype.forEach.call(view.querySelectorAll("[data-remove]"), function (b) {
+      b.addEventListener("click", function () { removeFromList(b.getAttribute("data-remove")); state.keepScroll = true; route(); });
+    });
+    var csv = document.getElementById("csv");
+    if (csv) csv.addEventListener("click", downloadCsv);
+  }
+
+  /* ---- routing ---- */
+  function route() {
+    var y = window.scrollY, keep = state.keepScroll;
+    state.keepScroll = false;
+    var parts = location.hash.replace(/^#\/?/, "").split("/");
+    var topic = parts[0] === "t" ? topicById(parts[1]) : null;
+    if (topic) renderTopic(topic, parts[2] ? decodeURIComponent(parts[2]) : null);
+    else renderHome();
+    window.scrollTo(0, keep ? y : 0);
+    var n = loadList().length, link = document.getElementById("mylink");
+    link.hidden = true;
+    if (!topic && n) { link.hidden = false; link.textContent = "My list: " + plural(n, "indicator", "indicators"); link.href = "#/t/" + DATA.topics[0].id; }
+    document.title = (topic ? topic.name + " · " : "") + "Jobs evidence finder";
+  }
+
+  if (!DATA || !DATA.topics) {
+    view.innerHTML = '<div class="card"><h1>No data yet</h1><p>Run <code>python scripts/pipeline.py build</code> to create <code>app/data.js</code>.</p></div>';
+    return;
+  }
+  document.getElementById("foot").innerHTML =
+    "Research links come from the System Public Graph (CC BY-NC 4.0). A link means studies report a statistical association, nothing more. " +
+    "Indicator names come from the World Bank Indicators API. Datasets checked: " +
+    Object.keys(DATA.datasets).map(datasetName).map(esc).join(", ") + ". Everything on this page is read from files saved on " +
+    esc((DATA.generated_at || "").slice(0, 10)) + "; no network is used.";
+  buildIndex();
+  window.addEventListener("hashchange", route);
+  route();
+})();
+</script>
+</body>
+</html>

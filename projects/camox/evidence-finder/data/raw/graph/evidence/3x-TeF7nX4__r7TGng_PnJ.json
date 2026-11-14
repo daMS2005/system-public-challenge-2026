@@ -1,0 +1,64 @@
+{
+ "relationship_id": "3x-TeF7nX4|r7TGng_PnJ",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "xua5EEf9JG",
+    "pubmed_id": "27456329",
+    "study_id": "yjIBcatldu",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.57",
+    "ci_level": "0.95",
+    "ci_lower": "1.28",
+    "ci_upper": "1.92",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "2V2gTYtUBr",
+    "variable_2_id": "XguWH47XPa",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q64754219",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "r7TGng_PnJ",
+    "variable_1_name": "unemployed with no status change",
+    "variable_2_name": "catastrophic health expenditure (CHE)"
+   },
+   {
+    "system_id": "n2vUJK9Kjz",
+    "pubmed_id": "27456329",
+    "study_id": "yjIBcatldu",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.67",
+    "ci_level": "0.95",
+    "ci_lower": "1.29",
+    "ci_upper": "2.16",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "qXyC2xOSuF",
+    "variable_2_id": "XguWH47XPa",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q64754219",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "r7TGng_PnJ",
+    "variable_1_name": "low-income families with members who were already unemployed",
+    "variable_2_name": "catastrophic health expenditure (CHE)"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "yjIBcatldu",
+    "doi": "10.1136/bmjopen-2016-011747",
+    "pubmed_id": "27456329",
+    "population": "5335 households in South Korea from 2009-2012.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

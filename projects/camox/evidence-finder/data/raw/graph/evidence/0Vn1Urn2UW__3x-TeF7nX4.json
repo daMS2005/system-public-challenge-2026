@@ -1,0 +1,71 @@
+{
+ "relationship_id": "0Vn1Urn2UW|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "riEsCBauuO",
+    "pubmed_id": null,
+    "study_id": "YVfyNBiL0w",
+    "statistic_type": "correlation",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.1089",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "38F6uS3q9U",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q35865",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "0Vn1Urn2UW",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "inflation rate",
+    "variable_2_name": "unemployment rate"
+   },
+   {
+    "system_id": "01-C6yA5SI",
+    "pubmed_id": null,
+    "study_id": "Sg7VluY9LW",
+    "statistic_type": "Pearson correlation coefficient",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.059",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.12",
+    "p_value_equality": "=",
+    "variable_1_id": "8h2pBNA69t",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q35865",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "0Vn1Urn2UW",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "inflation",
+    "variable_2_name": "unemployment rate"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "YVfyNBiL0w",
+    "doi": "10.15294/edaj.v9i2.38389",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "Sg7VluY9LW",
+    "doi": "10.35137/kijms.v1i2.708",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

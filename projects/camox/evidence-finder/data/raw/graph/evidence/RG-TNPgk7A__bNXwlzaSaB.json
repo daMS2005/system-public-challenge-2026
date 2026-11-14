@@ -1,0 +1,92 @@
+{
+ "relationship_id": "RG-TNPgk7A|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "vzEnYyNnpV",
+    "pubmed_id": "23666321",
+    "study_id": "pcNF_C3NzY",
+    "statistic_type": "odds ratio (OR)",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.73",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.002",
+    "p_value_equality": null,
+    "variable_1_id": "6yh9vXY-zf",
+    "variable_2_id": "yHHqopbEo_",
+    "variable_1_wikidata_id": "Q66970328",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "RG-TNPgk7A",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "moderate physical activity",
+    "variable_2_name": "problematic Internet use"
+   },
+   {
+    "system_id": "wlN_vBYKDM",
+    "pubmed_id": "16232037",
+    "study_id": "hFHZxDKn5A",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.2",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.05",
+    "p_value_equality": null,
+    "variable_1_id": "syKnPuxx07",
+    "variable_2_id": "oZ1hnvwXZ4",
+    "variable_1_wikidata_id": "Q66970328",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "RG-TNPgk7A",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "more physical activity",
+    "variable_2_name": "at school ever Internet use"
+   },
+   {
+    "system_id": "52mIEqmlv7",
+    "pubmed_id": "23666321",
+    "study_id": "pcNF_C3NzY",
+    "statistic_type": "odds ratio (OR)",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.77",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.003",
+    "p_value_equality": null,
+    "variable_1_id": "5fkA2lsrFs",
+    "variable_2_id": "yHHqopbEo_",
+    "variable_1_wikidata_id": "Q66970328",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "RG-TNPgk7A",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "mild physical activity",
+    "variable_2_name": "problematic Internet use"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "pcNF_C3NzY",
+    "doi": "10.1097/adm.0b013e3182926b1f",
+    "pubmed_id": "23666321",
+    "population": "2298 students aged 12-25 from public and private schools and universities in Doha, Qatar.",
+    "study_type": null
+   },
+   {
+    "study_id": "hFHZxDKn5A",
+    "doi": "10.1089/cpb.2005.8.441",
+    "pubmed_id": "16232037",
+    "population": "2373 7th grade students of various ethnic groups in Southern California.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

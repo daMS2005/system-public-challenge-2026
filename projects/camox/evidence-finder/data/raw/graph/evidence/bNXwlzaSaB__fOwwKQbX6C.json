@@ -1,0 +1,43 @@
+{
+ "relationship_id": "bNXwlzaSaB|fOwwKQbX6C",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "SOxwk2DJMF",
+    "pubmed_id": "18775824",
+    "study_id": "fEFBnRqmmw",
+    "statistic_type": "mean_difference_unstandardized",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "27.0",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "IrBlKINxo7",
+    "variable_2_id": "v7EoLIl1_K",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q1472399",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "fOwwKQbX6C",
+    "variable_1_name": "Percentage of patients with Internet access in 2006 (after intervention) [vs Percentage of patients with Internet access in 2000 (prior to any intervention)]",
+    "variable_2_name": "Access to the Internet"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "fEFBnRqmmw",
+    "doi": "10.1177/1081180x08092828",
+    "pubmed_id": "18775824",
+    "population": "204 and 209 patients attending an ENT clinic.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

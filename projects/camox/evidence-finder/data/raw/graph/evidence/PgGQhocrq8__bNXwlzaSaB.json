@@ -1,0 +1,113 @@
+{
+ "relationship_id": "PgGQhocrq8|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "VvKjez_XhM",
+    "pubmed_id": "16585026",
+    "study_id": "Bf0RMCLuEE",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.94",
+    "ci_level": "0.95",
+    "ci_lower": "1.01",
+    "ci_upper": "3.79",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "YyJrr70wvx",
+    "variable_2_id": "sMYmHL7IZq",
+    "variable_1_wikidata_id": "Q39631",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "PgGQhocrq8",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "practice size (> 50 physicians)",
+    "variable_2_name": "email use with patients"
+   },
+   {
+    "system_id": "apxWHQIowj",
+    "pubmed_id": "21447468",
+    "study_id": "hTPTCwy5Va",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.48",
+    "ci_level": "0.95",
+    "ci_lower": "1.12",
+    "ci_upper": "1.95",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "fPI7c96CTb",
+    "variable_2_id": "sMYmHL7IZq",
+    "variable_1_wikidata_id": "Q39631",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "PgGQhocrq8",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "physician characteristics",
+    "variable_2_name": "email use with patients"
+   },
+   {
+    "system_id": "xWn7_z2RzV",
+    "pubmed_id": "21447468",
+    "study_id": "hTPTCwy5Va",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.43",
+    "ci_level": "0.95",
+    "ci_lower": "1.12",
+    "ci_upper": "1.84",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "fPI7c96CTb",
+    "variable_2_id": "sMYmHL7IZq",
+    "variable_1_wikidata_id": "Q39631",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "PgGQhocrq8",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "physician characteristics",
+    "variable_2_name": "email use with patients"
+   },
+   {
+    "system_id": "n66f1MzHlf",
+    "pubmed_id": "21447468",
+    "study_id": "hTPTCwy5Va",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.76",
+    "ci_level": "0.95",
+    "ci_lower": "1.3",
+    "ci_upper": "2.37",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "fPI7c96CTb",
+    "variable_2_id": "sMYmHL7IZq",
+    "variable_1_wikidata_id": "Q39631",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "PgGQhocrq8",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "physician characteristics",
+    "variable_2_name": "email use with patients"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "Bf0RMCLuEE",
+    "doi": "10.2196/jmir.8.1.e2",
+    "pubmed_id": "16585026",
+    "population": "4203 physicians practicing in ambulatory settings in the state of Florida.",
+    "study_type": null
+   },
+   {
+    "study_id": "hTPTCwy5Va",
+    "doi": "10.2196/jmir.1578",
+    "pubmed_id": "21447468",
+    "population": "Physicians practicing in the outpatient setting in Florida in 2005 and 2008.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

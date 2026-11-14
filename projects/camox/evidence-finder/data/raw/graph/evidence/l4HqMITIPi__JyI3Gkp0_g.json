@@ -1,0 +1,64 @@
+{
+ "relationship_id": "l4HqMITIPi|JyI3Gkp0_g",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "j9Bcccz--X",
+    "pubmed_id": "34111127",
+    "study_id": "y7fn8yXFdZ",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.548",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "N-csZF-fOd",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q423243",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "JyI3Gkp0_g",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "activities of daily living"
+   },
+   {
+    "system_id": "1ptsS_s9XF",
+    "pubmed_id": "34111127",
+    "study_id": "y7fn8yXFdZ",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.359",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.034",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "2I_mTDFxeT",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q423243",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "JyI3Gkp0_g",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "instrumental activities of daily living (IADL)"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "y7fn8yXFdZ",
+    "doi": "10.1371/journal.pone.0252007",
+    "pubmed_id": "34111127",
+    "population": "1,201 Ghanaian adults aged 50 and over with an average age of 66.5 years, 63.3% female.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

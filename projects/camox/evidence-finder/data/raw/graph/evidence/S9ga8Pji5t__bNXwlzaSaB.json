@@ -1,0 +1,113 @@
+{
+ "relationship_id": "S9ga8Pji5t|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "ct-5S7o5KW",
+    "pubmed_id": "20845203",
+    "study_id": "LjHEKdYZzC",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.7",
+    "ci_level": "0.95",
+    "ci_lower": "1.4",
+    "ci_upper": "1.9",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "kntPcY-G7I",
+    "variable_2_id": "Iq6dOFTZsG",
+    "variable_1_wikidata_id": "Q3097973",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "S9ga8Pji5t",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "health literacy",
+    "variable_2_name": "use of the internet-based patient portal"
+   },
+   {
+    "system_id": "a5JifkHfu_",
+    "pubmed_id": "39791663",
+    "study_id": "W4MlpNjZd0",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.08",
+    "ci_level": "0.95",
+    "ci_lower": "1.32",
+    "ci_upper": "3.26",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "e42aoxHZDr",
+    "variable_2_id": "IH_G3YPPNy",
+    "variable_1_wikidata_id": "Q3097973",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "S9ga8Pji5t",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Health Literacy",
+    "variable_2_name": "Internet use"
+   },
+   {
+    "system_id": "x8uTthpgeO",
+    "pubmed_id": "20845203",
+    "study_id": "LjHEKdYZzC",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.4",
+    "ci_level": "0.95",
+    "ci_lower": "1.2",
+    "ci_upper": "1.8",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "kntPcY-G7I",
+    "variable_2_id": "Iq6dOFTZsG",
+    "variable_1_wikidata_id": "Q3097973",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "S9ga8Pji5t",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "health literacy",
+    "variable_2_name": "use of the internet-based patient portal"
+   },
+   {
+    "system_id": "64fRUOm5Pb",
+    "pubmed_id": "39791663",
+    "study_id": "W4MlpNjZd0",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "3.09",
+    "ci_level": "0.95",
+    "ci_lower": "2.25",
+    "ci_upper": "4.24",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "e42aoxHZDr",
+    "variable_2_id": "IH_G3YPPNy",
+    "variable_1_wikidata_id": "Q3097973",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "S9ga8Pji5t",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Health Literacy",
+    "variable_2_name": "Internet use"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "LjHEKdYZzC",
+    "doi": "10.1080/10810730.2010.499988",
+    "pubmed_id": "20845203",
+    "population": "14,102 adults with diabetes from various ethnic backgrounds.",
+    "study_type": null
+   },
+   {
+    "study_id": "W4MlpNjZd0",
+    "doi": "10.3390/healthcare13010056",
+    "pubmed_id": "39791663",
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

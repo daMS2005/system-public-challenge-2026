@@ -1,0 +1,64 @@
+{
+ "relationship_id": "bNXwlzaSaB|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "MkPLBbFvmE",
+    "pubmed_id": null,
+    "study_id": "db-DysGbC4",
+    "statistic_type": "elasticity",
+    "system_statistic_type": "elasticity",
+    "statistic_value": "0.4898",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Eqwe6X-zm_",
+    "variable_2_id": "VDy7LjLw1J",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "proportion of internet users",
+    "variable_2_name": "open unemployment rate"
+   },
+   {
+    "system_id": "WS4c_SVu69",
+    "pubmed_id": null,
+    "study_id": "db-DysGbC4",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.4898",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Eqwe6X-zm_",
+    "variable_2_id": "VDy7LjLw1J",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "proportion of internet users",
+    "variable_2_name": "open unemployment rate"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "db-DysGbC4",
+    "doi": "10.11594/jesi.01.01.05",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

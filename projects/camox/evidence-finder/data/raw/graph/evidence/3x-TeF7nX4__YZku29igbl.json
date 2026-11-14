@@ -1,0 +1,43 @@
+{
+ "relationship_id": "3x-TeF7nX4|YZku29igbl",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "iFaC6YKdNd",
+    "pubmed_id": "21116697",
+    "study_id": "tZ4AkC-uRl",
+    "statistic_type": "coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.36",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "UcPJ1vGyx0",
+    "variable_2_id": "W5mb-SicB7",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q149086",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "YZku29igbl",
+    "variable_1_name": "unemployment rate",
+    "variable_2_name": "homicide"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "tZ4AkC-uRl",
+    "doi": "10.1007/s10900-010-9343-5",
+    "pubmed_id": "21116697",
+    "population": "Members of the Organization for Economic Cooperation and Development (OECD) aged 1-74, from 1996-1999.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "relationship_id": "bNXwlzaSaB|JxB_DrfKvK",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "0m8y1hMH3a",
+    "pubmed_id": "29642471",
+    "study_id": "-ToNQNux6I",
+    "statistic_type": "odds ratio (OR)",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.84",
+    "ci_level": "0.95",
+    "ci_lower": "0.73",
+    "ci_upper": "0.95",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "AxVU7CM25J",
+    "variable_2_id": "IIu00eCJTd",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q154430",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "JxB_DrfKvK",
+    "variable_1_name": "frequency of internet browsing",
+    "variable_2_name": "anxiety symptoms"
+   },
+   {
+    "system_id": "DyMq47KYFC",
+    "pubmed_id": "34512443",
+    "study_id": "5O2tbCAEgx",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.41",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "51OVz32bDd",
+    "variable_2_id": "IIu00eCJTd",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q154430",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "JxB_DrfKvK",
+    "variable_1_name": "Compulsive Internet Use Scale scores",
+    "variable_2_name": "anxiety symptoms"
+   },
+   {
+    "system_id": "GJvyXFLGRi",
+    "pubmed_id": "37841708",
+    "study_id": "7ngd-TlMaX",
+    "statistic_type": "correlation",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.333",
+    "ci_level": "0.95",
+    "ci_lower": "0.292",
+    "ci_upper": "0.373",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "6nmWg_5PI5",
+    "variable_2_id": "MVUMe5zUJm",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q154430",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "JxB_DrfKvK",
+    "variable_1_name": "Problematic Internet Use",
+    "variable_2_name": "social anxiety"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "-ToNQNux6I",
+    "doi": "10.3390/ijerph15040697",
+    "pubmed_id": "29642471",
+    "population": "785 university students of both genders from Serbia and Italy.",
+    "study_type": null
+   },
+   {
+    "study_id": "5O2tbCAEgx",
+    "doi": "10.3389/fpsyg.2021.685137",
+    "pubmed_id": "34512443",
+    "population": "524 medical students and resident doctors in Lithuania between December 2020 and February 2021.",
+    "study_type": null
+   },
+   {
+    "study_id": "7ngd-TlMaX",
+    "doi": "10.3389/fpubh.2023.1275723",
+    "pubmed_id": "37841708",
+    "population": "Adolescents and young adults aged 14-24 years old.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "relationship_id": "BoUHlpFrWF|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "elGjR7cx6X",
+    "pubmed_id": "20429979",
+    "study_id": "n24lz39jDP",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.41",
+    "ci_level": "0.95",
+    "ci_lower": "1.66",
+    "ci_upper": "3.5",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "moB5PbsEOV",
+    "variable_2_id": "i2TE73LuY4",
+    "variable_1_wikidata_id": "Q4145472",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "BoUHlpFrWF",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "urban location (location in urban area)",
+    "variable_2_name": "health-related internet use"
+   },
+   {
+    "system_id": "n_SMb34U1l",
+    "pubmed_id": "30732860",
+    "study_id": "NiA4aU-Bj3",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.6",
+    "ci_level": "0.95",
+    "ci_lower": "0.41",
+    "ci_upper": "0.89",
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "01fB4sRKFr",
+    "variable_2_id": "7TVbVKEPQ4",
+    "variable_1_wikidata_id": "Q4145472",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "BoUHlpFrWF",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Location (Urban vs. Rural)",
+    "variable_2_name": "belief that frequent Internet use could affect health"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "n24lz39jDP",
+    "doi": "10.14236/jhi.v18i1.754",
+    "pubmed_id": "20429979",
+    "population": "Veterans in the United States.",
+    "study_type": null
+   },
+   {
+    "study_id": "NiA4aU-Bj3",
+    "doi": "10.1016/j.addbeh.2019.01.043",
+    "pubmed_id": "30732860",
+    "population": "Vietnamese youth between 16 and 30 years old.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

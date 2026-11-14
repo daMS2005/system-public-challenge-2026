@@ -1,0 +1,71 @@
+{
+ "relationship_id": "bNXwlzaSaB|BoUHlpFrWF",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "-OzH5-Izzz",
+    "pubmed_id": "40437422",
+    "study_id": "2SGkat2Sfx",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.217",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "oDHEnrOdVz",
+    "variable_2_id": "a9gV0z_0LG",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q4145472",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "BoUHlpFrWF",
+    "variable_1_name": "internet usage",
+    "variable_2_name": "other expenditures in urban areas"
+   },
+   {
+    "system_id": "TzEW_IQUGI",
+    "pubmed_id": "37768721",
+    "study_id": "-sD6vlOz4F",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.027",
+    "ci_level": null,
+    "ci_lower": "-0.043",
+    "ci_upper": "-0.009",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "BQtViWJh4g",
+    "variable_2_id": "XV7--zc3_c",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q4145472",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "BoUHlpFrWF",
+    "variable_1_name": "internet use",
+    "variable_2_name": "urban-rural status"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "2SGkat2Sfx",
+    "doi": "10.1186/s12889-025-23195-0",
+    "pubmed_id": "40437422",
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "-sD6vlOz4F",
+    "doi": "10.2196/45343",
+    "pubmed_id": "37768721",
+    "population": "8223 older adults in China selected from the China Health and Retirement Longitudinal Study 2018 data set.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

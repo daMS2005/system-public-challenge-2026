@@ -1,0 +1,71 @@
+{
+ "relationship_id": "3x-TeF7nX4|7xpZryeSKE",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "f9H0TNOs3U",
+    "pubmed_id": "34170917",
+    "study_id": "krm7qUSavo",
+    "statistic_type": "Adjusted Odds Ratio (aOR)",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "2.25",
+    "ci_level": "0.95",
+    "ci_lower": "1.24",
+    "ci_upper": "4.08",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "jFy_oLzLnF",
+    "variable_2_id": "vKb6g2M6MO",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12156",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "7xpZryeSKE",
+    "variable_1_name": "pensioners/unemployed persons",
+    "variable_2_name": "symptomatic malaria"
+   },
+   {
+    "system_id": "bhCgGgrbRm",
+    "pubmed_id": "30227677",
+    "study_id": "uVhTfWm7bP",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.74",
+    "ci_level": "0.95",
+    "ci_lower": "1.24",
+    "ci_upper": "2.21",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "5YsGs-OF5W",
+    "variable_2_id": "wHvYYPYYQI",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12156",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "7xpZryeSKE",
+    "variable_1_name": "being unemployed",
+    "variable_2_name": "positivity to malaria test"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "krm7qUSavo",
+    "doi": "10.1371/journal.pone.0252690",
+    "pubmed_id": "34170917",
+    "population": "770 febrile individuals reporting to 6 health facilities and testing positive by rapid diagnostic test (RDT) between February 2015 and April 2016, and 641 febrile individuals testing negative by RDT at the same health facilities through June 2016.",
+    "study_type": null
+   },
+   {
+    "study_id": "uVhTfWm7bP",
+    "doi": "10.3390/ijerph15092032",
+    "pubmed_id": "30227677",
+    "population": "701 adult HIV patients admitted to the health center Sa\u0303o Lucas of Beira, Mozambique from January 2016 to December 2016.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

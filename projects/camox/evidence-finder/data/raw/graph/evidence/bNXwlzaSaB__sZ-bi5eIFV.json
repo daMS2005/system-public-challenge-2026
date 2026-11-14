@@ -1,0 +1,64 @@
+{
+ "relationship_id": "bNXwlzaSaB|sZ-bi5eIFV",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "75Ey1r8oZR",
+    "pubmed_id": null,
+    "study_id": "3jMTFJXnCS",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.077",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.05",
+    "p_value_equality": "<",
+    "variable_1_id": "i2x5zh1d4N",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "individuals using the internet",
+    "variable_2_name": "economic growth"
+   },
+   {
+    "system_id": "m_OUCvanXD",
+    "pubmed_id": null,
+    "study_id": "3jMTFJXnCS",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.077",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "i2x5zh1d4N",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "individuals using the internet",
+    "variable_2_name": "economic growth"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "3jMTFJXnCS",
+    "doi": "10.1109/icetas51660.2020.9484213",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

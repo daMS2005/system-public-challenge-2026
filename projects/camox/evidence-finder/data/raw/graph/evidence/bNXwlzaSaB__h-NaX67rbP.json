@@ -1,0 +1,120 @@
+{
+ "relationship_id": "bNXwlzaSaB|h-NaX67rbP",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "VsGB2MuP6l",
+    "pubmed_id": "32595291",
+    "study_id": "HElwEOlBva",
+    "statistic_type": "adjusted odds ratio (AOR)",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.63",
+    "ci_level": "0.95",
+    "ci_lower": "1.54",
+    "ci_upper": "1.72",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "yHHqopbEo_",
+    "variable_2_id": "2Wwl6ohbBm",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q70359543",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "h-NaX67rbP",
+    "variable_1_name": "problematic Internet use",
+    "variable_2_name": "perception of oral health"
+   },
+   {
+    "system_id": "-iDKKVoL1Q",
+    "pubmed_id": "39127613",
+    "study_id": "2T9qroh6ot",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.35",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "6nmWg_5PI5",
+    "variable_2_id": "RGie-ewnLx",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q70359543",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "h-NaX67rbP",
+    "variable_1_name": "Problematic Internet Use",
+    "variable_2_name": "oral health-related quality of life"
+   },
+   {
+    "system_id": "p-mnKc-ixj",
+    "pubmed_id": "39127613",
+    "study_id": "2T9qroh6ot",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.29",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "6nmWg_5PI5",
+    "variable_2_id": "RGie-ewnLx",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q70359543",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "h-NaX67rbP",
+    "variable_1_name": "Problematic Internet Use",
+    "variable_2_name": "oral health-related quality of life"
+   },
+   {
+    "system_id": "JPPlrFkwVB",
+    "pubmed_id": "34980110",
+    "study_id": "2oXrmED4EZ",
+    "statistic_type": "Spearman correlation coefficient",
+    "system_statistic_type": "spearman_correlation",
+    "statistic_value": "0.309",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "1e-06",
+    "p_value_equality": null,
+    "variable_1_id": "6nmWg_5PI5",
+    "variable_2_id": "AU0sFwsQU1",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q70359543",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "h-NaX67rbP",
+    "variable_1_name": "Problematic Internet Use",
+    "variable_2_name": "Oral Health-Related Quality of Life"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "HElwEOlBva",
+    "doi": "10.5765/jkacap.2018.29.1.26",
+    "pubmed_id": "32595291",
+    "population": "73238 Korean adolescents aged 12-18 years, surveyed in 2010.",
+    "study_type": null
+   },
+   {
+    "study_id": "2T9qroh6ot",
+    "doi": "10.1186/s12903-024-04714-8",
+    "pubmed_id": "39127613",
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "2oXrmED4EZ",
+    "doi": "10.1186/s12909-021-03092-x",
+    "pubmed_id": "34980110",
+    "population": "Medical and dental students in the first and second years of education at Golestan University of Medical Sciences, Iran.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "relationship_id": "l4HqMITIPi|zEin0ikqXO",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "pb0LKZlolb",
+    "pubmed_id": "32597193",
+    "study_id": "VLSGv7gfSf",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.679",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "BrljNJqfHD",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q223270",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "zEin0ikqXO",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "loneliness in older adults"
+   },
+   {
+    "system_id": "Px39k8DfTD",
+    "pubmed_id": "32597193",
+    "study_id": "VLSGv7gfSf",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.787",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "T9PrP_xoQJ",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q223270",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "zEin0ikqXO",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "loneliness in older women"
+   },
+   {
+    "system_id": "yePGp1FRda",
+    "pubmed_id": "32597193",
+    "study_id": "VLSGv7gfSf",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.646",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.042",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "rHTAucIWQh",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q223270",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "zEin0ikqXO",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "loneliness in older adults who engage in physical activity"
+   },
+   {
+    "system_id": "URYwECV3DX",
+    "pubmed_id": "32597193",
+    "study_id": "VLSGv7gfSf",
+    "statistic_type": "\u03b2",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.594",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.084",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "uyHTC_vrOb",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q223270",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "zEin0ikqXO",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "loneliness in older men"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "VLSGv7gfSf",
+    "doi": "10.1080/13607863.2020.1786006",
+    "pubmed_id": "32597193",
+    "population": "1,200 older adults from 2016-2017 who completed the Short Form Revised UCLA Loneliness Scale and an 8-item Financial Instrument Scale.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}
