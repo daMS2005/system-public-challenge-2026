@@ -1,0 +1,43 @@
+{
+ "relationship_id": "Hvrtn54o09|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "Hv9BvxKvFf",
+    "pubmed_id": "21371989",
+    "study_id": "KJy5kaRk0e",
+    "statistic_type": "mean_difference_unstandardized",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "-9.7",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "FtPPl6PK6y",
+    "variable_2_id": "IH_G3YPPNy",
+    "variable_1_wikidata_id": "Q4414036",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Hvrtn54o09",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Rural residents [vs Urban residents]",
+    "variable_2_name": "Internet use"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "KJy5kaRk0e",
+    "doi": "10.2196/jmir.1534",
+    "pubmed_id": "21371989",
+    "population": "Individuals with medical conditions, rural residents, and minority populations in the United States in 2001.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

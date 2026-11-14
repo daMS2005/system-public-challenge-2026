@@ -1,0 +1,85 @@
+{
+ "relationship_id": "3x-TeF7nX4|i4OKswiAYO",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "0cZ2urZsY0",
+    "pubmed_id": "31916140",
+    "study_id": "gt3nPWCpBK",
+    "statistic_type": "adjusted relative risk",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "1.33",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "IZ6BrMhwxD",
+    "variable_2_id": "-PVhN9I7tX",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q964401",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "i4OKswiAYO",
+    "variable_1_name": "neighbourhood characteristics (disposable household income, percentage of unemployment and percentage of foreigners)",
+    "variable_2_name": "fertility patterns"
+   },
+   {
+    "system_id": "B-rMZR-9RN",
+    "pubmed_id": "31916140",
+    "study_id": "gt3nPWCpBK",
+    "statistic_type": "adjusted relative risk",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "0.81",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "IZ6BrMhwxD",
+    "variable_2_id": "-PVhN9I7tX",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q964401",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "i4OKswiAYO",
+    "variable_1_name": "neighbourhood characteristics (disposable household income, percentage of unemployment and percentage of foreigners)",
+    "variable_2_name": "fertility patterns"
+   },
+   {
+    "system_id": "7s8A7TGQqI",
+    "pubmed_id": "31916140",
+    "study_id": "gt3nPWCpBK",
+    "statistic_type": "adjusted relative risk",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "1.46",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "IZ6BrMhwxD",
+    "variable_2_id": "-PVhN9I7tX",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q964401",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "i4OKswiAYO",
+    "variable_1_name": "neighbourhood characteristics (disposable household income, percentage of unemployment and percentage of foreigners)",
+    "variable_2_name": "fertility patterns"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "gt3nPWCpBK",
+    "doi": "10.1007/s10995-020-02875-w",
+    "pubmed_id": "31916140",
+    "population": "Women who gave birth between 2007 and 2016 in the city of Barcelona (Spain).",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "relationship_id": "E5nEeeLpcM|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "vLEOIaVIpl",
+    "pubmed_id": "37653490",
+    "study_id": "Sr1-r4oUJf",
+    "statistic_type": "hazard ratio",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "1.45",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "rQU18BgeCy",
+    "variable_2_id": "3q9BgXusua",
+    "variable_1_wikidata_id": "Q8434",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "E5nEeeLpcM",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "level of education",
+    "variable_2_name": "long-term unemployment"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "Sr1-r4oUJf",
+    "doi": "10.1186/s12889-023-16626-3",
+    "pubmed_id": "37653490",
+    "population": "Men born in 1951-1953 from Sweden, who underwent conscription examination for the Swedish military in 1969-1973.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "relationship_id": "A9lB6vPSYl|l4HqMITIPi",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "IJZWtmQNHW",
+    "pubmed_id": null,
+    "study_id": "8z6yib5i4o",
+    "statistic_type": "coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.5318",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "J4aGwyCMSX",
+    "variable_2_id": "BzQD-xsLnK",
+    "variable_1_wikidata_id": "Q8236",
+    "variable_2_wikidata_id": "Q60852",
+    "variable_1_concept_id": "A9lB6vPSYl",
+    "variable_2_concept_id": "l4HqMITIPi",
+    "variable_1_name": "illiteracy rate",
+    "variable_2_name": "financial inclusiveness"
+   },
+   {
+    "system_id": "zOOF3jD7Or",
+    "pubmed_id": "37274693",
+    "study_id": "7a0R7uplqk",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.452",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "w8RBNzaK_j",
+    "variable_2_id": "KT02nLEjAP",
+    "variable_1_wikidata_id": "Q8236",
+    "variable_2_wikidata_id": "Q60852",
+    "variable_1_concept_id": "A9lB6vPSYl",
+    "variable_2_concept_id": "l4HqMITIPi",
+    "variable_1_name": "financial literacy",
+    "variable_2_name": "financial inclusion"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "8z6yib5i4o",
+    "doi": "10.21511/imfi.20(2).2023.08",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "7a0R7uplqk",
+    "doi": "10.1016/j.heliyon.2023.e16330",
+    "pubmed_id": "37274693",
+    "population": "283 rural agrarian settlers in the Eastern Cape province of South Africa.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

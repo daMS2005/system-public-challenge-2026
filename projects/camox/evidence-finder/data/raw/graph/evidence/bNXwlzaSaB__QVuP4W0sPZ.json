@@ -1,0 +1,92 @@
+{
+ "relationship_id": "bNXwlzaSaB|QVuP4W0sPZ",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "A1d14WKJkc",
+    "pubmed_id": "40343102",
+    "study_id": "VAkJVhQJp_",
+    "statistic_type": "beta coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.09",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "BQtViWJh4g",
+    "variable_2_id": "fS9NA5yFBk",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2715623",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "QVuP4W0sPZ",
+    "variable_1_name": "internet use",
+    "variable_2_name": "social networks"
+   },
+   {
+    "system_id": "Yo_2fDOCTT",
+    "pubmed_id": "33277979",
+    "study_id": "w-U0L0oyIF",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.834",
+    "ci_level": "0.95",
+    "ci_lower": "1.156",
+    "ci_upper": "2.91",
+    "p_value": "0.035",
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "MgyFEi7Tka",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2715623",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "QVuP4W0sPZ",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "social networking"
+   },
+   {
+    "system_id": "35uKjPhy-n",
+    "pubmed_id": "33277979",
+    "study_id": "w-U0L0oyIF",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.834",
+    "ci_level": "0.95",
+    "ci_lower": "1.156",
+    "ci_upper": "2.91",
+    "p_value": "0.006",
+    "p_value_equality": null,
+    "variable_1_id": "9Pxc75ykVK",
+    "variable_2_id": "MgyFEi7Tka",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q2715623",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "QVuP4W0sPZ",
+    "variable_1_name": "Problematic internet use",
+    "variable_2_name": "social networking"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "VAkJVhQJp_",
+    "doi": "10.3389/fpsyt.2025.1569022",
+    "pubmed_id": "40343102",
+    "population": "Older adults.",
+    "study_type": null
+   },
+   {
+    "study_id": "w-U0L0oyIF",
+    "doi": "10.1111/camh.12440",
+    "pubmed_id": "33277979",
+    "population": "95 adolescents with ADHD.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

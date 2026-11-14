@@ -1,0 +1,113 @@
+{
+ "relationship_id": "XW9F7OPopQ|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "G6f4j54SDS",
+    "pubmed_id": "27128556",
+    "study_id": "XtNZVKXufj",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "3.48",
+    "ci_level": "0.95",
+    "ci_lower": "1.31",
+    "ci_upper": "9.23",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "07JD1DrySM",
+    "variable_2_id": "a6I61GOqPy",
+    "variable_1_wikidata_id": "Q12202",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "XW9F7OPopQ",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Individuals who had a stroke",
+    "variable_2_name": "exit from paid employment via disability benefits, unemployment, early retirement or other exit routes"
+   },
+   {
+    "system_id": "TkdzipOFkh",
+    "pubmed_id": "25128177",
+    "study_id": "F8rUa9H2o_",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.8",
+    "ci_level": "0.95",
+    "ci_lower": "1.7",
+    "ci_upper": "4.7",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Q9b7RV7wit",
+    "variable_2_id": "5YsGs-OF5W",
+    "variable_1_wikidata_id": "Q12202",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "XW9F7OPopQ",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "follow-up duration (middle tertile) of young stroke patients",
+    "variable_2_name": "being unemployed"
+   },
+   {
+    "system_id": "8mIobvSSHE",
+    "pubmed_id": "25128177",
+    "study_id": "F8rUa9H2o_",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.3",
+    "ci_level": "0.95",
+    "ci_lower": "1.8",
+    "ci_upper": "2.9",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "O0um1AB8lu",
+    "variable_2_id": "5YsGs-OF5W",
+    "variable_1_wikidata_id": "Q12202",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "XW9F7OPopQ",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "being a young stroke patient",
+    "variable_2_name": "being unemployed"
+   },
+   {
+    "system_id": "KUXPEoS5q_",
+    "pubmed_id": "25128177",
+    "study_id": "F8rUa9H2o_",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "3.2",
+    "ci_level": "0.95",
+    "ci_lower": "2.5",
+    "ci_upper": "4.0",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "O0um1AB8lu",
+    "variable_2_id": "5YsGs-OF5W",
+    "variable_1_wikidata_id": "Q12202",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "XW9F7OPopQ",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "being a young stroke patient",
+    "variable_2_name": "being unemployed"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "XtNZVKXufj",
+    "doi": "10.1016/j.ijcard.2016.04.090",
+    "pubmed_id": "27128556",
+    "population": "5182 individuals aged over 50 years with paid employment at baseline and a known employment status after 2 or 6 years, who were respondents of the longitudinal Survey of Health and Retirement in Europe (SHARE).",
+    "study_type": null
+   },
+   {
+    "study_id": "F8rUa9H2o_",
+    "doi": "10.1212/wnl.0000000000000817",
+    "pubmed_id": "25128177",
+    "population": "694 patients aged 18-50 years with a first-ever TIA, ischemic stroke, or intracerebral hemorrhage.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

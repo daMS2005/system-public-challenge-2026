@@ -1,0 +1,99 @@
+{
+ "relationship_id": "xovbE_yg2L|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "-34cQcDUe8",
+    "pubmed_id": "29652105",
+    "study_id": "B5VDmvdAOG",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.52",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "xJGOqBYhwc",
+    "variable_2_id": "yHHqopbEo_",
+    "variable_1_wikidata_id": "Q43445",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "xovbE_yg2L",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "being female",
+    "variable_2_name": "problematic Internet use"
+   },
+   {
+    "system_id": "D0XZAceOyh",
+    "pubmed_id": "35757612",
+    "study_id": "u8dUq32gdK",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.3",
+    "ci_level": "0.95",
+    "ci_lower": "1.2",
+    "ci_upper": "1.44",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "_T9aUArrIh",
+    "variable_2_id": "DoQjEKi3q1",
+    "variable_1_wikidata_id": "Q43445",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "xovbE_yg2L",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Gender (female)",
+    "variable_2_name": "Not using the Internet"
+   },
+   {
+    "system_id": "kqar6DCkVh",
+    "pubmed_id": "20136560",
+    "study_id": "bJyg-AIu_z",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.709",
+    "ci_level": "0.95",
+    "ci_lower": "1.277",
+    "ci_upper": "2.287",
+    "p_value": "0.155",
+    "p_value_equality": null,
+    "variable_1_id": "r-EFq_04_w",
+    "variable_2_id": "PQuSwml0Ow",
+    "variable_1_wikidata_id": "Q43445",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "xovbE_yg2L",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Gender (girls vs. boys)",
+    "variable_2_name": "use of the Internet"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "B5VDmvdAOG",
+    "doi": "10.1111/pcn.12662",
+    "pubmed_id": "29652105",
+    "population": "Japanese university students surveyed at five universities in Japan.",
+    "study_type": null
+   },
+   {
+    "study_id": "u8dUq32gdK",
+    "doi": "10.3389/fpubh.2022.840940",
+    "pubmed_id": "35757612",
+    "population": "21,543 older adults (65+) in France during and post COVID-19 lockdown.",
+    "study_type": null
+   },
+   {
+    "study_id": "bJyg-AIu_z",
+    "doi": "10.1089/tmj.2009.0062",
+    "pubmed_id": "20136560",
+    "population": "823 school-age youths in a cross-sectional survey with a questionnaire administered by an interviewer.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

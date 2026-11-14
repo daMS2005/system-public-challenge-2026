@@ -1,0 +1,92 @@
+{
+ "relationship_id": "3x-TeF7nX4|sZ-bi5eIFV",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "sD8J25MGea",
+    "pubmed_id": null,
+    "study_id": "ypd8xEob2U",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "11.56651",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "husPOsBshY",
+    "variable_2_id": "ZmY9gJVmMI",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "Unemployment Rate (UNEMPLR)",
+    "variable_2_name": "Economic Growth"
+   },
+   {
+    "system_id": "2SGMK0ijp-",
+    "pubmed_id": null,
+    "study_id": "h5_r3TAlSa",
+    "statistic_type": "R-squared",
+    "system_statistic_type": "coefficient_of_determination",
+    "statistic_value": "0.921",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "4pUxVraoY8",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "population growth, unemployment, and foreign direct investment",
+    "variable_2_name": "economic growth"
+   },
+   {
+    "system_id": "BhKcMh-i8T",
+    "pubmed_id": null,
+    "study_id": "ypd8xEob2U",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "3.982484",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "dHgJniVXu-",
+    "variable_2_id": "ZmY9gJVmMI",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "Unemployed Labour (UNEMPLOY)",
+    "variable_2_name": "Economic Growth"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "ypd8xEob2U",
+    "doi": "10.9734/jemt/2019/v23i230129",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "h5_r3TAlSa",
+    "doi": "10.31033/ijrasb.8.1.6",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

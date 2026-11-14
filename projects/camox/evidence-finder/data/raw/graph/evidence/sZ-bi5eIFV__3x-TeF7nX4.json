@@ -1,0 +1,127 @@
+{
+ "relationship_id": "sZ-bi5eIFV|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "zMApUxH2rQ",
+    "pubmed_id": null,
+    "study_id": "Q-35WksHK0",
+    "statistic_type": "regression_coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.78",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "tG8cFmhEn9",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q189833",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sZ-bi5eIFV",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "economic growth",
+    "variable_2_name": "unemployment"
+   },
+   {
+    "system_id": "6YRGm5fwkv",
+    "pubmed_id": null,
+    "study_id": "KLw-9HyKuc",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.058",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "tG8cFmhEn9",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q189833",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sZ-bi5eIFV",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "economic growth",
+    "variable_2_name": "unemployment rate"
+   },
+   {
+    "system_id": "QutAio5yda",
+    "pubmed_id": null,
+    "study_id": "b2gZfx6vMt",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.15",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": "=",
+    "variable_1_id": "lOOs58swoT",
+    "variable_2_id": "QamhbkO6Bh",
+    "variable_1_wikidata_id": "Q189833",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sZ-bi5eIFV",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "economic growth rates",
+    "variable_2_name": "unemployment rates"
+   },
+   {
+    "system_id": "jXKiThJCrO",
+    "pubmed_id": null,
+    "study_id": "d6fL4oUjyh",
+    "statistic_type": "regression_coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.22",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "tG8cFmhEn9",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q189833",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "sZ-bi5eIFV",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "economic growth",
+    "variable_2_name": "unemployment rate"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "Q-35WksHK0",
+    "doi": "10.21608/jsst.2020.41638.1114",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "KLw-9HyKuc",
+    "doi": "10.52421/jurnal-esensi.v1i1.137",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "b2gZfx6vMt",
+    "doi": "10.57030/23364890.cemj.30.4.139",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   },
+   {
+    "study_id": "d6fL4oUjyh",
+    "doi": "10.17306/j.jard.2020.01291",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 4
+ }
+}

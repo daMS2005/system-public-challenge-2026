@@ -1,0 +1,43 @@
+{
+ "relationship_id": "l4HqMITIPi|09dv6lYllX",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "RZlfL3fJ4p",
+    "pubmed_id": null,
+    "study_id": "-h9YocqFsL",
+    "statistic_type": "elasticity",
+    "system_statistic_type": "elasticity",
+    "statistic_value": "0.012",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "Jkq6DDCYai",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q5055020",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "09dv6lYllX",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "income inequality"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "-h9YocqFsL",
+    "doi": "10.2478/eoik-2023-0049",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

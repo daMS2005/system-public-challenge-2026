@@ -1,0 +1,183 @@
+{
+ "relationship_id": "3x-TeF7nX4|EPkRQaRIuw",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "-pF59PPzzi",
+    "pubmed_id": "26775263",
+    "study_id": "xq1Hl3b330",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.3",
+    "ci_level": "0.95",
+    "ci_lower": "0.78",
+    "ci_upper": "2.52",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "J7HQ0szLJn",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12204",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "EPkRQaRIuw",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "MDR-tuberculosis"
+   },
+   {
+    "system_id": "ZcysXCUqGh",
+    "pubmed_id": "24144113",
+    "study_id": "Wye1FwFLnB",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.69",
+    "ci_level": "0.95",
+    "ci_lower": "1.18",
+    "ci_upper": "6.16",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "plJdILrl0x",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12204",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "EPkRQaRIuw",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "tuberculosis"
+   },
+   {
+    "system_id": "bKBtGwCotE",
+    "pubmed_id": "22824498",
+    "study_id": "u2gHnKhsd1",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.67",
+    "ci_level": "0.95",
+    "ci_lower": "0.49",
+    "ci_upper": "0.9",
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "VYCsyhbnuT",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12204",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "EPkRQaRIuw",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "knowledge of tuberculosis"
+   },
+   {
+    "system_id": "Wo_Cb3Uz_G",
+    "pubmed_id": "26831140",
+    "study_id": "7KQ80pEhNb",
+    "statistic_type": "hazard ratio",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "2.24",
+    "ci_level": "0.95",
+    "ci_lower": "1.55",
+    "ci_upper": "3.25",
+    "p_value": "0.003",
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "luV8clQBoO",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12204",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "EPkRQaRIuw",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "tuberculosis mortality"
+   },
+   {
+    "system_id": "2X2rSkrjDS",
+    "pubmed_id": "31718359",
+    "study_id": "RVo1QP5zqK",
+    "statistic_type": "adjusted odds ratio",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "2.15",
+    "ci_level": "0.95",
+    "ci_lower": "1.16",
+    "ci_upper": "4.01",
+    "p_value": "0.017",
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "7sMoOG_ZUz",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12204",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "EPkRQaRIuw",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "recurrent tuberculosis"
+   },
+   {
+    "system_id": "RNQ4oDYG0D",
+    "pubmed_id": "31319655",
+    "study_id": "yGt0rGotMD",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.02",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "UcPJ1vGyx0",
+    "variable_2_id": "EZ6lICttXe",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q12204",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "EPkRQaRIuw",
+    "variable_1_name": "unemployment rate",
+    "variable_2_name": "Tuberculosis mortality"
+   }
+  ],
+  "total": 6
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "xq1Hl3b330",
+    "doi": "10.1186/s12889-016-2711-z",
+    "pubmed_id": "26775263",
+    "population": "287 cases and 291 controls in Henan province, China.",
+    "study_type": null
+   },
+   {
+    "study_id": "Wye1FwFLnB",
+    "doi": "10.1186/1471-2458-13-991",
+    "pubmed_id": "24144113",
+    "population": "300 tuberculosis patients and 300 controls randomly selected from general practitioners' registers in Croatia.",
+    "study_type": null
+   },
+   {
+    "study_id": "u2gHnKhsd1",
+    "doi": "10.1186/1471-2458-12-536",
+    "pubmed_id": "22824498",
+    "population": "1361 adults in three urban-slum communities of Uganda between April and October 2011.",
+    "study_type": null
+   },
+   {
+    "study_id": "7KQ80pEhNb",
+    "doi": "10.1186/s12879-016-1375-8",
+    "pubmed_id": "26831140",
+    "population": "1701 patients treated for tuberculosis between 2005 and 2008 in two adjacent health regions in Lima, Peru.",
+    "study_type": null
+   },
+   {
+    "study_id": "RVo1QP5zqK",
+    "doi": "10.1080/23744235.2019.1690162",
+    "pubmed_id": "31718359",
+    "population": "814 patients with pulmonary tuberculosis in Yemen who completed treatment and were followed-up for five years.",
+    "study_type": null
+   },
+   {
+    "study_id": "yGt0rGotMD",
+    "doi": "10.4178/epih.e2019032",
+    "pubmed_id": "31319655",
+    "population": "9,151 patients with TB from March 2017 to March 2018 in Iran.",
+    "study_type": null
+   }
+  ],
+  "total": 6
+ }
+}

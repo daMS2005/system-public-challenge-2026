@@ -1,0 +1,99 @@
+{
+ "relationship_id": "fdqTZ-jKB3|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "4uqWg-qtgO",
+    "pubmed_id": "25158616",
+    "study_id": "iGD7sLy2DF",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.98",
+    "ci_level": "0.95",
+    "ci_lower": "1.38",
+    "ci_upper": "2.85",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Ln-rX54dPh",
+    "variable_2_id": "WZctQEpGiP",
+    "variable_1_wikidata_id": "Q16035842",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "fdqTZ-jKB3",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Presence of hearing loss (compared to normal-hearing individuals)",
+    "variable_2_name": "Unemployment/underemployment"
+   },
+   {
+    "system_id": "e11BaQJ1Py",
+    "pubmed_id": "32704617",
+    "study_id": "rVGKJm5kPT",
+    "statistic_type": "odds ratio (OR)",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.82",
+    "ci_level": "0.95",
+    "ci_lower": "1.04",
+    "ci_upper": "3.17",
+    "p_value": "0.04",
+    "p_value_equality": null,
+    "variable_1_id": "Ru01xmgrJ6",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q16035842",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "fdqTZ-jKB3",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "patient-reported hearing loss",
+    "variable_2_name": "unemployment"
+   },
+   {
+    "system_id": "hia6GinubD",
+    "pubmed_id": "26287566",
+    "study_id": "FgE3jSNim1",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.85",
+    "ci_level": "0.95",
+    "ci_lower": "1.0",
+    "ci_upper": "3.34",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Bfkrt8SInm",
+    "variable_2_id": "6Zh8LU8H2K",
+    "variable_1_wikidata_id": "Q16035842",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "fdqTZ-jKB3",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Serious hearing loss",
+    "variable_2_name": "unemployment or not graduating from high school"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "iGD7sLy2DF",
+    "doi": "10.1097/mao.0000000000000562",
+    "pubmed_id": "25158616",
+    "population": "Adults aged 20 to 69 years who participated in the 1999 to 2002 cycles of the NHANES (National Health and Nutrition Examination Survey) audiometric evaluation and income questionnaire (N = 3,379).",
+    "study_type": null
+   },
+   {
+    "study_id": "rVGKJm5kPT",
+    "doi": "10.1093/jncics/pkaa022",
+    "pubmed_id": "32704617",
+    "population": "1815 testicular cancer survivors at least one year postchemotherapy.",
+    "study_type": null
+   },
+   {
+    "study_id": "FgE3jSNim1",
+    "doi": "10.1002/cncr.29604",
+    "pubmed_id": "26287566",
+    "population": "Adult survivors of pediatric central nervous system (CNS) solid tumors and non-CNS solid tumors who were treated with potentially ototoxic cancer therapy.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

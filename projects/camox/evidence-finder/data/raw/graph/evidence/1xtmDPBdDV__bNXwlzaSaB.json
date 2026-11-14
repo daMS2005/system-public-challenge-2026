@@ -1,0 +1,99 @@
+{
+ "relationship_id": "1xtmDPBdDV|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "usobZJyR5k",
+    "pubmed_id": "29641661",
+    "study_id": "6Tw3A_rc1J",
+    "statistic_type": "risk ratio",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "0.08",
+    "ci_level": "0.95",
+    "ci_lower": "0.02",
+    "ci_upper": "0.31",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "0szsSDQ_vq",
+    "variable_2_id": "9GZJcVlXYq",
+    "variable_1_wikidata_id": "Q553079",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "1xtmDPBdDV",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "presence of caregiver",
+    "variable_2_name": "use of internet over four years"
+   },
+   {
+    "system_id": "PlyUGoDMV4",
+    "pubmed_id": "20025513",
+    "study_id": "w37TTPNm7J",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.03",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "idkw6gXc-T",
+    "variable_2_id": "0VduhdD5qu",
+    "variable_1_wikidata_id": "Q553079",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "1xtmDPBdDV",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "caregivers whose roles were both informal and professional",
+    "variable_2_name": "recently sharing information from the Internet with people living with HIV/AIDS"
+   },
+   {
+    "system_id": "gnJGzeSvkG",
+    "pubmed_id": "41166740",
+    "study_id": "L8nxA0FuKF",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "0.23",
+    "ci_level": "0.95",
+    "ci_lower": "0.11",
+    "ci_upper": "0.46",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Tvl6fDa6rq",
+    "variable_2_id": "IH_G3YPPNy",
+    "variable_1_wikidata_id": "Q553079",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "1xtmDPBdDV",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "older black caregivers",
+    "variable_2_name": "Internet use"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "6Tw3A_rc1J",
+    "doi": "10.11606/s1518-8787.2018052000216",
+    "pubmed_id": "29641661",
+    "population": "1,197 older adults living in the urban area of Floriano\u0301polis, State of Santa Catarina, Brazil, who participated in the Brazilian EpiFloripa Idoso study.",
+    "study_type": null
+   },
+   {
+    "study_id": "w37TTPNm7J",
+    "doi": "10.1089/apc.2009.0163",
+    "pubmed_id": "20025513",
+    "population": "500 caregivers recruited in a 5-week period who provided informal care, care exclusively as part of their job, or both informally and professionally.",
+    "study_type": null
+   },
+   {
+    "study_id": "L8nxA0FuKF",
+    "doi": "10.1177/07334648251383631",
+    "pubmed_id": "41166740",
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

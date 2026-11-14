@@ -1,0 +1,85 @@
+{
+ "relationship_id": "l4HqMITIPi|vktMUPI0ww",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "pa1xTrcQ1K",
+    "pubmed_id": "36687499",
+    "study_id": "weF2ymF1Cw",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.27",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "a9VXn38gGt",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q38695",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "vktMUPI0ww",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "choice of healthy source of energy for cooking"
+   },
+   {
+    "system_id": "IY4JqwXGGq",
+    "pubmed_id": "36687499",
+    "study_id": "weF2ymF1Cw",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.52",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "a9VXn38gGt",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q38695",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "vktMUPI0ww",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "choice of healthy source of energy for cooking"
+   },
+   {
+    "system_id": "JA3Jrp6wFV",
+    "pubmed_id": "36687499",
+    "study_id": "weF2ymF1Cw",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "3.18",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "a9VXn38gGt",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q38695",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "vktMUPI0ww",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "choice of healthy source of energy for cooking"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "weF2ymF1Cw",
+    "doi": "10.1177/11786302221150352",
+    "pubmed_id": "36687499",
+    "population": "Households in Ghana in the year 2020.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

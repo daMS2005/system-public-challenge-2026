@@ -1,0 +1,1388 @@
+{
+ "fetched_at": "2026-11-14T18:03:39+00:00",
+ "url": "https://api.worldbank.org/v2/indicator?source=13&format=json&per_page=500",
+ "indicators": [
+  {
+   "id": "IC.FRM.BRIB.GRAFT2",
+   "name": "Bribery depth (% of public transactions where a gift or informal payment was requested)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "The depth of Bribery is the percentage of instances in which a firm was either expected or requested to provide a gift or informal payment during solicitations for public services, licenses or permits. This measure uses data from 6 survey questions for each firm. For purposes of computation, a refusal to answer a particular survey question is considered an affirmative answer.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.BRIB.GRAFT3",
+   "name": "Bribery incidence (percent of firms experiencing at least one bribe payment request)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "The percent of firms experiencing at least one bribe payment request across 6 public transactions dealing with utilities access, permits, licenses, and taxes.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR1",
+   "name": "Percent of firms expected to give gifts in meetings with tax officials",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms expected to give gifts or informal payments during meetings with tax officials.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR10",
+   "name": "Percent of firms expected to give gifts to get an operating license",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms expected to give gifts or informal payments to get an operating license. Spontaneous refusals to the question are treated as a Yes.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR11",
+   "name": "Percent of firms identifying corruption as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying corruption as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR2",
+   "name": "Percent of firms expected to give gifts to secure government contract",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider that firms with characteristics similar to theirs are making informal payments or giving gifts to public officials to secure government contract.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR3",
+   "name": "Value of gift expected to secure a government contract (% of contract value)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of contract value expected as a gift to secure government contract. Only firms that have confirmed that they have secured or attempted to secure a government contract in the last 12 months were required to answer this question.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR4",
+   "name": "Percent of firms expected to give gifts to public officials \"to get things done\" ",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider that firms with characteristics similar to theirs are making informal payments or giving gifts to public officials to \"get things\u00a0done\"\u00a0with regard to customs, taxes, licenses, regulations, services etc.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR6",
+   "name": "Percent of firms expected to give gifts to get an electrical connection",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms expected to give gifts or informal payments to get an electrical connection.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR7",
+   "name": "Percent of firms expected to give gifts to get a water connection",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms expected to give gifts or informal payments to get a water connection.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR8",
+   "name": "Percent of firms expected to give gifts to get a construction permit",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms expected to give gifts or informal payments to get a construction permit.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CORR9",
+   "name": "Percent of firms expected to give gifts to get an import license ",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms expected to give gifts or informal payments to get an import license.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CORR.CRIME9",
+   "name": "Percent of firms identifying the courts system as a major constraint                         ",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying functioning of the courts as major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CRM.CRIME1",
+   "name": "Percent of firms paying for security",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms paying for security, for example equipment, personnel, or professional security services.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CRM.CRIME10",
+   "name": "Percent of firms experiencing losses due to theft and vandalism",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percent of firms experiencing losses due to theft, robbery, vandalism or arson that occurred on the\u00a0establishment's\u00a0premises",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CRM.CRIME2_C",
+   "name": "If the establishment pays for security, average security costs (% of annual sales)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average security costs as a percentage of total annual sales for firms that pay for security.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CRM.CRIME3_C",
+   "name": "If there were losses, average losses due to theft and vandalism (% of annual sales)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "If there were losses, estimated losses as a result of theft, robbery, vandalism or arson that occurred on\u00a0establishment's\u00a0premises calculated as a percentage of annual sales.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CRM.CRIME5",
+   "name": "Products shipped to supply domestic markets that were lost due to theft (% of product value)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Value of losses of products, due to theft, while in transit to domestic markets.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.CRM.CRIME8",
+   "name": "Percent of firms identifying crime, theft and disorder as a major constraint              ",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying crime, theft and disorder as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.EMP.GROW.PEFT2",
+   "name": "Annual employment growth (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Annualized growth of permanent full-time workers expressed as a percentage. Annual employment growth is the change in full-time employment reported in the current fiscal year from a previous period. For most countries the difference between the two fiscal year periods is two years. However, for some countries the interval is three years. Hence, an annualized measure is used.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FCHAR.CAR1",
+   "name": "Age of the establishment (years)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Age of the firm based on the year in which the firm began operations.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FCHAR.CAR2",
+   "name": "Proportion of private domestic ownership in a firm (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of the firm owned by domestic individuals, companies or organizations.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FCHAR.CAR7",
+   "name": "Percent of firms with at least 10% of foreign ownership",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that have at least 10% owned by private foreign individuals, companies or organizations.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FCHAR.CAR8",
+   "name": "Percent of firms with at least 10% of government/state ownership",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms where the government or state has at least a 10% share in ownership of the firm.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FCHAR.LFORM3",
+   "name": "Percent of firms with legal status of Sole Proprietorship",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percent of firms with legal status of Sole Proprietorship",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIAS.PEFT4",
+   "name": "Percent of firms buying fixed assets",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percent of firms buying fixed assets such as machinery, equipment, land or buildings.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN1",
+   "name": "Proportion of investment financed internally (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Estimated proportion of purchases of fixed assets that was financed from internal funds/retained earnings.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN10",
+   "name": "Value of collateral needed for a loan (% of the loan amount)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Value of collateral needed for a loan or line of credit as a percentage of the loan value or the value of the line of credit.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN11",
+   "name": "Proportion of loans requiring collateral (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Loans requiring collateral in order to get the financing.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN12",
+   "name": "Percent of firms using banks to finance investments",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms using banks to finance purchases of fixed assets.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN13",
+   "name": "Percent of firms using banks to finance working capital",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms using bank loans to finance working capital.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN14",
+   "name": "Percent of firms with a bank loan/line of credit",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms with bank loans or line of credit.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN15",
+   "name": "Percent of firms with a checking or savings account",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms with a checking or savings account.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN16",
+   "name": "Percent of firms identifying access to finance as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying access/cost of finance as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN2",
+   "name": "Proportion of investment financed by banks (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Estimated proportion of purchases of fixed assets that was financed from bank loans.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN20",
+   "name": "Percent of firms not needing a loan",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percent of firms that did not apply for a loan in the last fiscal year because they did not need a loan. The denominator is the number of firms who did and did not apply for a loan. The numerator is the number of firms who did not apply for a loan and also stated that they did not need a loan.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN21",
+   "name": "Percent of firms whose recent loan application was rejected",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percent of firms whose recent loan application was rejected.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN22",
+   "name": "Percent of firms using supplier/customer credit to finance working capital",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms using credit from suppliers and advances from customers to finance working capital.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.FIN.FIN7",
+   "name": "Proportion of working capital financed by banks (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Proportion of the working capital that was financed by bank loans.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.GEN.GEND1",
+   "name": "Percent of firms with female participation in ownership",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms with females among the owners.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.GEN.GEND2",
+   "name": "Proportion of permanent full-time workers that are female (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of full-time workers that are female.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.GEN.GEND3",
+   "name": "Proportion of permanent full-time non-production workers that are female (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of permanent full-time non-production workers that are female.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.GEN.GEND4",
+   "name": "Percent of firms with a female top manager",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms with females as the top manager.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.GEN.GEND5",
+   "name": "Proportion of permanent full-time production workers that are female (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of permanent full-time production workers that are female.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.GEN.GEND6",
+   "name": "Percent of firms with majority female ownership",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms with majority female ownership",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFOR.INFOR1",
+   "name": "Percent of firms competing against unregistered or informal firms",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms competing against unregistered or informal firms.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFOR.INFOR2",
+   "name": "Percent of firms identifying practices of competitors in the informal sector as a major constraint  ",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying practices of competitors in the informal sector as major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFOR.INFOR4",
+   "name": "Percent of firms formally registered when they started operations in the country",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms formally registered when they started operations in the country.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFOR.INFOR5",
+   "name": "Number of years firm operated without formal registration",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average number of years firms operated without formal registration. This indicator is computed only for the firms that did not have a formal registration when they started their operations in the country.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN1",
+   "name": "Days to obtain an electrical connection (upon application)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average wait, in days, experienced to obtain electrical connection from the day this establishment applied for it to the day it received the service.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN10_C",
+   "name": "If a generator is used, average proportion of electricity from a generator (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "If a generator is used, what percentage of electricity comes from a generator",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN11",
+   "name": "Percent of firms identifying transportation as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying transportation as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN12",
+   "name": "Percent of firms identifying electricity as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying electricity as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN14",
+   "name": "Proportion of products lost to breakage or spoilage during shipping to domestic markets (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of products shipped to supply domestic markets lost due to breakage or spoilage.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN16",
+   "name": "Percent of firms experiencing electrical outages",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that experienced power outages over the last complete fiscal year.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN17",
+   "name": "Percent of firms experiencing water insufficiencies",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that experienced insufficient water supply for production over the last complete fiscal year.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN2",
+   "name": "Number of electrical outages in a typical month",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average number of power outages in a typical month.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN3_C",
+   "name": "If there were outages, average duration of a typical electrical outage (hours)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average duration of power outages (hours) conditional on having a power outage.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN4_C",
+   "name": "If there were outages, average losses due to electrical outages (% of annual sales)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "If there were outages, average losses due to electrical outages, as percentage of total annual sales.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN6",
+   "name": "Number of water insufficiencies in a typical month",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average number of water shortages in a typical month in the last fiscal year.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INFRA.IN9",
+   "name": "Percent of firms owning or sharing a generator",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms owning or sharing a generator.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T1",
+   "name": "Percent of firms with an internationally-recognized quality certification",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that have an internationally-recognized quality certification, i.e. ISO 9000, 9002 or 14000.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T10",
+   "name": "Percent of firms that spend on R&D",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that spent on formal research and development activities during the last fiscal year.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T2",
+   "name": "Percent of firms with an annual financial statement reviewed by external auditors ",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms with their annual financial statement reviewed by an external auditor.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T3",
+   "name": "Capacity utilization (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Capacity utilization based on comparison of the current output with the maximum output possible using the current inputs.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T4",
+   "name": "Percent of firms using technology licensed from foreign companies",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms using technology licensed from foreign companies.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T5",
+   "name": "Percent of firms having their own Web site",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms using website for business related activities, i.e. sales, product promotion etc.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T6",
+   "name": "Percent of firms using e-mail to interact with clients/suppliers",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms using email to interact with clients or suppliers.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T7",
+   "name": "Percent of firms that introduced a new product/service",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that introduced new or significantly improved products or services over the last three years.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T8",
+   "name": "Percent of firms whose new product/service is also new to the main market",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that introduced new or significantly improved products or services over the last three years that were also new for the\u00a0firms'\u00a0main market.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.INNOV.T9",
+   "name": "Percent of firms that introduced a process innovation",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that introduced any new or significantly improved process.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST1",
+   "name": "Percent of firms choosing access to finance as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider access to finance to be the Biggest Obstacle",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST10",
+   "name": "Percent of firms choosing labor regulations as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider labor regulations to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST11",
+   "name": "Percent of firms choosing political instability as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider political instability to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST12",
+   "name": "Percent of firms choosing practices of the informal sector as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider practices of competitors in the informal sector to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST13",
+   "name": "Percent of firms choosing tax administration as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider the tax administration to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST14",
+   "name": "Percent of firms choosing tax rates as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider tax rates to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST15",
+   "name": "Percent of firms choosing transportation as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider transport to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST2",
+   "name": "Percent of firms choosing access to land as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider access to land to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST3",
+   "name": "Percent of firms choosing business licensing and permits as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider business licensing and permits to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST4",
+   "name": "Percent of firms choosing corruption as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider corruption to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST5",
+   "name": "Percent of firms choosing courts as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider courts to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST6",
+   "name": "Percent of firms choosing crime, theft and disorder as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider crime, theft and disorder to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST7",
+   "name": "Percent of firms choosing customs and trade regulations as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider customs and trade regulations to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST8",
+   "name": "Percent of firms choosing electricity as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider electricity to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.OBS.OBST9",
+   "name": "Percent of firms choosing inadequately educated workforce as their biggest obstacle",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of establishments that consider an inadequately educated workforce to be the Biggest Obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.PROD.GROW.PEFT3",
+   "name": "Real annual labor productivity growth (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Annual labor productivity growth is measured by a percentage change in labor productivity between the last completed fiscal year and a previous period, where labor productivity is sales divided by the number of full- time permanent workers. All sales values are deflated to 2009 using each\u00a0country's\u00a0GDP deflators.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.BUS1",
+   "name": "Days to obtain an import license",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average wait, in days, to obtain import license.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.BUS2",
+   "name": "Days to obtain an operating license",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "The average wait, in days, to obtain an operating license.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.BUS3",
+   "name": "Days to obtain a construction-related permit",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average wait, in days, to obtain construction-related permit.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.BUS5",
+   "name": "Percent of firms identifying business licensing and permits as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying business licensing and permits as \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.REG1",
+   "name": "Senior management time spent dealing with the requirements of government regulation (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average percentage of senior\u00a0management's\u00a0time that is spent in a typical week dealing with requirements imposed by government regulations (eg. taxes, customs, labor regulations, licensing and registration), including dealings with officials, completing forms, et cetera.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.REG2_C",
+   "name": "If there were visits, average number of visits or required meetings with tax officials",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "If there were a positive number of visits or required meeting with tax officials, what was the average number?",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.REG4",
+   "name": "Percent of firms identifying tax rates as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying tax rates as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.REG5",
+   "name": "Percent of firms identifying tax administration as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying tax administration as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.REG.REG6",
+   "name": "Percent of firms visited or required to meet with tax officials",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that were visited or inspected by tax officials or were required to meet with them over the last year.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.SLS.GROW.PEFT1",
+   "name": "Real annual sales growth (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Real annual sales growth is measured as a percentage change in sales between the last completed fiscal year and a previous period. All sales values are deflated to 2009 using each\u00a0country's\u00a0GDP deflators.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR1",
+   "name": "Days to clear direct exports through customs",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average number of days to clear direct exports through customs.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR11",
+   "name": "Percent of firms using material inputs and/or supplies of foreign origin",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that use material inputs and/or supplies of foreign origin.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR16",
+   "name": "Percent of firms exporting directly (at least 10% of sales)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that export directly at least 10% of their total annual sales.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR17",
+   "name": "Percent of firms exporting directly or indirectly (at least 10% of sales)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms that export directly or indirectly at least 10% of their total annual sales.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR2",
+   "name": "Days to clear imports from customs",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Average number of days to clear imports from customs.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR5",
+   "name": "Proportion of total sales that are exported directly (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Sales exported directly as percentage of total sales.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR8",
+   "name": "Proportion of total inputs that are of foreign origin (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of material inputs and/or supplies of foreign origin.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.TRD.TR9",
+   "name": "Percent of firms identifying customs and trade regulations as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying customs and trade regulations as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK1",
+   "name": "Percent of firms offering formal training",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms offering formal training programs for its permanent, full-time employees.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK10",
+   "name": "Percent of firms identifying an inadequately educated workforce as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying labor skill level as a major constraint. The computation of the indicator is based on the rating of the obstacle as a potential constraint to the current operations of the establishment.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK14",
+   "name": "Number of workers",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Number of workers, including permanent and temporary workers. The number of temporary workers is adjusted for the number of months of their employment.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK15",
+   "name": "Proportion of production workers (out of all permanent workers)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Proportion of production workers out of all permanent workers*.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK17",
+   "name": "Proportion of temporary workers (out of all workers)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "The proportion of temporary workers out of all workers.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK18",
+   "name": "Proportion of permanent workers (out of all workers)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "The proportion of permanent workers out of all workers.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK19",
+   "name": "Proportion of skilled workers (out of all production workers) (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Proportion of skilled workers out of all production workers*.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK2",
+   "name": "Proportion of workers offered formal training (%)",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of permanent, full-time employees that have received formal training.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK8",
+   "name": "Years of the top manager's experience working in the firm's sector",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Years of experience of the top manager working in the sector.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": []
+  },
+  {
+   "id": "IC.FRM.WRKF.WK9",
+   "name": "Percent of firms identifying labor regulations as a major constraint",
+   "unit": "",
+   "source": {
+    "id": "13",
+    "value": "Enterprise Surveys"
+   },
+   "sourceNote": "Percentage of firms identifying labor regulations as a \"major\" or \"very severe\" obstacle.",
+   "sourceOrganization": "World Bank, Enterprise Surveys (http://www.enterprisesurveys.org/).",
+   "topics": [
+    {}
+   ]
+  }
+ ]
+}

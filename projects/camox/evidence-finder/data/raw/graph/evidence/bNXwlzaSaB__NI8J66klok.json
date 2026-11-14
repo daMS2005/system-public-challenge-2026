@@ -1,0 +1,43 @@
+{
+ "relationship_id": "bNXwlzaSaB|NI8J66klok",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "QggoRkEsj6",
+    "pubmed_id": "25662370",
+    "study_id": "u1DlRntKU_",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.71",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Pxfi2Vkw2c",
+    "variable_2_id": "XLbDznBbZq",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q662860",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "NI8J66klok",
+    "variable_1_name": "Problematic Internet use",
+    "variable_2_name": "smoking (among young adolescents)"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "u1DlRntKU_",
+    "doi": "10.1111/apa.12971",
+    "pubmed_id": "25662370",
+    "population": "3067 adolescents in Switzerland with a mean age of 14 years.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

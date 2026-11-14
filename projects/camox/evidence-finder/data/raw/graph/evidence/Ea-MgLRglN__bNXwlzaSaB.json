@@ -1,0 +1,127 @@
+{
+ "relationship_id": "Ea-MgLRglN|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "AxYOE0P7Sx",
+    "pubmed_id": "36186787",
+    "study_id": "9Ufj16QP8l",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "2.558",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.013",
+    "p_value_equality": null,
+    "variable_1_id": "cO1AmGKJdZ",
+    "variable_2_id": "z8KA9oTmRx",
+    "variable_1_wikidata_id": "Q656365",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Ea-MgLRglN",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "being employed",
+    "variable_2_name": "frequency of using internet resources"
+   },
+   {
+    "system_id": "oJraY5428e",
+    "pubmed_id": "29394930",
+    "study_id": "xm31RRWk77",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "7.67",
+    "ci_level": "0.95",
+    "ci_lower": "2.58",
+    "ci_upper": "22.78",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "bLLxnPsj4M",
+    "variable_2_id": "BQtViWJh4g",
+    "variable_1_wikidata_id": "Q656365",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Ea-MgLRglN",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "employment status",
+    "variable_2_name": "internet use"
+   },
+   {
+    "system_id": "0IkAMmXpdy",
+    "pubmed_id": "34736404",
+    "study_id": "E-C3q9f8be",
+    "statistic_type": "AOR",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "6.37",
+    "ci_level": "0.95",
+    "ci_lower": "1.44",
+    "ci_upper": "28.19",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "bLLxnPsj4M",
+    "variable_2_id": "PzFHYjeUYw",
+    "variable_1_wikidata_id": "Q656365",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Ea-MgLRglN",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "employment status",
+    "variable_2_name": "internet use for pregnancy-related information"
+   },
+   {
+    "system_id": "FMka9nxDTR",
+    "pubmed_id": "15144245",
+    "study_id": "wsVcy-lZ6_",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.27",
+    "ci_level": "0.95",
+    "ci_lower": "1.52",
+    "ci_upper": "3.4",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "bLLxnPsj4M",
+    "variable_2_id": "ATyYL_EN9g",
+    "variable_1_wikidata_id": "Q656365",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Ea-MgLRglN",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "employment status",
+    "variable_2_name": "internet use for information relating to their condition"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "9Ufj16QP8l",
+    "doi": "10.3389/fmed.2022.978635",
+    "pubmed_id": "36186787",
+    "population": "Caregivers of people with dementia, surveyed online in 2019.",
+    "study_type": null
+   },
+   {
+    "study_id": "xm31RRWk77",
+    "doi": "10.1186/s12882-018-0830-8",
+    "pubmed_id": "29394930",
+    "population": "Adults with CKD attending outpatient clinics or dialysis units in five health districts in Queensland, Australia.",
+    "study_type": null
+   },
+   {
+    "study_id": "E-C3q9f8be",
+    "doi": "10.1186/s12884-021-04227-0",
+    "pubmed_id": "34736404",
+    "population": "403 pregnant women in Qatar from June 1 to December 31, 2019.",
+    "study_type": null
+   },
+   {
+    "study_id": "wsVcy-lZ6_",
+    "doi": "10.1111/j.1445-1433.2004.02990.x",
+    "pubmed_id": "15144245",
+    "population": "1571 patients scheduled for elective surgery in two Sydney teaching hospitals.",
+    "study_type": null
+   }
+  ],
+  "total": 4
+ }
+}

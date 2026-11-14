@@ -1,0 +1,99 @@
+{
+ "relationship_id": "YzUPDV_8Hd|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "egN8tLlQsA",
+    "pubmed_id": "21844244",
+    "study_id": "CoYoRfXox-",
+    "statistic_type": "relative risk",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "8.0",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "amJFruDq6b",
+    "variable_2_id": "ebugGCPJ-x",
+    "variable_1_wikidata_id": "Q12147",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "YzUPDV_8Hd",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "physical health",
+    "variable_2_name": "health-related unemployment"
+   },
+   {
+    "system_id": "f88r40v6sr",
+    "pubmed_id": "22961587",
+    "study_id": "DDs1b-WZUH",
+    "statistic_type": "hazard ratio",
+    "system_statistic_type": "hazard_ratio",
+    "statistic_value": "1.89",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "7cXe2VLXuO",
+    "variable_2_id": "qJ3q26oGkQ",
+    "variable_1_wikidata_id": "Q12147",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "YzUPDV_8Hd",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "ill health",
+    "variable_2_name": "labor force exit due to unemployment"
+   },
+   {
+    "system_id": "5n-Jp0HiM_",
+    "pubmed_id": "17905052",
+    "study_id": "E0EQ3CivMS",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.65",
+    "ci_level": "0.95",
+    "ci_lower": "1.33",
+    "ci_upper": "2.04",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Y08LLep-44",
+    "variable_2_id": "pdhLhQJMkf",
+    "variable_1_wikidata_id": "Q12147",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "YzUPDV_8Hd",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "health 1996-1999",
+    "variable_2_name": "unemployment 2000-2002 (among health care professionals)"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "CoYoRfXox-",
+    "doi": "10.1158/1055-9965.epi-11-0239",
+    "pubmed_id": "21844244",
+    "population": "Childhood cancer survivors 25 years or older with available short form-36, brief symptom inventory, and neurocognitive questionnaire.",
+    "study_type": null
+   },
+   {
+    "study_id": "DDs1b-WZUH",
+    "doi": "10.5271/sjweh.3321",
+    "pubmed_id": "22961587",
+    "population": "15,152 Dutch working adults surveyed in the Permanent Quality of Life Survey (POLS) from 1999-2002.",
+    "study_type": null
+   },
+   {
+    "study_id": "E0EQ3CivMS",
+    "doi": "10.1016/j.jpsychores.2007.04.005",
+    "pubmed_id": "17905052",
+    "population": "78,195 women and 12,455 men aged 31 to 56 in 2001.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

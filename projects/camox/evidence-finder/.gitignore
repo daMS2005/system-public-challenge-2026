@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+# the parent folder ignores every "data" directory; this one holds the saved responses the page is built from
+!data
+!data/**
+# the 1.1 GB release files are downloaded, not committed
+data/dataverse/

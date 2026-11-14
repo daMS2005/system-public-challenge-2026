@@ -1,0 +1,141 @@
+{
+ "relationship_id": "3x-TeF7nX4|tU87Rnalxl",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "3Zxx-c9kyS",
+    "pubmed_id": "36691155",
+    "study_id": "ksy3GTBGNd",
+    "statistic_type": "mean difference",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "2.73",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "UcPJ1vGyx0",
+    "variable_2_id": "ChtrsMiiym",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q188419",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "tU87Rnalxl",
+    "variable_1_name": "unemployment rate",
+    "variable_2_name": "life expectancy (among women)"
+   },
+   {
+    "system_id": "_L-5QqkjGp",
+    "pubmed_id": "36691155",
+    "study_id": "ksy3GTBGNd",
+    "statistic_type": "mean difference",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "2.34",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "UcPJ1vGyx0",
+    "variable_2_id": "ChtrsMiiym",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q188419",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "tU87Rnalxl",
+    "variable_1_name": "unemployment rate",
+    "variable_2_name": "life expectancy (among women)"
+   },
+   {
+    "system_id": "xVpa-Hx0iH",
+    "pubmed_id": "23212879",
+    "study_id": "T_cfk-F5Wr",
+    "statistic_type": "regression",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "2.2",
+    "ci_level": "0.95",
+    "ci_lower": "0.5",
+    "ci_upper": "3.8",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "NGG0MAjJMS",
+    "variable_2_id": "9ftJflgsmM",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q188419",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "tU87Rnalxl",
+    "variable_1_name": "each 1% absolute decline in unemployment",
+    "variable_2_name": "life expectancy (among men)"
+   },
+   {
+    "system_id": "WvWf_2rf0S",
+    "pubmed_id": "32842900",
+    "study_id": "zSRYh35lP-",
+    "statistic_type": "mean difference",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "2.0",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "pLECqzT6hM",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q188419",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "tU87Rnalxl",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "life years lost"
+   },
+   {
+    "system_id": "RZ3Nj4SlTt",
+    "pubmed_id": "32842900",
+    "study_id": "zSRYh35lP-",
+    "statistic_type": "mean difference",
+    "system_statistic_type": "mean_difference_unstandardized",
+    "statistic_value": "2.1",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "mEE4Uic0tx",
+    "variable_2_id": "pLECqzT6hM",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q188419",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "tU87Rnalxl",
+    "variable_1_name": "unemployment",
+    "variable_2_name": "life years lost"
+   }
+  ],
+  "total": 5
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "ksy3GTBGNd",
+    "doi": "10.1136/bmjopen-2022-061277",
+    "pubmed_id": "36691155",
+    "population": "40,898 death records in 99 small areas of the city of Co\u0301rdoba, Argentina from 2015-2018.",
+    "study_type": null
+   },
+   {
+    "study_id": "T_cfk-F5Wr",
+    "doi": "10.1136/bmj.e7831",
+    "pubmed_id": "23212879",
+    "population": "324 local authorities in England, classified by their baseline level of deprivation, including the 70 most deprived local authorities in 1998.",
+    "study_type": null
+   },
+   {
+    "study_id": "zSRYh35lP-",
+    "doi": "10.1177/1403494820947974",
+    "pubmed_id": "32842900",
+    "population": "Individuals who are unemployed or at risk of unemployment due to the coronavirus pandemic.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

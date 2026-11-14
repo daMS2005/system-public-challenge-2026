@@ -1,0 +1,43 @@
+{
+ "relationship_id": "bNXwlzaSaB|6yoKTYSOJa",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "qPW9N4yocX",
+    "pubmed_id": null,
+    "study_id": "82EK_y-4eN",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "11.8",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.05",
+    "p_value_equality": "<",
+    "variable_1_id": "PQuSwml0Ow",
+    "variable_2_id": "zXmPqD4Ebe",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q1527264",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "6yoKTYSOJa",
+    "variable_1_name": "use of the Internet",
+    "variable_2_name": "income"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "82EK_y-4eN",
+    "doi": "10.23917/jep.v22i2.16094",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

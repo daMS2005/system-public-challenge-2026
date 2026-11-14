@@ -1,0 +1,43 @@
+{
+ "relationship_id": "l4HqMITIPi|H6IblXaahP",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "Br1FyZX2jg",
+    "pubmed_id": "40684286",
+    "study_id": "f96mqBfReh",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.076",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "KT02nLEjAP",
+    "variable_2_id": "Tv0qn4C7gv",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q112206305",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "H6IblXaahP",
+    "variable_1_name": "financial inclusion",
+    "variable_2_name": "food insecurity"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "f96mqBfReh",
+    "doi": "10.1080/13607863.2025.2532663",
+    "pubmed_id": "40684286",
+    "population": "Individuals aged 50 years or older in Ghana.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

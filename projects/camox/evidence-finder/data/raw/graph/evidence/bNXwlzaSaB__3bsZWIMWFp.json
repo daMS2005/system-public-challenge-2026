@@ -1,0 +1,43 @@
+{
+ "relationship_id": "bNXwlzaSaB|3bsZWIMWFp",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "t8wrt57PvK",
+    "pubmed_id": "28241385",
+    "study_id": "V4htL_tn1s",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.7",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.04",
+    "p_value_equality": null,
+    "variable_1_id": "gTy2EwqopW",
+    "variable_2_id": "wCG4kA1RNr",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q18189",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "3bsZWIMWFp",
+    "variable_1_name": "level of internet use",
+    "variable_2_name": "higher educational attainment"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "V4htL_tn1s",
+    "doi": "10.1111/adj.12509",
+    "pubmed_id": "28241385",
+    "population": "165 public TM patients attending dental services in Australia, mainly female and aged 19-25 years, with secondary school or less education.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

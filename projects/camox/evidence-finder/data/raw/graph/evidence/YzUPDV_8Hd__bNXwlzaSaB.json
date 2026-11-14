@@ -1,0 +1,99 @@
+{
+ "relationship_id": "YzUPDV_8Hd|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "jMTNvheKBp",
+    "pubmed_id": "36802304",
+    "study_id": "SlITXz-C8u",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.23",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "4dkU_rw6n9",
+    "variable_2_id": "oDHEnrOdVz",
+    "variable_1_wikidata_id": "Q12147",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "YzUPDV_8Hd",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "functional health",
+    "variable_2_name": "internet usage"
+   },
+   {
+    "system_id": "GIljw-xkwC",
+    "pubmed_id": "36186787",
+    "study_id": "9Ufj16QP8l",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "3.591",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "XG2umw5QYl",
+    "variable_2_id": "z8KA9oTmRx",
+    "variable_1_wikidata_id": "Q12147",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "YzUPDV_8Hd",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "appraising one's own physical health negatively",
+    "variable_2_name": "frequency of using internet resources"
+   },
+   {
+    "system_id": "i4AS0-2xVM",
+    "pubmed_id": "31508341",
+    "study_id": "nlVSATIU54",
+    "statistic_type": "odds ratio (OR)",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "12.14",
+    "ci_level": "0.95",
+    "ci_lower": "4.53",
+    "ci_upper": "32.54",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "DtENODhC5p",
+    "variable_2_id": "yHHqopbEo_",
+    "variable_1_wikidata_id": "Q12147",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "YzUPDV_8Hd",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "poor general health",
+    "variable_2_name": "problematic Internet use"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "SlITXz-C8u",
+    "doi": "10.1007/s10433-023-00748-z",
+    "pubmed_id": "36802304",
+    "population": "Individuals aged 80 years and older in Germany.",
+    "study_type": null
+   },
+   {
+    "study_id": "9Ufj16QP8l",
+    "doi": "10.3389/fmed.2022.978635",
+    "pubmed_id": "36186787",
+    "population": "Caregivers of people with dementia, surveyed online in 2019.",
+    "study_type": null
+   },
+   {
+    "study_id": "nlVSATIU54",
+    "doi": "10.15171/hpp.2019.29",
+    "pubmed_id": "31508341",
+    "population": "4261 university students from 13 universities in Iran in 2017.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

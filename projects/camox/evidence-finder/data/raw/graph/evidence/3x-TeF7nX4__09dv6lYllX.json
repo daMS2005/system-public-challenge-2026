@@ -1,0 +1,64 @@
+{
+ "relationship_id": "3x-TeF7nX4|09dv6lYllX",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "Ughj713ChE",
+    "pubmed_id": null,
+    "study_id": "iPIt5ndS4r",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.0056812",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "VDy7LjLw1J",
+    "variable_2_id": "Jkq6DDCYai",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q5055020",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "09dv6lYllX",
+    "variable_1_name": "open unemployment rate",
+    "variable_2_name": "income inequality"
+   },
+   {
+    "system_id": "6RysgTlQh5",
+    "pubmed_id": null,
+    "study_id": "iPIt5ndS4r",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.0502438",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "VDy7LjLw1J",
+    "variable_2_id": "Jkq6DDCYai",
+    "variable_1_wikidata_id": "Q41171",
+    "variable_2_wikidata_id": "Q5055020",
+    "variable_1_concept_id": "3x-TeF7nX4",
+    "variable_2_concept_id": "09dv6lYllX",
+    "variable_1_name": "open unemployment rate",
+    "variable_2_name": "income inequality"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "iPIt5ndS4r",
+    "doi": "10.30651/blc.v19i1.8738",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

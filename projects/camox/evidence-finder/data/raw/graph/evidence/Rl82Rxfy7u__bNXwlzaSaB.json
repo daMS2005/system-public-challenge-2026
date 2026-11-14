@@ -1,0 +1,127 @@
+{
+ "relationship_id": "Rl82Rxfy7u|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "GD-tM8qZIZ",
+    "pubmed_id": "22000475",
+    "study_id": "9AwSP_nPNK",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.227",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "skXpTRupvg",
+    "variable_2_id": "YEDXu1yMYb",
+    "variable_1_wikidata_id": "Q2627467",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Rl82Rxfy7u",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "dissociative experiences",
+    "variable_2_name": "weekly Internet use"
+   },
+   {
+    "system_id": "OtakVnrXzj",
+    "pubmed_id": "34569448",
+    "study_id": "CYyzCktrNo",
+    "statistic_type": "beta",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.34",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.017",
+    "p_value_equality": null,
+    "variable_1_id": "q6xWMw0su9",
+    "variable_2_id": "WQHe87EDBM",
+    "variable_1_wikidata_id": "Q2627467",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Rl82Rxfy7u",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Dissociative Experiences Scale (DES) score",
+    "variable_2_name": "Internet Gaming Disorder"
+   },
+   {
+    "system_id": "s35xEq2bm8",
+    "pubmed_id": "19840588",
+    "study_id": "FAvQF3VDa1",
+    "statistic_type": "r",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.749",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "pVXDJdsOWQ",
+    "variable_2_id": "9a5wtI-893",
+    "variable_1_wikidata_id": "Q2627467",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Rl82Rxfy7u",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "Dissociative Experience Scale scores",
+    "variable_2_name": "hours per week on the Internet"
+   },
+   {
+    "system_id": "Sb2lS2IVj5",
+    "pubmed_id": "32384745",
+    "study_id": "X8vm9ogvIY",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.044",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "OAhw4o3g1o",
+    "variable_2_id": "vsqI7UvSob",
+    "variable_1_wikidata_id": "Q2627467",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "Rl82Rxfy7u",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "tendency toward dissociation",
+    "variable_2_name": "risk of problematic internet shopping"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "9AwSP_nPNK",
+    "doi": "10.1016/j.comppsych.2011.08.006",
+    "pubmed_id": "22000475",
+    "population": "1034 young adult university students aged 18-27 in Turkey.",
+    "study_type": null
+   },
+   {
+    "study_id": "CYyzCktrNo",
+    "doi": "10.1080/15299732.2021.1984366",
+    "pubmed_id": "34569448",
+    "population": "Forty participants diagnosed with attention deficit hyperactivity disorder (ADHD) and forty age- and gender-matched healthy controls.",
+    "study_type": null
+   },
+   {
+    "study_id": "FAvQF3VDa1",
+    "doi": "10.1016/j.comppsych.2008.11.011",
+    "pubmed_id": "19840588",
+    "population": "50 adult outpatients from an unspecified location.",
+    "study_type": null
+   },
+   {
+    "study_id": "X8vm9ogvIY",
+    "doi": "10.3390/ijerph17093235",
+    "pubmed_id": "32384745",
+    "population": "598 South Korean internet users aged 20-69 years old.",
+    "study_type": null
+   }
+  ],
+  "total": 4
+ }
+}

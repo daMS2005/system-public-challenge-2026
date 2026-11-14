@@ -1,0 +1,64 @@
+{
+ "relationship_id": "TLeQZQ_leT|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "Yqfj2QmUEM",
+    "pubmed_id": "16826682",
+    "study_id": "jb3eVEKdmq",
+    "statistic_type": "R",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "0.46",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "ilnOPcEogo",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q10737",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "TLeQZQ_leT",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "suicide mortality rate for males (compared to females)",
+    "variable_2_name": "unemployment rate"
+   },
+   {
+    "system_id": "qxftjNSCUv",
+    "pubmed_id": "16826682",
+    "study_id": "jb3eVEKdmq",
+    "statistic_type": "R",
+    "system_statistic_type": "pearson_r",
+    "statistic_value": "-0.69",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "hWE0Ci3mnM",
+    "variable_2_id": "UcPJ1vGyx0",
+    "variable_1_wikidata_id": "Q10737",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "TLeQZQ_leT",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "female suicide mortality (compared to male suicide mortality)",
+    "variable_2_name": "unemployment rate"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "jb3eVEKdmq",
+    "doi": "10.2466/pms.102.2.603-608",
+    "pubmed_id": "16826682",
+    "population": "Japanese adults between 1971 and 2001.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

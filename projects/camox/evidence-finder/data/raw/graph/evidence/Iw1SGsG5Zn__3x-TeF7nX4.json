@@ -1,0 +1,99 @@
+{
+ "relationship_id": "Iw1SGsG5Zn|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "PdflPC7XfX",
+    "pubmed_id": "19208956",
+    "study_id": "SG2S1er9wM",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.98",
+    "ci_level": "0.95",
+    "ci_lower": "1.625",
+    "ci_upper": "2.413",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Qij5V82AlZ",
+    "variable_2_id": "NqRyt7MRQc",
+    "variable_1_wikidata_id": "Q41710",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "Iw1SGsG5Zn",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "race/ethnicity",
+    "variable_2_name": "unemployment versus other"
+   },
+   {
+    "system_id": "qiwy4Gw3y5",
+    "pubmed_id": "35125489",
+    "study_id": "86OGA41d-e",
+    "statistic_type": "adjusted odds ratio",
+    "system_statistic_type": "adjusted_odds_ratio",
+    "statistic_value": "1.58",
+    "ci_level": "0.95",
+    "ci_lower": "1.18",
+    "ci_upper": "2.11",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Qij5V82AlZ",
+    "variable_2_id": "Pwwc9bSa11",
+    "variable_1_wikidata_id": "Q41710",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "Iw1SGsG5Zn",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "race/ethnicity",
+    "variable_2_name": "unemployment insurance services"
+   },
+   {
+    "system_id": "8vRSnMI8BU",
+    "pubmed_id": "18452750",
+    "study_id": "ZPXA5Ke3ry",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.17",
+    "ci_level": "0.95",
+    "ci_lower": "1.78",
+    "ci_upper": "2.65",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "AhjLwCC_hG",
+    "variable_2_id": "FrB95c1ufG",
+    "variable_1_wikidata_id": "Q41710",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "Iw1SGsG5Zn",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "Race and/or ethnicity",
+    "variable_2_name": "odds of being unemployed versus competitively employed"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "SG2S1er9wM",
+    "doi": "10.3233/nre-2009-0452",
+    "pubmed_id": "19208956",
+    "population": "11,424 individuals diagnosed with spinal cord injury (1369 Hispanics and 10055 Caucasians) enrolled in the National Spinal Cord Injury Statistical Center (NSCISC) database and interviewed during their scheduled one-year post-injury follow-up evaluation between 1975 and 2006.",
+    "study_type": null
+   },
+   {
+    "study_id": "86OGA41d-e",
+    "doi": "10.1097/fch.0000000000000317",
+    "pubmed_id": "35125489",
+    "population": "20,533 adults of various races/ethnicities in the United States.",
+    "study_type": null
+   },
+   {
+    "study_id": "ZPXA5Ke3ry",
+    "doi": "10.1016/j.apmr.2008.02.012",
+    "pubmed_id": "18452750",
+    "population": "3468 whites and 1791 minorities with primarily moderate to severe TBI hospitalized between 1989 and 2005.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

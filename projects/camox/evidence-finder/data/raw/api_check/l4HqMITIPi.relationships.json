@@ -1,0 +1,239 @@
+{
+ "fetched_at": "2026-11-14T18:10:55+00:00",
+ "source": "System Public Graph API v1",
+ "total": 10,
+ "rows": [
+  {
+   "relationship_id": "A9lB6vPSYl|l4HqMITIPi",
+   "num_findings": 2,
+   "num_studies": 2,
+   "last_updated": "2024-10-20T18:04:04.436328",
+   "last_published_date": "2023-06-01T00:00:00",
+   "source_concept": {
+    "system_id": "A9lB6vPSYl",
+    "wikidata_label": "literacy",
+    "wikidata_id": "Q8236",
+    "wikidata_description": "ability to read for knowledge, write coherently, and think critically about the written word; ability to read, write, and use arithmetic",
+    "wikidata_aliases": [
+     "Literacy"
+    ]
+   },
+   "target_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|l6gF5Y6p3E",
+   "num_findings": 5,
+   "num_studies": 2,
+   "last_updated": "2024-07-03T03:07:07.510496",
+   "last_published_date": "2021-03-01T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "l6gF5Y6p3E",
+    "wikidata_label": "Human Development Index",
+    "wikidata_id": "Q38994",
+    "wikidata_description": "composite statistic of life expectancy, education, and income indices",
+    "wikidata_aliases": [
+     "HDI",
+     "Human Development Index, HDI",
+     "human development index"
+    ]
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|6yoKTYSOJa",
+   "num_findings": 1,
+   "num_studies": 1,
+   "last_updated": "2024-07-02T03:08:04.064877",
+   "last_published_date": "2023-09-26T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "6yoKTYSOJa",
+    "wikidata_label": "income",
+    "wikidata_id": "Q1527264",
+    "wikidata_description": "consumption and savings opportunity gained by an entity within a specified timeframe",
+    "wikidata_aliases": [
+     "merit",
+     "earning",
+     "earn"
+    ]
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|JyI3Gkp0_g",
+   "num_findings": 2,
+   "num_studies": 1,
+   "last_updated": "2024-07-02T03:08:33.101626",
+   "last_published_date": "2021-01-01T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "JyI3Gkp0_g",
+    "wikidata_label": "activities of daily living",
+    "wikidata_id": "Q423243",
+    "wikidata_description": "term used in healthcare to refer to people's daily self care activities",
+    "wikidata_aliases": [
+     "activity of daily life",
+     "ADL"
+    ]
+   }
+  },
+  {
+   "relationship_id": "Ea-MgLRglN|l4HqMITIPi",
+   "num_findings": 2,
+   "num_studies": 1,
+   "last_updated": "2024-07-03T03:07:07.510496",
+   "last_published_date": "2023-04-26T00:00:00",
+   "source_concept": {
+    "system_id": "Ea-MgLRglN",
+    "wikidata_label": "employment",
+    "wikidata_id": "Q656365",
+    "wikidata_description": "relationship between the employee and the employer",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|sZ-bi5eIFV",
+   "num_findings": 4,
+   "num_studies": 1,
+   "last_updated": "2024-07-03T15:05:05.731207",
+   "last_published_date": "2024-03-27T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "sZ-bi5eIFV",
+    "wikidata_label": "economic growth",
+    "wikidata_id": "Q189833",
+    "wikidata_description": "measure of increase in market value of goods",
+    "wikidata_aliases": [
+     "Economic Expansion"
+    ]
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|3X9JydAzHk",
+   "num_findings": 1,
+   "num_studies": 1,
+   "last_updated": "2025-07-21T14:19:03.159258",
+   "last_published_date": "2025-07-20T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "3X9JydAzHk",
+    "wikidata_label": "food security",
+    "wikidata_id": "Q1229911",
+    "wikidata_description": "condition related to the supply and availability of food, and individuals' access to it",
+    "wikidata_aliases": []
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|vktMUPI0ww",
+   "num_findings": 3,
+   "num_studies": 1,
+   "last_updated": "2024-10-20T18:04:49.133335",
+   "last_published_date": "2023-01-01T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "vktMUPI0ww",
+    "wikidata_label": "cooking",
+    "wikidata_id": "Q38695",
+    "wikidata_description": "preparing food for consumption by the application of heat",
+    "wikidata_aliases": [
+     "cookery"
+    ]
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|zEin0ikqXO",
+   "num_findings": 4,
+   "num_studies": 1,
+   "last_updated": "2024-07-02T03:08:43.232838",
+   "last_published_date": "2021-07-01T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "zEin0ikqXO",
+    "wikidata_label": "loneliness",
+    "wikidata_id": "Q223270",
+    "wikidata_description": "unpleasant emotional response to isolation",
+    "wikidata_aliases": [
+     "lonesomeness"
+    ]
+   }
+  },
+  {
+   "relationship_id": "l4HqMITIPi|Rnl_FFIwN4",
+   "num_findings": 1,
+   "num_studies": 1,
+   "last_updated": "2025-07-22T02:24:29.617111",
+   "last_published_date": "2025-07-20T00:00:00",
+   "source_concept": {
+    "system_id": "l4HqMITIPi",
+    "wikidata_label": "financial inclusion",
+    "wikidata_id": "Q60852",
+    "wikidata_description": "opportunities to access financial services",
+    "wikidata_aliases": []
+   },
+   "target_concept": {
+    "system_id": "Rnl_FFIwN4",
+    "wikidata_label": "sleep-wake disorder",
+    "wikidata_id": "Q54972453",
+    "wikidata_description": null,
+    "wikidata_aliases": [
+     "sleep-wake disorders",
+     "sleep wake disorder"
+    ]
+   }
+  }
+ ]
+}

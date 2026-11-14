@@ -1,0 +1,120 @@
+{
+ "relationship_id": "oJb9YL2uUR|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "riAqG_R1-s",
+    "pubmed_id": "37717266",
+    "study_id": "fy2Ww9qXfw",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.19",
+    "ci_level": "0.95",
+    "ci_lower": "1.19",
+    "ci_upper": "3.97",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "aK0w0xymDh",
+    "variable_2_id": "5YsGs-OF5W",
+    "variable_1_wikidata_id": "Q767669",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "oJb9YL2uUR",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "childhood vision impairment",
+    "variable_2_name": "being unemployed"
+   },
+   {
+    "system_id": "vm35CUQUDf",
+    "pubmed_id": "34656985",
+    "study_id": "C0r6hTELSM",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "2.74",
+    "ci_level": "0.95",
+    "ci_lower": "1.94",
+    "ci_upper": "3.89",
+    "p_value": "0.001",
+    "p_value_equality": null,
+    "variable_1_id": "jSWcIsCsm9",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q767669",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "oJb9YL2uUR",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "vision impairment",
+    "variable_2_name": "unemployment"
+   },
+   {
+    "system_id": "3XlrtP8ZSh",
+    "pubmed_id": "29641485",
+    "study_id": "eWt5CvZOWp",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.584",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "N-m9gkRvdN",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q767669",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "oJb9YL2uUR",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "difficulties with near vision",
+    "variable_2_name": "unemployment"
+   },
+   {
+    "system_id": "zQdh82Pdjz",
+    "pubmed_id": "34656985",
+    "study_id": "C0r6hTELSM",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.47",
+    "ci_level": "0.95",
+    "ci_lower": "1.15",
+    "ci_upper": "1.87",
+    "p_value": "0.002",
+    "p_value_equality": null,
+    "variable_1_id": "jSWcIsCsm9",
+    "variable_2_id": "mEE4Uic0tx",
+    "variable_1_wikidata_id": "Q767669",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "oJb9YL2uUR",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "vision impairment",
+    "variable_2_name": "unemployment"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "fy2Ww9qXfw",
+    "doi": "10.1093/eurpub/ckad162",
+    "pubmed_id": "37717266",
+    "population": "14,247 participants from the 1946, 1958, and 1970 British birth cohorts who were dichotomized as having vision impairment at age 15/16 or being normally sighted.",
+    "study_type": null
+   },
+   {
+    "study_id": "C0r6hTELSM",
+    "doi": "10.1136/bjophthalmol-2021-319655",
+    "pubmed_id": "34656985",
+    "population": "7608 Asian individuals aged \u226540 years from the Singapore Epidemiology Eye Disease Study.",
+    "study_type": null
+   },
+   {
+    "study_id": "eWt5CvZOWp",
+    "doi": "10.3390/ijerph15040722",
+    "pubmed_id": "29641485",
+    "population": "5003 participants aged 18-64 from Finland, Poland and Spain.",
+    "study_type": null
+   }
+  ],
+  "total": 3
+ }
+}

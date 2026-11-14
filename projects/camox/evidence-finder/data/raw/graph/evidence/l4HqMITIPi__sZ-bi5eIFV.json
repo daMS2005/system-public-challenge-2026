@@ -1,0 +1,106 @@
+{
+ "relationship_id": "l4HqMITIPi|sZ-bi5eIFV",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "vZcx6dEFBj",
+    "pubmed_id": null,
+    "study_id": "RuAwOGj_ZL",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.063",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "L9SeFeB_MC",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "digital financial inclusion (below threshold)",
+    "variable_2_name": "economic growth"
+   },
+   {
+    "system_id": "WCQOY4i2nv",
+    "pubmed_id": null,
+    "study_id": "RuAwOGj_ZL",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.061",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "L9SeFeB_MC",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "digital financial inclusion (below threshold)",
+    "variable_2_name": "economic growth"
+   },
+   {
+    "system_id": "p-vkqvoX6h",
+    "pubmed_id": null,
+    "study_id": "RuAwOGj_ZL",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.004",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "sXmN_r3BLi",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "digital financial inclusion (above threshold)",
+    "variable_2_name": "economic growth"
+   },
+   {
+    "system_id": "PoZgG_hCCd",
+    "pubmed_id": null,
+    "study_id": "RuAwOGj_ZL",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "0.015",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "sXmN_r3BLi",
+    "variable_2_id": "tG8cFmhEn9",
+    "variable_1_wikidata_id": "Q60852",
+    "variable_2_wikidata_id": "Q189833",
+    "variable_1_concept_id": "l4HqMITIPi",
+    "variable_2_concept_id": "sZ-bi5eIFV",
+    "variable_1_name": "digital financial inclusion (above threshold)",
+    "variable_2_name": "economic growth"
+   }
+  ],
+  "total": 4
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "RuAwOGj_ZL",
+    "doi": "10.18080/jtde.v12n1.838",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

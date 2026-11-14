@@ -1,0 +1,92 @@
+{
+ "relationship_id": "bNXwlzaSaB|TLeQZQ_leT",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "1UnH0m9Xtc",
+    "pubmed_id": "21463355",
+    "study_id": "FnvZ46rSJa",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.5",
+    "ci_level": "0.95",
+    "ci_lower": "1.1",
+    "ci_upper": "1.9",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "3Wv_LlRcO-",
+    "variable_2_id": "Nap0HvTULp",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q10737",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "TLeQZQ_leT",
+    "variable_1_name": "excessive video game/Internet use",
+    "variable_2_name": "suicide planning"
+   },
+   {
+    "system_id": "xVldsjDtZO",
+    "pubmed_id": "36580881",
+    "study_id": "HIJxrVBR7y",
+    "statistic_type": "coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.006",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "i2x5zh1d4N",
+    "variable_2_id": "T5rY736IXr",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q10737",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "TLeQZQ_leT",
+    "variable_1_name": "individuals using the internet",
+    "variable_2_name": "female suicide rates"
+   },
+   {
+    "system_id": "fT1XhgPOa3",
+    "pubmed_id": "36580881",
+    "study_id": "HIJxrVBR7y",
+    "statistic_type": "coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.019",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.01",
+    "p_value_equality": null,
+    "variable_1_id": "i2x5zh1d4N",
+    "variable_2_id": "0RFoDrq97A",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q10737",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "TLeQZQ_leT",
+    "variable_1_name": "individuals using the internet",
+    "variable_2_name": "male suicide rates"
+   }
+  ],
+  "total": 3
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "FnvZ46rSJa",
+    "doi": "10.1111/j.1943-278x.2011.00030.x",
+    "pubmed_id": "21463355",
+    "population": "High school students in the United States who participated in the 2007 and 2009 Youth Risk Behavior Survey.",
+    "study_type": null
+   },
+   {
+    "study_id": "HIJxrVBR7y",
+    "doi": "10.1016/j.jflm.2022.102463",
+    "pubmed_id": "36580881",
+    "population": "17 Eastern Mediterranean countries from 1990 to 2019.",
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "relationship_id": "fOwwKQbX6C|bNXwlzaSaB",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "0rQo0Lb8Qi",
+    "pubmed_id": "31742561",
+    "study_id": "chnDoIRQa8",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.8",
+    "ci_level": "0.95",
+    "ci_lower": "1.2",
+    "ci_upper": "2.7",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "xcpmwwhpjC",
+    "variable_2_id": "i2TE73LuY4",
+    "variable_1_wikidata_id": "Q1472399",
+    "variable_2_wikidata_id": "Q3552518",
+    "variable_1_concept_id": "fOwwKQbX6C",
+    "variable_2_concept_id": "bNXwlzaSaB",
+    "variable_1_name": "broadband internet access",
+    "variable_2_name": "health-related internet use"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "chnDoIRQa8",
+    "doi": "10.2196/14241",
+    "pubmed_id": "31742561",
+    "population": "Canadian men with prostate cancer surveyed in four provinces in 2014-2015.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

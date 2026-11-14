@@ -1,0 +1,64 @@
+{
+ "relationship_id": "zd4OetTw04|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "0v-o9GPRVY",
+    "pubmed_id": "35961621",
+    "study_id": "KqtIayp-UW",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.33",
+    "ci_level": "0.95",
+    "ci_lower": "1.08",
+    "ci_upper": "1.64",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "q7tsWnnWaK",
+    "variable_2_id": "RRzKnuTG60",
+    "variable_1_wikidata_id": "Q67171878",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "zd4OetTw04",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "tobacco use",
+    "variable_2_name": "remaining unemployed at one-year of follow-up (among unemployed job-seeking adults)"
+   },
+   {
+    "system_id": "t87jqxvnKT",
+    "pubmed_id": "35961621",
+    "study_id": "KqtIayp-UW",
+    "statistic_type": "odds ratio",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "1.42",
+    "ci_level": "0.95",
+    "ci_lower": "1.04",
+    "ci_upper": "1.93",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "q7tsWnnWaK",
+    "variable_2_id": "s4EmXcQM6y",
+    "variable_1_wikidata_id": "Q67171878",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "zd4OetTw04",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "tobacco use",
+    "variable_2_name": "remaining unemployed at one-year of follow-up (among unemployed job seeking adults)"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "KqtIayp-UW",
+    "doi": "10.1016/j.ypmed.2022.107196",
+    "pubmed_id": "35961621",
+    "population": "5114 unemployed job seeking adults enrolled from 2012 to 2018 in the French population-based CONSTANCES cohort.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

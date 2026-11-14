@@ -1,0 +1,43 @@
+{
+ "relationship_id": "bNXwlzaSaB|hKqjGzsLpu",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "LyXruWUrJF",
+    "pubmed_id": "25680518",
+    "study_id": "316O6etQxg",
+    "statistic_type": "adjusted relative risk (ARR)",
+    "system_statistic_type": "relative_risk_ratio",
+    "statistic_value": "3.3",
+    "ci_level": null,
+    "ci_lower": "1.1",
+    "ci_upper": "9.7",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "yDS4rpfQHK",
+    "variable_2_id": "7whPouLAeb",
+    "variable_1_wikidata_id": "Q3552518",
+    "variable_2_wikidata_id": "Q18556697",
+    "variable_1_concept_id": "bNXwlzaSaB",
+    "variable_2_concept_id": "hKqjGzsLpu",
+    "variable_1_name": "daily Internet use to meet partners/friends",
+    "variable_2_name": "early HIV infection"
+   }
+  ],
+  "total": 1
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "316O6etQxg",
+    "doi": "10.1007/s10461-015-1011-4",
+    "pubmed_id": "25680518",
+    "population": "937 men who have sex with men (MSM) in the United States.",
+    "study_type": null
+   }
+  ],
+  "total": 1
+ }
+}

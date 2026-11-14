@@ -1,0 +1,71 @@
+{
+ "relationship_id": "6yoKTYSOJa|3x-TeF7nX4",
+ "fetched_at": "2026-11-14T18:08:33+00:00",
+ "source": "System Public Graph v2.1 (Harvard Dataverse, doi:10.7910/DVN/7V6JDO)",
+ "associations": {
+  "data": [
+   {
+    "system_id": "zFM4Ll2rdm",
+    "pubmed_id": "28805490",
+    "study_id": "rbcW-TEFZ0",
+    "statistic_type": "OR",
+    "system_statistic_type": "odds_ratio",
+    "statistic_value": "7.75",
+    "ci_level": "0.95",
+    "ci_lower": "2.49",
+    "ci_upper": "24.14",
+    "p_value": null,
+    "p_value_equality": null,
+    "variable_1_id": "Mwhn6Dzh2d",
+    "variable_2_id": "XBtQyzHsvA",
+    "variable_1_wikidata_id": "Q1527264",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "6yoKTYSOJa",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "higher family income",
+    "variable_2_name": "unemployment status"
+   },
+   {
+    "system_id": "r9BT_C21Ul",
+    "pubmed_id": null,
+    "study_id": "z1T8hVV-Ki",
+    "statistic_type": "regression coefficient",
+    "system_statistic_type": "coefficient",
+    "statistic_value": "-0.3666",
+    "ci_level": null,
+    "ci_lower": null,
+    "ci_upper": null,
+    "p_value": "0.013",
+    "p_value_equality": "=",
+    "variable_1_id": "wqgp8hZQ_U",
+    "variable_2_id": "x0buCMgrg6",
+    "variable_1_wikidata_id": "Q1527264",
+    "variable_2_wikidata_id": "Q41171",
+    "variable_1_concept_id": "6yoKTYSOJa",
+    "variable_2_concept_id": "3x-TeF7nX4",
+    "variable_1_name": "per capita income",
+    "variable_2_name": "youth unemployment"
+   }
+  ],
+  "total": 2
+ },
+ "studies": {
+  "data": [
+   {
+    "study_id": "rbcW-TEFZ0",
+    "doi": "10.1080/0886022x.2017.1361834",
+    "pubmed_id": "28805490",
+    "population": "231 prevalent MHD patients from four dialysis centers in Shanghai, China.",
+    "study_type": null
+   },
+   {
+    "study_id": "z1T8hVV-Ki",
+    "doi": "10.47604/ijecon.2118",
+    "pubmed_id": null,
+    "population": null,
+    "study_type": null
+   }
+  ],
+  "total": 2
+ }
+}
