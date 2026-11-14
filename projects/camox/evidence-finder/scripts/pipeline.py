@@ -252,16 +252,15 @@ def load_review() -> dict:
     return json.loads(REVIEW_FILE.read_text()).get("decisions", {})
 
 
-def decide(concept: dict, review: dict, index: list[dict]) -> tuple[str | None, bool]:
-    """(indicator code or None, hand-checked?). A hand-check always wins over the automatic match."""
+def decide(concept: dict, review: dict, index: list[dict]) -> dict:
+    """The hand-check record for a concept. Without one, fall back to a confident automatic name match."""
     cid = concept.get("system_id")
     if cid in review:
-        return review[cid].get("indicator"), True
+        return {**review[cid], "checked": True}
     top = propose(concept, index, 1)
     if top and top[0]["how"] == "name" and top[0]["score"] >= AUTO_ACCEPT:
-        return top[0]["code"], False
-    return None, False
-
+        return {"indicator": top[0]["code"], "match_type": None, "reason": None, "checked": False}
+    return {"indicator": None, "kind": "gap", "checked": False}
 
 
 # --- the published graph files (used when the API is unavailable) -------------------
@@ -589,10 +588,11 @@ def stage_review(args: argparse.Namespace) -> None:
             if other["system_id"] in seen:
                 continue
             seen.add(other["system_id"])
-            code, checked = decide(other, review, index)
+            d = decide(other, review, index)
+            code, checked = d["indicator"], d["checked"]
             if args.unchecked and checked:
                 continue
-            state = "checked" if checked else "auto"
+            state = f"checked {d.get('match_type') or d.get('kind')}" if checked else "auto"
             chosen = f"{code} {by_code[code]['name'][:70]}" if code in by_code else "none"
             desc = (other.get("wikidata_description") or "")[:50]
             print(f"{other['system_id']} | {other.get('wikidata_label')} ({desc}) | {direction_of(row, cid)} {row['num_studies']} st | {state}: {chosen}")
@@ -624,23 +624,24 @@ def finding_view(a: dict) -> dict:
 
 
 def pick_findings(associations: list[dict]) -> list[dict]:
-    """Up to FINDINGS_SHOWN findings that report an effect size, at most two per study, fullest first."""
+    """Up to FINDINGS_SHOWN findings that report an effect size. Fullest first (confidence interval, p-value),
+    one per study before any study gets a second, and never the same variables and value twice."""
     usable = [a for a in associations if a.get("statistic_value") is not None]
 
     def fullness(a: dict) -> int:
         return (a.get("ci_lower") is not None and a.get("ci_upper") is not None) + (a.get("p_value") is not None)
 
-    usable.sort(key=fullness, reverse=True)  # stable: API order within the same fullness
-    per_study: dict[str, int] = {}
-    out = []
-    for a in usable:
-        sid = a.get("study_id") or a.get("system_id")
-        if per_study.get(sid, 0) >= 2:
-            continue
-        per_study[sid] = per_study.get(sid, 0) + 1
-        out.append(finding_view(a))
-        if len(out) == FINDINGS_SHOWN:
-            break
+    usable.sort(key=fullness, reverse=True)  # stable: file order within the same fullness
+    out, seen, per_study = [], set(), {}
+    for limit in (1, 2):
+        for a in usable:
+            key = ((a.get("variable_1_name") or "").lower(), (a.get("variable_2_name") or "").lower(), a["statistic_value"])
+            sid = a.get("study_id") or a.get("system_id")
+            if key in seen or per_study.get(sid, 0) >= limit or len(out) == FINDINGS_SHOWN:
+                continue
+            seen.add(key)
+            per_study[sid] = per_study.get(sid, 0) + 1
+            out.append(finding_view(a))
     return out
 
 
@@ -655,6 +656,7 @@ def paper_view(s: dict, titles: dict) -> dict:
         "doi": doi or None,
         "pubmed_id": s.get("pubmed_id"),
         "study_type": s.get("study_type"),
+        "population": (s.get("population") or "")[:220] or None,
         "title": meta.get("title"),
         "journal": meta.get("journal"),
         "year": meta.get("year"),
@@ -700,8 +702,8 @@ def stage_build(args: argparse.Namespace) -> None:
             study_ids: set[str] = set()
             for row in shown_rows(rel):
                 other, _ = neighbor(row, cid)
-                code, checked = decide(other, review, index)
-                ind = by_code.get(code) if code else None
+                d = decide(other, review, index)
+                ind = by_code.get(d["indicator"]) if d["indicator"] else None
                 link = {
                     "id": row["relationship_id"],
                     "direction": direction_of(row, cid),
@@ -714,7 +716,10 @@ def stage_build(args: argparse.Namespace) -> None:
                     "last_published": (row.get("last_published_date") or "")[:4] or None,
                     "tier": tier_of(row.get("num_studies") or 0),
                     "indicator": indicator_view(ind),
-                    "match_checked": checked,
+                    "match_type": d.get("match_type") if ind else None,
+                    "match_reason": d.get("reason") if ind else None,
+                    "no_indicator": None if ind else d.get("kind", "gap"),  # gap | breakdown | broad
+                    "match_checked": d["checked"],
                     "different_dataset": bool(ind and own and ind["dataset"] != own["dataset"]),
                     "findings": [], "papers": [], "evidence_saved": False,
                 }
@@ -734,7 +739,8 @@ def stage_build(args: argparse.Namespace) -> None:
                 "indicators": len(inds),
                 "datasets": len(set(inds.values())),
                 "outside": sum(1 for d in inds.values() if own and d != own["dataset"]),
-                "not_found": len({l["concept_id"] for l in topic["links"] if not l["indicator"]}),
+                # gaps only: breakdowns (sex, age) and concepts too broad for one indicator are not counted
+                "not_found": len({l["concept_id"] for l in topic["links"] if l["no_indicator"] == "gap"}),
             }
         topics_out.append(topic)
         print(
@@ -755,7 +761,7 @@ def stage_build(args: argparse.Namespace) -> None:
         "topics": topics_out,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text("// Generated by scripts/pipeline.py build. Do not edit by hand.\nwindow.CAMOX_DATA = " + json.dumps(data, indent=1) + ";\n")
+    OUT.write_text("// Generated by scripts/pipeline.py build. Do not edit by hand.\nwindow.CAMOX_DATA = " + json.dumps(data, separators=(",", ":")) + ";\n")
     print(f"  wrote {OUT.relative_to(ROOT)} ({OUT.stat().st_size // 1024} KB)")
 
 

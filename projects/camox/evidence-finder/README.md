@@ -16,11 +16,13 @@ That is the whole app: one HTML file and one saved data file. It needs no server
 
 ## What is on screen
 
-- **Home.** One search box ("Search a jobs topic") over topics, linked concepts and indicator names, and a button per topic.
-- **Topic page.** The topic, the World Bank indicator that measures it, its dataset, an evidence label, and a one-line summary. Below that, two lists: "What affects {topic}" and "What {topic} affects". Each row shows the linked concept, its tier and study count, the matching World Bank indicator and dataset, and a tag when the indicator is in a different dataset or was not found.
-- **Evidence panel and list.** Selecting a row shows the study count, up to five findings with the statistic exactly as recorded, and a link to every paper. "Add to my list" keeps the indicator; "Download CSV" exports the list.
+The home page has one search box ("Search a jobs topic") over topics, linked concepts and indicator names, and a button per topic.
 
-Three topics are built: **Unemployment** (job outcome), **Internet use** (Foundations) and **Access to finance** (Private capital, Enterprise Surveys).
+A topic page shows the topic, the World Bank indicator that measures it, its dataset, an evidence label and a one-line summary. Below that are two lists, "Outcomes associated with {topic}" and "Factors associated with {topic}". Each row has the linked concept, its tier and study count, and the matching World Bank indicator and dataset. A row is tagged "Different dataset" when the indicator sits outside the topic's own dataset, and "Not in World Bank data" when nothing was found.
+
+Selecting a row opens the evidence: the study count, up to five findings with the statistic as recorded, and every paper with a link and the population studied. It also shows how well the indicator fits the concept (exact, narrower, broader or proxy) and why. "Add to my list" keeps the indicator, and "Download CSV" exports the list.
+
+Three topics are built: unemployment (job outcome), internet use (Foundations) and access to finance (Private capital, Enterprise Surveys).
 
 ## Data sources
 
@@ -52,9 +54,9 @@ The pipeline needs Python 3.11 or later and `httpx` (`pip install -r requirement
 1. **Topic to concept.** Each topic's concept was picked by hand from the search results and saved in `data/topics.json`. The graph has no concept named "access to finance"; the closest is "financial inclusion", and the page says so.
 2. **Relationships.** Every relationship where the concept is the source or the target, with its study and finding counts.
 3. **Tiers.** See below.
-4. **Indicator match.** A script proposes indicators whose name contains the concept's label or an alias. Each proposal for a concept shown in the app was then read and accepted, replaced or rejected. The decisions are in `scripts/hand_check.py` and `data/match_review.json`.
-5. **Flags.** "Different dataset" when the indicator's dataset is not the topic's own. "Not in World Bank data" when no indicator was accepted.
-6. **Findings.** For every link shown, all its findings and studies. The panel shows up to five findings that report a statistic, at most two per study, those with a confidence interval or p-value first.
+4. **Indicator match.** A script proposes indicators whose name contains the concept's label or an alias. Each proposal for a concept shown in the app was then read and accepted, replaced or rejected. Every accepted match is labelled exact (30 of 49), narrower (10), broader (1) or proxy (8), with one sentence saying why. The labels are the ones the agent app uses. The decisions are in `scripts/hand_check.py` and `data/match_review.json`.
+5. **Flags.** "Different dataset" when the indicator's dataset is not the topic's own. A concept with no indicator is recorded as a gap (45 of 57), a breakdown such as sex or age (8), or too broad for one indicator (4). Only gaps are tagged "Not in World Bank data" and counted as "not found".
+6. **Findings.** For every link shown, all its findings and studies. The panel shows up to five findings that report a statistic: those with a confidence interval or p-value first, one per study before any study gets a second, and no repeats.
 
 ## The tiering rule
 
@@ -66,8 +68,8 @@ Set after looking at the real study counts (most links rest on a single study):
 | Internet use | 328 | 4 | 31 | 293 |
 | Access to finance | 13 | 0 | 0 | 13 |
 
-- **Link tier:** strong = 10 or more studies, moderate = 3 to 9, thin = 1 or 2.
-- **Topic label:** thin if fewer than 3 of its links are moderate or strong; strong if at least 5 links are strong; otherwise moderate.
+- A link is strong at 10 or more studies, moderate at 3 to 9, and thin at 1 or 2.
+- A topic is thin if fewer than 3 of its links are moderate or strong, strong if at least 5 links are strong, and moderate otherwise.
 
 ## Which links are shown, and in what order
 
@@ -77,13 +79,17 @@ Set after looking at the real study counts (most links rest on a single study):
 
 ## Known limits
 
-- **Three topics, three datasets.** B-READY and the Women, Business and the Law topic are not built. The coverage table on the home page is not built.
-- **Direction.** The two lists follow the source and target recorded in the graph. System's documentation lists wrong direction as a known extraction error, so read the lists as "studied in this direction", not as proof that one leads to the other.
-- **Matching is by name and judgement.** A concept is matched to one indicator. Many concepts are broader or narrower than the indicator (for example "education" is matched to lower-secondary attainment). Where indicators in two datasets fitted equally well, the one outside World Development Indicators was kept; those cases carry a note in `scripts/hand_check.py`. The matches were not validated by a subject expert.
-- **"Not in World Bank data"** means not found in the three datasets checked. The data may exist elsewhere.
-- **The graph leans towards health research.** Most well-studied links for these topics are health outcomes. The direct links from internet use to jobs measures (employment, unemployment, income, exports) each rest on one study.
-- **Findings are machine-extracted.** They are shown as recorded and not re-checked against the papers.
-- **Release against live API.** Counts are from the July 2026 release and can be lower than the live API.
+- Three topics and three datasets. B-READY, a Women, Business and the Law topic and the home-page coverage table are not built.
+- The studies are mostly about people, and World Bank indicators are country-level. A link between two concepts does not mean the two indicators move together across countries.
+- A graph concept pools different wordings. "Internet use" includes findings on problematic internet use, and several of the largest effects come from those. Read the variable names on each finding.
+- The graph splits near-synonyms into separate concepts, so "depressive disorder", "mental depression" and "major depressive disorder" are three rows. Their study counts are not pooled.
+- Factor and outcome follow the source and target recorded in the graph. System's documentation lists wrong direction as a known extraction error, and every link is an association.
+- A concept is matched to one indicator, by name and judgement. 19 of the 49 matches are not exact. Where indicators in two datasets fitted equally well, the one outside World Development Indicators was kept; the reason on the match names the alternative. No subject expert has validated the matches.
+- Beyond the 25 most-studied links in each direction, a link is shown only if its concept was matched to an indicator. Matches among the less-studied links were found from the script's proposals, so some were probably missed.
+- "Not in World Bank data" means not found in the three datasets checked. The data may exist elsewhere.
+- The graph leans towards health research. The links from internet use to employment, unemployment, income and exports each rest on one study.
+- Findings are machine-extracted. They are shown as recorded and were not re-checked against the papers.
+- Counts are from the July 2026 release and can be lower than the live API.
 
 ## Licence
 
